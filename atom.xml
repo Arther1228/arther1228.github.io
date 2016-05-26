@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T06:10:29.390Z</updated>
+  <updated>2016-05-26T07:16:37.466Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,102 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown 精简版</title>
+    <link href="http://yoursite.com/2016/05/26/markdown-%E7%B2%BE%E7%AE%80%E7%89%88/"/>
+    <id>http://yoursite.com/2016/05/26/markdown-精简版/</id>
+    <published>2016-05-26T06:48:22.000Z</published>
+    <updated>2016-05-26T07:16:37.466Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
+&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
+&lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;p&gt;只需要在文本前加入 &amp;gt; 这种尖括号（大于号）即可&lt;/p&gt;
+&lt;h2 id=&quot;图片与链接&quot;&gt;&lt;a href=&quot;#图片与链接&quot; class=&quot;headerlink&quot; title=&quot;图片与链接&quot;&gt;&lt;/a&gt;图片与链接&lt;/h2&gt;&lt;p&gt;插入链接与插入图片的语法很像，区别在一个 !号&lt;/p&gt;
+&lt;p&gt;图片为：&lt;code&gt;![](){ImgCap}{/ImgCap}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;链接为：    &lt;code&gt;[]()&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;粗体与斜体&quot;&gt;&lt;a href=&quot;#粗体与斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体与斜体&quot;&gt;&lt;/a&gt;粗体与斜体&lt;/h2&gt;&lt;p&gt;Markdown 的粗体和斜体也非常简单，用两个 &lt;em&gt; 包含一段文本就是粗体的语法，用一个 &lt;/em&gt; 包含一段文本就是斜体的语法。&lt;/p&gt;
+&lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;| Tables        | Are           | Cool  | &lt;br&gt;&lt;br&gt;| ————- |————- | —– | &lt;br&gt;&lt;br&gt;| col 3 is      | right-aligned | $1600 | &lt;br&gt;&lt;br&gt;| col 2 is      | centered      |   $12 | &lt;br&gt;&lt;br&gt;| zebra stripes | are neat      |    $1 | &lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;代码框&quot;&gt;&lt;a href=&quot;#代码框&quot; class=&quot;headerlink&quot; title=&quot;代码框&quot;&gt;&lt;/a&gt;代码框&lt;/h2&gt;&lt;p&gt;如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：&lt;/p&gt;
+&lt;h4 id=&quot;使用-tab-键即可缩进。&quot;&gt;&lt;a href=&quot;#使用-tab-键即可缩进。&quot; class=&quot;headerlink&quot; title=&quot;使用 tab 键即可缩进。&quot;&gt;&lt;/a&gt;使用 tab 键即可缩进。&lt;/h4&gt;&lt;h2 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h2&gt;&lt;p&gt;分割线的语法只需要三个 * 号 &lt;/p&gt;
+&lt;p&gt;[Markdown——入门指南] (&lt;a href=&quot;http://www.jianshu.com/p/1e402922ee32/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/1e402922ee32/&lt;/a&gt;)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
+&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git 精简版</title>
+    <link href="http://yoursite.com/2016/05/26/git-%E7%B2%BE%E7%AE%80%E7%89%88/"/>
+    <id>http://yoursite.com/2016/05/26/git-精简版/</id>
+    <published>2016-05-26T06:30:56.000Z</published>
+    <updated>2016-05-26T06:47:37.871Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;git init    //初始化&lt;/li&gt;
+&lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
+&lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;git status  //查看工作区状态&lt;/li&gt;
+&lt;li&gt;git diff    //查看修改  &lt;/li&gt;
+&lt;li&gt;(1)  git log    // 查看历史记录&lt;/li&gt;
+&lt;li&gt;(2)  git log –pretty=oneline  //精简版历史记录&lt;/li&gt;
+&lt;li&gt;(3)  git reset –HEAD^    //返回上一个版本    HEAD指向当前版本   –&amp;gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关&lt;/li&gt;
+&lt;li&gt;(4)  cat readme.txt     //打印readme.txt 文件&lt;/li&gt;
+&lt;li&gt;(5)  git reflog     //查看提交的每一次记录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;(1)  git diff HEAD – readme.txt   //查看工作区和版本库里面最新版本的区别&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(2)  git checkout – readme.txt   //丢弃工作区的修改  “只要add后，用checkout命令，就不会丢弃。”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(3)  git reset HEAD ( – )readme.txt    //丢弃暂存区的修改，放回到工作区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;(4)  git reset  – HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 &lt;/li&gt;
+&lt;li&gt;(1)  git rm test.txt           //删除提交到版本库中的文件 &lt;/li&gt;
+&lt;li&gt;(1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库&lt;br&gt;(2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字&lt;br&gt;(3)  git push origin master  //非第一次提交 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;(1)  git checkout -b dev   //相当于 (2)  (3)&lt;br&gt;(2)  git branch dev       //新建一个分支，git branch * 打印所有分支&lt;br&gt;(3)  git checkout dev&lt;br&gt;(4)  git merge dev     //合并分支&lt;br&gt;(5)  git branch -d dev  //删除分支&lt;br&gt;(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图&lt;br&gt;(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;(1)  git stash       //储存工作区修改&lt;br&gt;(2)  git stash list  //打印工作现场列表&lt;br&gt;(3)  git satsh pop   //相当于(4) 和 (5)&lt;br&gt;(4)  git stash apply   //恢复不删除stash内容&lt;br&gt;(5)  git stash drop    //删除stash内容&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;10.(1)  git branch -D feature-vulcan  //强制删除特征分支&lt;/p&gt;
+&lt;p&gt;11.(1)  git checkout -b dev origin/dev   //创建远程origin的dev分支到本地&lt;br&gt;   (2)  git push origin dev    //推送本地dev分支&lt;br&gt;   (3)  git branch –set -upstream dev origin/dev   //设置本地分支和远程分支的连接&lt;/p&gt;
+&lt;p&gt;12.(1)  git tag v1.0  //添加标签&lt;br&gt;   (2)  git tag    //打印所有标签&lt;br&gt;   (3)  git show tagname //查看标签信息&lt;br&gt;   (4)  git tag -a v0.1 -m “version 0.1 released” 3628164    //-a 指定标签名 -m 指定说明文字&lt;br&gt;   (5)  git show v0.1   //查看说明文字&lt;br&gt;   (6)  git tag -s v0.2 -m “signed version 0.2 released”  fec145a   //通过-s用私钥签名一个标签&lt;br&gt;   (7)  git tag -d v0.1    //删除标签&lt;br&gt;   (8)  git push origin v1.0  //推送某个标签到远程&lt;br&gt;   (9)  git push origin –tags   //推送多个标签&lt;br&gt;   (10) git tag -d v0.9&lt;br&gt;        git push origin :refs/tags/v0.9   //删除远程推送标签&lt;/p&gt;
+&lt;p&gt;13.(1)git last   //最后一次提交代码&lt;/p&gt;
+&lt;p&gt;“容易混”:&lt;br&gt;(1)  git reset HEAD readme.txt   //已修改，并且add过后 → 把暂存区的修改撤销掉，注意撤销了还会将修改放到工作区&lt;br&gt;(2)  git checkout – readme.txt  //已修改，但是还没有add → 丢弃工作区的修改&lt;br&gt;(3)  git reset –head  HEAD^     //返回之前的版本&lt;/p&gt;
+&lt;p&gt; “冲突有两种”&lt;br&gt; (1)  merge时冲突： 打开文件，直接修改两个分支的冲突，然后merge;&lt;br&gt; (2)  推送分支的时候冲突：先git pull(远程版本较本地新，这是冲突类型之一),pull merge报错(代码有冲突，这是冲突类型之二)，先按照上面的方法来解决merge冲突，然后推送;&lt;br&gt;  “stash” 是解决冲突的方法之一，还有最原始的方法就是查看冲突文件，手动改;&lt;br&gt;   如果修改文件和pull的文件是同一个文件时，要把自己改的代码都提交了,才能pull!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;git init    //初始化&lt;/li&gt;
+&lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
+&lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;git status  //查看工作区状态&lt;/l
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>git安装相关</title>
