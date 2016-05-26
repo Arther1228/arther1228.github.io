@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T05:37:31.052Z</updated>
+  <updated>2016-05-26T06:05:42.768Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,22 +20,29 @@
     <link href="http://yoursite.com/2016/05/26/git%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3/"/>
     <id>http://yoursite.com/2016/05/26/git安装相关/</id>
     <published>2016-05-26T03:48:05.000Z</published>
-    <updated>2016-05-26T05:37:31.052Z</updated>
+    <updated>2016-05-26T06:05:42.768Z</updated>
     
-    <content type="html">&lt;p&gt;安装步骤&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;修改hosts，添加DNS的域名解析；&lt;br&gt;&lt;img src=&quot;http://pan.baidu.com/s/1eSntlkQ&quot; alt=&quot;picture&quot;&gt;&lt;/li&gt;
+    <content type="html">&lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br&gt;&lt;br&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;192.168.97.35 git.suncreate.com&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;默认安装git,然后点击git Bash，并自报家门：&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;git config --global user.name &amp;quot;Your name&amp;quot;&lt;/code&gt;&lt;br&gt; &lt;code&gt;git config --global user.email &amp;quot;email@example.com&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;3.生成你的email对应的密钥:&lt;br&gt;    &lt;code&gt;$ ssh-keygen -t rsa -C 396986654@qq.com&lt;/code&gt;    &lt;br&gt;&lt;br&gt;     然后一路回车，到c盘对应目录下找到这个文件：&lt;code&gt;id_rsa.pub&lt;/code&gt;（公钥）  +  &lt;code&gt;id_rsa&lt;/code&gt; （私钥）然后打开，并输入到自己的git设置中。这样就可以用邮箱下载和上传项目了。&lt;/p&gt;
+&lt;p&gt;###细节&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过github的验证之后，还会在.ssh目录中生成一个&lt;code&gt;known_hosts&lt;/code&gt;的文件，用于检测用户。&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;安装步骤&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;修改hosts，添加DNS的域名解析；&lt;br&gt;&lt;img src=&quot;http://pan.baidu.com/s/1eSntlkQ&quot; alt=&quot;picture&quot;&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改
+      &lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。  
     
     </summary>
     
