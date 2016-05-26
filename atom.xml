@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T01:54:47.666Z</updated>
+  <updated>2016-05-26T05:37:31.052Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git安装相关</title>
+    <link href="http://yoursite.com/2016/05/26/git%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3/"/>
+    <id>http://yoursite.com/2016/05/26/git安装相关/</id>
+    <published>2016-05-26T03:48:05.000Z</published>
+    <updated>2016-05-26T05:37:31.052Z</updated>
+    
+    <content type="html">&lt;p&gt;安装步骤&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改hosts，添加DNS的域名解析；&lt;br&gt;&lt;img src=&quot;http://pan.baidu.com/s/1eSntlkQ&quot; alt=&quot;picture&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;安装步骤&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修改hosts，添加DNS的域名解析；&lt;br&gt;&lt;img src=&quot;http://pan.baidu.com/s/1eSntlkQ&quot; alt=&quot;picture&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>搭建环境的一些细节</title>
