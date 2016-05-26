@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-05-26T01:10:48.380Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建环境的一些细节</title>
+    <link href="http://yoursite.com/2016/05/26/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/"/>
+    <id>http://yoursite.com/2016/05/26/搭建环境的一些细节/</id>
+    <published>2016-05-26T01:03:51.000Z</published>
+    <updated>2016-05-26T01:10:48.380Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;创建e-blog-和-e-arther1228两个文件夹的作用&quot;&gt;&lt;a href=&quot;#创建e-blog-和-e-arther1228两个文件夹的作用&quot; class=&quot;headerlink&quot; title=&quot;创建e:/blog 和 e:/arther1228两个文件夹的作用&quot;&gt;&lt;/a&gt;创建e:/blog 和 e:/arther1228两个文件夹的作用&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;e/blog是存储hexo的主目录&lt;/li&gt;
+&lt;li&gt;e/arther1228 是用来存储hexo生成的页面的地址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;config-yml修改细节&quot;&gt;&lt;a href=&quot;#config-yml修改细节&quot; class=&quot;headerlink&quot; title=&quot;_config.yml修改细节&quot;&gt;&lt;/a&gt;_config.yml修改细节&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;type: git中间要有一个空格才行 &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;创建e-blog-和-e-arther1228两个文件夹的作用&quot;&gt;&lt;a href=&quot;#创建e-blog-和-e-arther1228两个文件夹的作用&quot; class=&quot;headerlink&quot; title=&quot;创建e:/blog 和 e:/arther1228两个文件夹
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>安装过程中的问题</title>
+    <link href="http://yoursite.com/2016/05/25/%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/05/25/安装过程中的问题/</id>
+    <published>2016-05-25T11:32:52.000Z</published>
+    <updated>2016-05-26T00:59:40.417Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm install -g hexo&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! Windows_NT 6.1.7601&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\&lt;/code&gt;                                                                                                       &lt;code&gt;node_modules\\npm\\bin\\npm-cli.js&amp;quot; &amp;quot;install&amp;quot; &amp;quot;-g&amp;quot; &amp;quot;hexo&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! node v4.4.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! npm  v2.15.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! code ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! errno ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! syscall getaddrinfo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org&lt;/code&gt; &lt;code&gt;registry.npmjs.org:443&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network This is most likely not a problem with npm itself&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network and is related to network connectivity.&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network In most cases you are behind a proxy or have bad network settings.&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network If you are behind a proxy, please make sure that the&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network &amp;#39;proxy&amp;#39; config is set properly.  See: &amp;#39;npm help config&amp;#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; class=&quot;headerlink&quot; title=&quot;解决办法&quot;&gt;&lt;/a&gt;解决办法&lt;/h3&gt;&lt;p&gt;&lt;code&gt;$ npm config set registry http://registry.npmjs.org/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错&quot;&gt;&lt;a href=&quot;#在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错&quot; class=&quot;headerlink&quot; title=&quot;在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:&quot;&gt;&lt;/a&gt;在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;fatal: unable to access &amp;#39;https://github.com/hexojs/hexo-starter.git&amp;#39;: Protocol https not supported or disabled in libcurl&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;解决办法-暂时&quot;&gt;&lt;a href=&quot;#解决办法-暂时&quot; class=&quot;headerlink&quot; title=&quot;解决办法(暂时)&quot;&gt;&lt;/a&gt;解决办法(暂时)&lt;/h3&gt;&lt;p&gt;将libcurl.dll 添加一个后缀名&lt;br&gt;&lt;code&gt;C:\Windows\SysWOW64\libcurl.dll.old&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm ins
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
