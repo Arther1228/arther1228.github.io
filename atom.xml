@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T01:10:48.380Z</updated>
+  <updated>2016-05-26T01:54:47.666Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,15 @@
     <link href="http://yoursite.com/2016/05/26/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/"/>
     <id>http://yoursite.com/2016/05/26/搭建环境的一些细节/</id>
     <published>2016-05-26T01:03:51.000Z</published>
-    <updated>2016-05-26T01:10:48.380Z</updated>
+    <updated>2016-05-26T01:54:47.666Z</updated>
     
     <content type="html">&lt;h4 id=&quot;创建e-blog-和-e-arther1228两个文件夹的作用&quot;&gt;&lt;a href=&quot;#创建e-blog-和-e-arther1228两个文件夹的作用&quot; class=&quot;headerlink&quot; title=&quot;创建e:/blog 和 e:/arther1228两个文件夹的作用&quot;&gt;&lt;/a&gt;创建e:/blog 和 e:/arther1228两个文件夹的作用&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;e/blog是存储hexo的主目录&lt;/li&gt;
+&lt;li&gt;e/blog是存储hexo的主目录,这个目录并直接与github关联，而只是通过_config.yml里面的repository来把生成的页面与github关联&lt;/li&gt;
 &lt;li&gt;e/arther1228 是用来存储hexo生成的页面的地址&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;config-yml修改细节&quot;&gt;&lt;a href=&quot;#config-yml修改细节&quot; class=&quot;headerlink&quot; title=&quot;_config.yml修改细节&quot;&gt;&lt;/a&gt;_config.yml修改细节&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;type: git中间要有一个空格才行 &lt;/li&gt;
+&lt;li&gt;repository 可能只支持https(待定)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     
