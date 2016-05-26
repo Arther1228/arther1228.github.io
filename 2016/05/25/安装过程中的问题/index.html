@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>安装过程中的问题 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装过程中的问题">
+<meta property="og:url" content="http://yoursite.com/2016/05/25/安装过程中的问题/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
+<meta property="og:updated_time" content="2016-05-26T00:52:13.067Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="安装过程中的问题">
+<meta name="twitter:description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-安装过程中的问题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/05/25/安装过程中的问题/" class="article-date">
+  <time datetime="2016-05-25T11:32:52.000Z" itemprop="datePublished">2016-05-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      安装过程中的问题
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code>                                                                                                       <code>node_modules\\npm\\bin\\npm-cli.js&quot; &quot;install&quot; &quot;-g&quot; &quot;hexo&quot;</code><br><code>npm ERR! node v4.4.5</code><br><code>npm ERR! npm  v2.15.5</code><br><code>npm ERR! code ENOTFOUND</code><br><code>npm ERR! errno ENOTFOUND</code><br><code>npm ERR! syscall getaddrinfo</code></p>
+<p><code>npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org</code> <code>registry.npmjs.org:443</code><br><code>npm ERR! network This is most likely not a problem with npm itself</code><br><code>npm ERR! network and is related to network connectivity.</code><br><code>npm ERR! network In most cases you are behind a proxy or have bad network settings.</code><br><code>npm ERR! network</code><br><code>npm ERR! network If you are behind a proxy, please make sure that the</code><br><code>npm ERR! network &#39;proxy&#39; config is set properly.  See: &#39;npm help config&#39;</code></p>
+<p><code>npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log</code></p>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p><code>$ npm config set registry http://registry.npmjs.org/</code></p>
+<h2 id="安装hexo过程中的问题"><a href="#安装hexo过程中的问题" class="headerlink" title="安装hexo过程中的问题"></a>安装hexo过程中的问题</h2><h3 id="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错"><a href="#在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错" class="headerlink" title="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:"></a>在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:</h3><p><code>fatal: unable to access &#39;https://github.com/hexojs/hexo-starter.git&#39;: Protocol https not supported or disabled in libcurl</code></p>
+<h3 id="解决办法-暂时"><a href="#解决办法-暂时" class="headerlink" title="解决办法(暂时)"></a>解决办法(暂时)</h3><p>将libcurl.dll 添加一个后缀名<br><code>C:\Windows\SysWOW64\libcurl.dll.old</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/05/25/安装过程中的问题/" data-id="cionl5ajw0000bo9fl6rom8a6" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/05/25/安装过程中的问题/">安装过程中的问题</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
