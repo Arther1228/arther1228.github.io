@@ -68,12 +68,10 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Java," />
+  <meta name="keywords" content="Git," />
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="Home" type="application/atom+xml" />
@@ -88,37 +86,46 @@
 
 
 
-<meta name="description" content="需要 jad.exe 和 net.sf.jadclipse_3.3.0.jar  
+<meta name="description" content="git init    //初始化
+git add     //添加文件到暂存区
+git commit  //提交更改，并备注
 
-eclipse版本
-JAD.exe 放入JDK bin下面
-jar  放入  eclipse安装目录下 plugins
-路径：preferences-java-jadclipse
-path to decompiler:jad.exe全路径
-directory fro temporary files:临时文件路径">
+
+
+git status  //查看工作区状态
+git diff    //查看修改  
+(1)  git log    // 查看历史记录
+(2)  git log –pretty=oneline  //精简版历史记录
+(3)  git reset –HEAD^">
 <meta property="og:type" content="article">
-<meta property="og:title" content="eclipse反编译">
-<meta property="og:url" content="http://yoursite.com/2016/05/27/eclipse反编译/index.html">
+<meta property="og:title" content="git 精简版">
+<meta property="og:url" content="http://yoursite.com/2016/05/26/Git 精简版/index.html">
 <meta property="og:site_name" content="Home">
-<meta property="og:description" content="需要 jad.exe 和 net.sf.jadclipse_3.3.0.jar  
+<meta property="og:description" content="git init    //初始化
+git add     //添加文件到暂存区
+git commit  //提交更改，并备注
 
-eclipse版本
-JAD.exe 放入JDK bin下面
-jar  放入  eclipse安装目录下 plugins
-路径：preferences-java-jadclipse
-path to decompiler:jad.exe全路径
-directory fro temporary files:临时文件路径">
-<meta property="og:updated_time" content="2016-05-27T04:03:35.792Z">
+
+
+git status  //查看工作区状态
+git diff    //查看修改  
+(1)  git log    // 查看历史记录
+(2)  git log –pretty=oneline  //精简版历史记录
+(3)  git reset –HEAD^">
+<meta property="og:updated_time" content="2016-05-27T04:04:01.400Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="eclipse反编译">
-<meta name="twitter:description" content="需要 jad.exe 和 net.sf.jadclipse_3.3.0.jar  
+<meta name="twitter:title" content="git 精简版">
+<meta name="twitter:description" content="git init    //初始化
+git add     //添加文件到暂存区
+git commit  //提交更改，并备注
 
-eclipse版本
-JAD.exe 放入JDK bin下面
-jar  放入  eclipse安装目录下 plugins
-路径：preferences-java-jadclipse
-path to decompiler:jad.exe全路径
-directory fro temporary files:临时文件路径">
+
+
+git status  //查看工作区状态
+git diff    //查看修改  
+(1)  git log    // 查看历史记录
+(2)  git log –pretty=oneline  //精简版历史记录
+(3)  git reset –HEAD^">
 
 
 
@@ -136,7 +143,7 @@ directory fro temporary files:临时文件路径">
   };
 </script>
 
-  <title> eclipse反编译 | Home </title>
+  <title> git 精简版 | Home </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -276,7 +283,7 @@ directory fro temporary files:临时文件路径">
             
             
               
-                eclipse反编译
+                git 精简版
               
             
           </h1>
@@ -288,8 +295,8 @@ directory fro temporary files:临时文件路径">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-27T11:55:24+08:00" content="2016-05-27">
-              2016-05-27
+            <time itemprop="dateCreated" datetime="2016-05-26T14:30:56+08:00" content="2016-05-26">
+              2016-05-26
             </time>
           </span>
 
@@ -299,8 +306,8 @@ directory fro temporary files:临时文件路径">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/27/eclipse反编译/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/27/eclipse反编译/" itemprop="commentsCount"></span>
+                <a href="/2016/05/26/Git 精简版/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/26/Git 精简版/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -323,39 +330,45 @@ directory fro temporary files:临时文件路径">
       
 
       
-        <ul>
-<li>需要 <code>jad.exe</code> 和 <code>net.sf.jadclipse_3.3.0.jar</code>  </li>
-</ul>
-<h3 id="eclipse版本"><a href="#eclipse版本" class="headerlink" title="eclipse版本"></a>eclipse版本</h3><ol>
-<li>JAD.exe 放入JDK bin下面</li>
-<li>jar  放入  eclipse安装目录下 plugins</li>
-<li>路径：preferences-java-jadclipse<ul>
-<li>path to decompiler:jad.exe全路径</li>
-<li>directory fro temporary files:临时文件路径</li>
-</ul>
-</li>
-<li>class文件的默认打开方式，Eclipse-&gt;Window-&gt;Preferences-&gt;General-&gt;Editors-&gt;File Associations  <ul>
-<li>.class  和 .class without source 都要改成 jadClipse Class File Viewer(default)</li>
-</ul>
-</li>
+        <ol>
+<li>git init    //初始化</li>
+<li>git add     //添加文件到暂存区</li>
+<li>git commit  //提交更改，并备注</li>
 </ol>
 <hr>
-<h3 id="Myeclipse版本"><a href="#Myeclipse版本" class="headerlink" title="Myeclipse版本"></a>Myeclipse版本</h3><ol>
-<li><p>JAD.exe 放入JDK bin下面   </p>
+<ol>
+<li>git status  //查看工作区状态</li>
+<li>git diff    //查看修改  </li>
+<li>(1)  git log    // 查看历史记录</li>
+<li>(2)  git log –pretty=oneline  //精简版历史记录</li>
+<li>(3)  git reset –HEAD^    //返回上一个版本    HEAD指向当前版本   –&gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关</li>
+<li>(4)  cat readme.txt     //打印readme.txt 文件</li>
+<li>(5)  git reflog     //查看提交的每一次记录</li>
+</ol>
+<hr>
+<ol>
+<li>(1)  git diff HEAD – readme.txt   //查看工作区和版本库里面最新版本的区别</li>
+<li><p>(2)  git checkout – readme.txt   //丢弃工作区的修改  “只要add后，用checkout命令，就不会丢弃。”</p>
 </li>
-<li><p>在myeclipse安装目录下的dropins中创建eclipse文件夹，然后在eclipse文件夹中分别创建features、plugins文 件夹，将net.sf.jadclipse_3.3.0.jar 分别拷贝到features和plugins文件夹中。</p>
+<li><p>(3)  git reset HEAD ( – )readme.txt    //丢弃暂存区的修改，放回到工作区</p>
 </li>
-<li>路径：preferences-java-jadclipse<ul>
-<li>path to decompiler:jad.exe全路径</li>
-<li>directory fro temporary files:临时文件路径</li>
-</ul>
+<li>(4)  git reset  – HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 </li>
+<li>(1)  git rm test.txt           //删除提交到版本库中的文件 </li>
+<li>(1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库<br>(2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字<br>(3)  git push origin master  //非第一次提交 </li>
+<li><p>(1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库</p>
 </li>
-<li>class文件的默认打开方式，Eclipse-&gt;Window-&gt;Preferences-&gt;General-&gt;Editors-&gt;File Associations  <ul>
-<li>.class  和 .class without source 都要改成 </li>
-<li>jadClipse Class File Viewer(default)</li>
-</ul>
+<li><p>(1)  git checkout -b dev   //相当于 (2)  (3)<br>(2)  git branch dev       //新建一个分支，git branch * 打印所有分支<br>(3)  git checkout dev<br>(4)  git merge dev     //合并分支<br>(5)  git branch -d dev  //删除分支<br>(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图<br>(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”</p>
 </li>
 </ol>
+<ol>
+<li>(1)  git stash       //储存工作区修改<br>(2)  git stash list  //打印工作现场列表<br>(3)  git satsh pop   //相当于(4) 和 (5)<br>(4)  git stash apply   //恢复不删除stash内容<br>(5)  git stash drop    //删除stash内容</li>
+</ol>
+<p>10.(1)  git branch -D feature-vulcan  //强制删除特征分支</p>
+<p>11.(1)  git checkout -b dev origin/dev   //创建远程origin的dev分支到本地<br>   (2)  git push origin dev    //推送本地dev分支<br>   (3)  git branch –set -upstream dev origin/dev   //设置本地分支和远程分支的连接</p>
+<p>12.(1)  git tag v1.0  //添加标签<br>   (2)  git tag    //打印所有标签<br>   (3)  git show tagname //查看标签信息<br>   (4)  git tag -a v0.1 -m “version 0.1 released” 3628164    //-a 指定标签名 -m 指定说明文字<br>   (5)  git show v0.1   //查看说明文字<br>   (6)  git tag -s v0.2 -m “signed version 0.2 released”  fec145a   //通过-s用私钥签名一个标签<br>   (7)  git tag -d v0.1    //删除标签<br>   (8)  git push origin v1.0  //推送某个标签到远程<br>   (9)  git push origin –tags   //推送多个标签<br>   (10) git tag -d v0.9<br>        git push origin :refs/tags/v0.9   //删除远程推送标签</p>
+<p>13.(1)git last   //最后一次提交代码</p>
+<p>“容易混”:<br>(1)  git reset HEAD readme.txt   //已修改，并且add过后 → 把暂存区的修改撤销掉，注意撤销了还会将修改放到工作区<br>(2)  git checkout – readme.txt  //已修改，但是还没有add → 丢弃工作区的修改<br>(3)  git reset –head  HEAD^     //返回之前的版本</p>
+<p> “冲突有两种”<br> (1)  merge时冲突： 打开文件，直接修改两个分支的冲突，然后merge;<br> (2)  推送分支的时候冲突：先git pull(远程版本较本地新，这是冲突类型之一),pull merge报错(代码有冲突，这是冲突类型之二)，先按照上面的方法来解决merge冲突，然后推送;<br>  “stash” 是解决冲突的方法之一，还有最原始的方法就是查看冲突文件，手动改;<br>   如果修改文件和pull的文件是同一个文件时，要把自己改的代码都提交了,才能pull!</p>
 
       
     </div>
@@ -377,7 +390,7 @@ directory fro temporary files:临时文件路径">
       
         <div class="post-tags">
           
-            <a href="/tags/Java/" rel="tag">#Java</a>
+            <a href="/tags/Git/" rel="tag">#Git</a>
           
         </div>
       
@@ -386,13 +399,17 @@ directory fro temporary files:临时文件路径">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/05/26/Markdown 精简版/" rel="next" title="markdown 精简版">
-                <i class="fa fa-chevron-left"></i> markdown 精简版
+              <a href="/2016/05/26/Git 安装相关/" rel="next" title="git安装相关">
+                <i class="fa fa-chevron-left"></i> git安装相关
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/26/Markdown 精简版/" rel="prev" title="markdown 精简版">
+                markdown 精简版 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -418,8 +435,8 @@ directory fro temporary files:临时文件路径">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/05/27/eclipse反编译/"
-           data-title="eclipse反编译" data-url="http://yoursite.com/2016/05/27/eclipse反编译/">
+      <div class="ds-thread" data-thread-key="2016/05/26/Git 精简版/"
+           data-title="git 精简版" data-url="http://yoursite.com/2016/05/26/Git 精简版/">
       </div>
     
   </div>
@@ -510,7 +527,7 @@ directory fro temporary files:临时文件路径">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#eclipse版本"><span class="nav-number">1.</span> <span class="nav-text">eclipse版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Myeclipse版本"><span class="nav-number">2.</span> <span class="nav-text">Myeclipse版本</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
