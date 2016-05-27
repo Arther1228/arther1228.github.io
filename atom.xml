@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T07:16:37.466Z</updated>
+  <updated>2016-05-27T04:00:21.707Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>eclipse反编译</title>
+    <link href="http://yoursite.com/2016/05/27/eclipse%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
+    <id>http://yoursite.com/2016/05/27/eclipse反编译/</id>
+    <published>2016-05-27T03:55:24.000Z</published>
+    <updated>2016-05-27T04:00:21.707Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;需要 &lt;code&gt;jad.exe&lt;/code&gt; 和 &lt;code&gt;net.sf.jadclipse_3.3.0.jar&lt;/code&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;eclipse版本&quot;&gt;&lt;a href=&quot;#eclipse版本&quot; class=&quot;headerlink&quot; title=&quot;eclipse版本&quot;&gt;&lt;/a&gt;eclipse版本&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;JAD.exe 放入JDK bin下面&lt;/li&gt;
+&lt;li&gt;jar  放入  eclipse安装目录下 plugins&lt;/li&gt;
+&lt;li&gt;路径：preferences-java-jadclipse&lt;ul&gt;
+&lt;li&gt;path to decompiler:jad.exe全路径&lt;/li&gt;
+&lt;li&gt;directory fro temporary files:临时文件路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;class文件的默认打开方式，Eclipse-&amp;gt;Window-&amp;gt;Preferences-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations  &lt;ul&gt;
+&lt;li&gt;.class  和 .class without source 都要改成 jadClipse Class File Viewer(default)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;Myeclipse版本&quot;&gt;&lt;a href=&quot;#Myeclipse版本&quot; class=&quot;headerlink&quot; title=&quot;Myeclipse版本&quot;&gt;&lt;/a&gt;Myeclipse版本&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;JAD.exe 放入JDK bin下面   &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在myeclipse安装目录下的dropins中创建eclipse文件夹，然后在eclipse文件夹中分别创建features、plugins文 件夹，将net.sf.jadclipse_3.3.0.jar 分别拷贝到features和plugins文件夹中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;路径：preferences-java-jadclipse&lt;ul&gt;
+&lt;li&gt;path to decompiler:jad.exe全路径&lt;/li&gt;
+&lt;li&gt;directory fro temporary files:临时文件路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;class文件的默认打开方式，Eclipse-&amp;gt;Window-&amp;gt;Preferences-&amp;gt;General-&amp;gt;Editors-&amp;gt;File Associations  &lt;ul&gt;
+&lt;li&gt;.class  和 .class without source 都要改成 &lt;/li&gt;
+&lt;li&gt;jadClipse Class File Viewer(default)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;需要 &lt;code&gt;jad.exe&lt;/code&gt; 和 &lt;code&gt;net.sf.jadclipse_3.3.0.jar&lt;/code&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;eclipse版本&quot;&gt;&lt;a href=&quot;#eclipse版本&quot; class=&quot;heade
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown 精简版</title>
