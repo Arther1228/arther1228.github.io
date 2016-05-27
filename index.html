@@ -74,8 +74,6 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Home" type="application/atom+xml" />
-
 
 
 
@@ -308,6 +306,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -338,42 +355,18 @@
 
       
         
-          
-            <ul>
+          <ul>
 <li>需要 <code>jad.exe</code> 和 <code>net.sf.jadclipse_3.3.0.jar</code>  </li>
 </ul>
 <h3 id="eclipse版本"><a href="#eclipse版本" class="headerlink" title="eclipse版本"></a>eclipse版本</h3><ol>
 <li>JAD.exe 放入JDK bin下面</li>
 <li>jar  放入  eclipse安装目录下 plugins</li>
-<li>路径：preferences-java-jadclipse<ul>
-<li>path to decompiler:jad.exe全路径</li>
-<li>directory fro temporary files:临时文件路径</li>
-</ul>
-</li>
-<li>class文件的默认打开方式，Eclipse-&gt;Window-&gt;Preferences-&gt;General-&gt;Editors-&gt;File Associations  <ul>
-<li>.class  和 .class without source 都要改成 jadClipse Class File Viewer(default)</li>
-</ul>
-</li>
 </ol>
-<hr>
-<h3 id="Myeclipse版本"><a href="#Myeclipse版本" class="headerlink" title="Myeclipse版本"></a>Myeclipse版本</h3><ol>
-<li><p>JAD.exe 放入JDK bin下面   </p>
-</li>
-<li><p>在myeclipse安装目录下的dropins中创建eclipse文件夹，然后在eclipse文件夹中分别创建features、plugins文 件夹，将net.sf.jadclipse_3.3.0.jar 分别拷贝到features和plugins文件夹中。</p>
-</li>
-<li>路径：preferences-java-jadclipse<ul>
-<li>path to decompiler:jad.exe全路径</li>
-<li>directory fro temporary files:临时文件路径</li>
-</ul>
-</li>
-<li>class文件的默认打开方式，Eclipse-&gt;Window-&gt;Preferences-&gt;General-&gt;Editors-&gt;File Associations  <ul>
-<li>.class  和 .class without source 都要改成 </li>
-<li>jadClipse Class File Viewer(default)</li>
-</ul>
-</li>
-</ol>
-
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/27/Eclipse反编译/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -441,6 +434,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -471,22 +483,14 @@
 
       
         
-          
-            <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p> 加# 和空格</p>
+          <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p> 加# 和空格</p>
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。</p>
 <h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>只需要在文本前加入 &gt; 这种尖括号（大于号）即可</p>
-<h2 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h2><p>插入链接与插入图片的语法很像，区别在一个 !号</p>
-<p>图片为：<code>![](){ImgCap}{/ImgCap}</code></p>
-<p>链接为：    <code>[]()</code></p>
-<h2 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h2><p>Markdown 的粗体和斜体也非常简单，用两个 <em> 包含一段文本就是粗体的语法，用一个 </em> 包含一段文本就是斜体的语法。</p>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><blockquote>
-<p>| Tables        | Are           | Cool  | <br><br>| ————- |————- | —– | <br><br>| col 3 is      | right-aligned | $1600 | <br><br>| col 2 is      | centered      |   $12 | <br><br>| zebra stripes | are neat      |    $1 | <br></p>
-</blockquote>
-<h2 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h2><p>如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：</p>
-<h4 id="使用-tab-键即可缩进。"><a href="#使用-tab-键即可缩进。" class="headerlink" title="使用 tab 键即可缩进。"></a>使用 tab 键即可缩进。</h4><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>分割线的语法只需要三个 * 号 </p>
-<p>[Markdown——入门指南] (<a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">http://www.jianshu.com/p/1e402922ee32/</a>)</p>
-
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/26/Markdown 精简版/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -554,6 +558,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -584,48 +607,16 @@
 
       
         
-          
-            <ol>
+          <ol>
 <li>git init    //初始化</li>
 <li>git add     //添加文件到暂存区</li>
 <li>git commit  //提交更改，并备注</li>
 </ol>
-<hr>
-<ol>
-<li>git status  //查看工作区状态</li>
-<li>git diff    //查看修改  </li>
-<li>(1)  git log    // 查看历史记录</li>
-<li>(2)  git log –pretty=oneline  //精简版历史记录</li>
-<li>(3)  git reset –HEAD^    //返回上一个版本    HEAD指向当前版本   –&gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关</li>
-<li>(4)  cat readme.txt     //打印readme.txt 文件</li>
-<li>(5)  git reflog     //查看提交的每一次记录</li>
-</ol>
-<hr>
-<ol>
-<li>(1)  git diff HEAD – readme.txt   //查看工作区和版本库里面最新版本的区别</li>
-<li><p>(2)  git checkout – readme.txt   //丢弃工作区的修改  “只要add后，用checkout命令，就不会丢弃。”</p>
-</li>
-<li><p>(3)  git reset HEAD ( – )readme.txt    //丢弃暂存区的修改，放回到工作区</p>
-</li>
-<li>(4)  git reset  – HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 </li>
-<li>(1)  git rm test.txt           //删除提交到版本库中的文件 </li>
-<li>(1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库<br>(2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字<br>(3)  git push origin master  //非第一次提交 </li>
-<li><p>(1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库</p>
-</li>
-<li><p>(1)  git checkout -b dev   //相当于 (2)  (3)<br>(2)  git branch dev       //新建一个分支，git branch * 打印所有分支<br>(3)  git checkout dev<br>(4)  git merge dev     //合并分支<br>(5)  git branch -d dev  //删除分支<br>(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图<br>(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”</p>
-</li>
-</ol>
-<ol>
-<li>(1)  git stash       //储存工作区修改<br>(2)  git stash list  //打印工作现场列表<br>(3)  git satsh pop   //相当于(4) 和 (5)<br>(4)  git stash apply   //恢复不删除stash内容<br>(5)  git stash drop    //删除stash内容</li>
-</ol>
-<p>10.(1)  git branch -D feature-vulcan  //强制删除特征分支</p>
-<p>11.(1)  git checkout -b dev origin/dev   //创建远程origin的dev分支到本地<br>   (2)  git push origin dev    //推送本地dev分支<br>   (3)  git branch –set -upstream dev origin/dev   //设置本地分支和远程分支的连接</p>
-<p>12.(1)  git tag v1.0  //添加标签<br>   (2)  git tag    //打印所有标签<br>   (3)  git show tagname //查看标签信息<br>   (4)  git tag -a v0.1 -m “version 0.1 released” 3628164    //-a 指定标签名 -m 指定说明文字<br>   (5)  git show v0.1   //查看说明文字<br>   (6)  git tag -s v0.2 -m “signed version 0.2 released”  fec145a   //通过-s用私钥签名一个标签<br>   (7)  git tag -d v0.1    //删除标签<br>   (8)  git push origin v1.0  //推送某个标签到远程<br>   (9)  git push origin –tags   //推送多个标签<br>   (10) git tag -d v0.9<br>        git push origin :refs/tags/v0.9   //删除远程推送标签</p>
-<p>13.(1)git last   //最后一次提交代码</p>
-<p>“容易混”:<br>(1)  git reset HEAD readme.txt   //已修改，并且add过后 → 把暂存区的修改撤销掉，注意撤销了还会将修改放到工作区<br>(2)  git checkout – readme.txt  //已修改，但是还没有add → 丢弃工作区的修改<br>(3)  git reset –head  HEAD^     //返回之前的版本</p>
-<p> “冲突有两种”<br> (1)  merge时冲突： 打开文件，直接修改两个分支的冲突，然后merge;<br> (2)  推送分支的时候冲突：先git pull(远程版本较本地新，这是冲突类型之一),pull merge报错(代码有冲突，这是冲突类型之二)，先按照上面的方法来解决merge冲突，然后推送;<br>  “stash” 是解决冲突的方法之一，还有最原始的方法就是查看冲突文件，手动改;<br>   如果修改文件和pull的文件是同一个文件时，要把自己改的代码都提交了,才能pull!</p>
-
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/26/Git 精简版/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -693,6 +684,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -723,23 +733,13 @@
 
       
         
-          
-            <h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
-<li><p>修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   <br><br>第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：</p>
-<p> <code>192.168.97.35 git.suncreate.com</code></p>
-</li>
-</ol>
-<ol>
-<li><p>默认安装git,然后点击git Bash，并自报家门：</p>
-<p> <code>git config --global user.name &quot;Your name&quot;</code><br> <code>git config --global user.email &quot;email@example.com&quot;</code></p>
-</li>
-</ol>
-<p>3.生成你的email对应的密钥:<br>    <code>$ ssh-keygen -t rsa -C 396986654@qq.com</code>    <br><br>     然后一路回车，到c盘对应目录下找到这个文件：<code>id_rsa.pub</code>（公钥）  +  <code>id_rsa</code> （私钥）然后打开，并输入到自己的git设置中。这样就可以用邮箱下载和上传项目了。</p>
-<h4 id="细节"><a href="#细节" class="headerlink" title="细节"></a>细节</h4><ul>
-<li>通过github的验证之后，还会在.ssh目录中生成一个<code>known_hosts</code>的文件，用于检测用户。</li>
-</ul>
-
-          
+          <h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
+<li>修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   <br/>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/26/Git 安装相关/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -806,6 +806,25 @@
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -915,6 +934,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -945,15 +983,12 @@
 
       
         
-          
-            <h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code>                                                                                                       <code>node_modules\\npm\\bin\\npm-cli.js&quot; &quot;install&quot; &quot;-g&quot; &quot;hexo&quot;</code><br><code>npm ERR! node v4.4.5</code><br><code>npm ERR! npm  v2.15.5</code><br><code>npm ERR! code ENOTFOUND</code><br><code>npm ERR! errno ENOTFOUND</code><br><code>npm ERR! syscall getaddrinfo</code></p>
-<p><code>npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org</code> <code>registry.npmjs.org:443</code><br><code>npm ERR! network This is most likely not a problem with npm itself</code><br><code>npm ERR! network and is related to network connectivity.</code><br><code>npm ERR! network In most cases you are behind a proxy or have bad network settings.</code><br><code>npm ERR! network</code><br><code>npm ERR! network If you are behind a proxy, please make sure that the</code><br><code>npm ERR! network &#39;proxy&#39; config is set properly.  See: &#39;npm help config&#39;</code></p>
-<p><code>npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log</code></p>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p><code>$ npm config set registry http://registry.npmjs.org/</code></p>
-<h2 id="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错"><a href="#在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错" class="headerlink" title="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:"></a>在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:</h2><p><code>fatal: unable to access &#39;https://github.com/hexojs/hexo-starter.git&#39;: Protocol https not supported or disabled in libcurl</code></p>
-<h3 id="解决办法-暂时"><a href="#解决办法-暂时" class="headerlink" title="解决办法(暂时)"></a>解决办法(暂时)</h3><p>将libcurl.dll 添加一个后缀名<br><code>C:\Windows\SysWOW64\libcurl.dll.old</code></p>
-
-          
+          <h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code><br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/05/25/安装过程中的问题/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -1027,6 +1062,13 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-tags">
@@ -1039,13 +1081,6 @@
 
         </nav>
 
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
         
 
         <div class="links-of-author motion-element">

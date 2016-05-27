@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-27T05:51:02.372Z</updated>
+  <updated>2016-05-27T06:20:39.656Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/27/Eclipse%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
     <id>http://yoursite.com/2016/05/27/Eclipse反编译/</id>
     <published>2016-05-27T03:55:24.000Z</published>
-    <updated>2016-05-27T05:51:02.372Z</updated>
+    <updated>2016-05-27T06:20:39.656Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;需要 &lt;code&gt;jad.exe&lt;/code&gt; 和 &lt;code&gt;net.sf.jadclipse_3.3.0.jar&lt;/code&gt;  &lt;/li&gt;
@@ -28,6 +28,9 @@
 &lt;h3 id=&quot;eclipse版本&quot;&gt;&lt;a href=&quot;#eclipse版本&quot; class=&quot;headerlink&quot; title=&quot;eclipse版本&quot;&gt;&lt;/a&gt;eclipse版本&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;JAD.exe 放入JDK bin下面&lt;/li&gt;
 &lt;li&gt;jar  放入  eclipse安装目录下 plugins&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
 &lt;li&gt;路径：preferences-java-jadclipse&lt;ul&gt;
 &lt;li&gt;path to decompiler:jad.exe全路径&lt;/li&gt;
 &lt;li&gt;directory fro temporary files:临时文件路径&lt;/li&gt;
@@ -62,9 +65,14 @@
       &lt;ul&gt;
 &lt;li&gt;需要 &lt;code&gt;jad.exe&lt;/code&gt; 和 &lt;code&gt;net.sf.jadclipse_3.3.0.jar&lt;/code&gt;  &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;eclipse版本&quot;&gt;&lt;a href=&quot;#eclipse版本&quot; class=&quot;heade
+&lt;h3 id=&quot;eclipse版本&quot;&gt;&lt;a href=&quot;#eclipse版本&quot; class=&quot;headerlink&quot; title=&quot;eclipse版本&quot;&gt;&lt;/a&gt;eclipse版本&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;JAD.exe 放入JDK bin下面&lt;/li&gt;
+&lt;li&gt;jar  放入  eclipse安装目录下 plugins&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
@@ -76,11 +84,12 @@
     <link href="http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
     <id>http://yoursite.com/2016/05/26/Markdown 精简版/</id>
     <published>2016-05-26T06:48:22.000Z</published>
-    <updated>2016-05-27T04:04:37.346Z</updated>
+    <updated>2016-05-27T06:22:38.483Z</updated>
     
     <content type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
 &lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
 &lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;p&gt;只需要在文本前加入 &amp;gt; 这种尖括号（大于号）即可&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
 &lt;h2 id=&quot;图片与链接&quot;&gt;&lt;a href=&quot;#图片与链接&quot; class=&quot;headerlink&quot; title=&quot;图片与链接&quot;&gt;&lt;/a&gt;图片与链接&lt;/h2&gt;&lt;p&gt;插入链接与插入图片的语法很像，区别在一个 !号&lt;/p&gt;
 &lt;p&gt;图片为：&lt;code&gt;![](){ImgCap}{/ImgCap}&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;链接为：    &lt;code&gt;[]()&lt;/code&gt;&lt;/p&gt;
@@ -96,9 +105,12 @@
     <summary type="html">
     
       &lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
-&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/
+&lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
+&lt;h2 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h2&gt;&lt;p&gt;只需要在文本前加入 &amp;gt; 这种尖括号（大于号）即可&lt;/p&gt;
     
     </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
@@ -110,13 +122,14 @@
     <link href="http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
     <id>http://yoursite.com/2016/05/26/Git 精简版/</id>
     <published>2016-05-26T06:30:56.000Z</published>
-    <updated>2016-05-27T04:04:01.400Z</updated>
+    <updated>2016-05-27T06:22:00.816Z</updated>
     
     <content type="html">&lt;ol&gt;
 &lt;li&gt;git init    //初始化&lt;/li&gt;
 &lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
 &lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;git status  //查看工作区状态&lt;/li&gt;
@@ -160,11 +173,10 @@
 &lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
 &lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
 &lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;git status  //查看工作区状态&lt;/l
     
     </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
       <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
@@ -176,14 +188,15 @@
     <link href="http://yoursite.com/2016/05/26/Git%20%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3/"/>
     <id>http://yoursite.com/2016/05/26/Git 安装相关/</id>
     <published>2016-05-26T03:48:05.000Z</published>
-    <updated>2016-05-27T04:03:46.809Z</updated>
+    <updated>2016-05-27T06:21:15.688Z</updated>
     
     <content type="html">&lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br&gt;&lt;br&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
-&lt;p&gt; &lt;code&gt;192.168.97.35 git.suncreate.com&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;ol&gt;
+&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;`192.168.97.35 git.suncreate.com  `
+&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;默认安装git,然后点击git Bash，并自报家门：&lt;/p&gt;
 &lt;p&gt; &lt;code&gt;git config --global user.name &amp;quot;Your name&amp;quot;&lt;/code&gt;&lt;br&gt; &lt;code&gt;git config --global user.email &amp;quot;email@example.com&amp;quot;&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -197,9 +210,11 @@
     <summary type="html">
     
       &lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。  
+&lt;li&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br/&gt;
     
     </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
       <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
@@ -211,7 +226,7 @@
     <link href="http://yoursite.com/2016/05/26/%E6%90%AD%E5%BB%BA%E7%8E%AF%E5%A2%83%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/"/>
     <id>http://yoursite.com/2016/05/26/搭建环境的一些细节/</id>
     <published>2016-05-26T01:03:51.000Z</published>
-    <updated>2016-05-27T04:05:09.780Z</updated>
+    <updated>2016-05-27T06:22:22.640Z</updated>
     
     <content type="html">&lt;h4 id=&quot;创建e-blog-和-e-arther1228两个文件夹的作用&quot;&gt;&lt;a href=&quot;#创建e-blog-和-e-arther1228两个文件夹的作用&quot; class=&quot;headerlink&quot; title=&quot;创建e:/blog 和 e:/arther1228两个文件夹的作用&quot;&gt;&lt;/a&gt;创建e:/blog 和 e:/arther1228两个文件夹的作用&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;e/blog是存储hexo的主目录,这个目录并直接与github关联，而只是通过_config.yml里面的repository来把生成的页面与github关联&lt;/li&gt;
@@ -229,6 +244,8 @@
     
     </summary>
     
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
     
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
@@ -239,9 +256,9 @@
     <link href="http://yoursite.com/2016/05/25/%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2016/05/25/安装过程中的问题/</id>
     <published>2016-05-25T11:32:52.000Z</published>
-    <updated>2016-05-27T04:04:58.075Z</updated>
+    <updated>2016-05-27T06:22:34.127Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm install -g hexo&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! Windows_NT 6.1.7601&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\&lt;/code&gt;                                                                                                       &lt;code&gt;node_modules\\npm\\bin\\npm-cli.js&amp;quot; &amp;quot;install&amp;quot; &amp;quot;-g&amp;quot; &amp;quot;hexo&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! node v4.4.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! npm  v2.15.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! code ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! errno ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! syscall getaddrinfo&lt;/code&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm install -g hexo&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! Windows_NT 6.1.7601&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\&lt;/code&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;                                                                                                     &lt;code&gt;node_modules\\npm\\bin\\npm-cli.js&amp;quot; &amp;quot;install&amp;quot; &amp;quot;-g&amp;quot; &amp;quot;hexo&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! node v4.4.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! npm  v2.15.5&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! code ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! errno ENOTFOUND&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! syscall getaddrinfo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org&lt;/code&gt; &lt;code&gt;registry.npmjs.org:443&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network This is most likely not a problem with npm itself&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network and is related to network connectivity.&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network In most cases you are behind a proxy or have bad network settings.&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network If you are behind a proxy, please make sure that the&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! network &amp;#39;proxy&amp;#39; config is set properly.  See: &amp;#39;npm help config&amp;#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; class=&quot;headerlink&quot; title=&quot;解决办法&quot;&gt;&lt;/a&gt;解决办法&lt;/h3&gt;&lt;p&gt;&lt;code&gt;$ npm config set registry http://registry.npmjs.org/&lt;/code&gt;&lt;/p&gt;
@@ -251,9 +268,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm ins
+      &lt;h2 id=&quot;代理未设置&quot;&gt;&lt;a href=&quot;#代理未设置&quot; class=&quot;headerlink&quot; title=&quot;代理未设置&quot;&gt;&lt;/a&gt;代理未设置&lt;/h2&gt;&lt;p&gt;&lt;code&gt;chuang@### MINGW64 /e/blog&lt;/code&gt;&lt;br&gt;&lt;code&gt;$ npm install -g hexo&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! Windows_NT 6.1.7601&lt;/code&gt;&lt;br&gt;&lt;code&gt;npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\&lt;/code&gt;&lt;br&gt;
     
     </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>

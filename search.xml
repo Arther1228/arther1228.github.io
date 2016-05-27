@@ -12,6 +12,9 @@
 <h3 id="eclipse版本"><a href="#eclipse版本" class="headerlink" title="eclipse版本"></a>eclipse版本</h3><ol>
 <li>JAD.exe 放入JDK bin下面</li>
 <li>jar  放入  eclipse安装目录下 plugins</li>
+</ol>
+<a id="more"></a>
+<ol>
 <li>路径：preferences-java-jadclipse<ul>
 <li>path to decompiler:jad.exe全路径</li>
 <li>directory fro temporary files:临时文件路径</li>
@@ -48,6 +51,7 @@
       <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p> 加# 和空格</p>
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。</p>
 <h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>只需要在文本前加入 &gt; 这种尖括号（大于号）即可</p>
+<a id="more"></a> 
 <h2 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h2><p>插入链接与插入图片的语法很像，区别在一个 !号</p>
 <p>图片为：<code>![](){ImgCap}{/ImgCap}</code></p>
 <p>链接为：    <code>[]()</code></p>
@@ -69,6 +73,7 @@
 <li>git add     //添加文件到暂存区</li>
 <li>git commit  //提交更改，并备注</li>
 </ol>
+<a id="more"></a> 
 <hr>
 <ol>
 <li>git status  //查看工作区状态</li>
@@ -110,11 +115,12 @@
       <title><![CDATA[git安装相关]]></title>
       <url>http://yoursite.com/2016/05/26/Git%20%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3/</url>
       <content type="html"><![CDATA[<h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
-<li><p>修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   <br><br>第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：</p>
-<p> <code>192.168.97.35 git.suncreate.com</code></p>
+<li>修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   <br><a id="more"></a> 
 </li>
 </ol>
-<ol>
+<p>第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：</p>
+<pre><code>`192.168.97.35 git.suncreate.com  `
+</code></pre><ol>
 <li><p>默认安装git,然后点击git Bash，并自报家门：</p>
 <p> <code>git config --global user.name &quot;Your name&quot;</code><br> <code>git config --global user.email &quot;email@example.com&quot;</code></p>
 </li>
@@ -143,7 +149,7 @@
     <entry>
       <title><![CDATA[安装过程中的问题]]></title>
       <url>http://yoursite.com/2016/05/25/%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/</url>
-      <content type="html"><![CDATA[<h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code>                                                                                                       <code>node_modules\\npm\\bin\\npm-cli.js&quot; &quot;install&quot; &quot;-g&quot; &quot;hexo&quot;</code><br><code>npm ERR! node v4.4.5</code><br><code>npm ERR! npm  v2.15.5</code><br><code>npm ERR! code ENOTFOUND</code><br><code>npm ERR! errno ENOTFOUND</code><br><code>npm ERR! syscall getaddrinfo</code></p>
+      <content type="html"><![CDATA[<h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code><br><a id="more"></a>                                                                                                     <code>node_modules\\npm\\bin\\npm-cli.js&quot; &quot;install&quot; &quot;-g&quot; &quot;hexo&quot;</code><br><code>npm ERR! node v4.4.5</code><br><code>npm ERR! npm  v2.15.5</code><br><code>npm ERR! code ENOTFOUND</code><br><code>npm ERR! errno ENOTFOUND</code><br><code>npm ERR! syscall getaddrinfo</code></p>
 <p><code>npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org</code> <code>registry.npmjs.org:443</code><br><code>npm ERR! network This is most likely not a problem with npm itself</code><br><code>npm ERR! network and is related to network connectivity.</code><br><code>npm ERR! network In most cases you are behind a proxy or have bad network settings.</code><br><code>npm ERR! network</code><br><code>npm ERR! network If you are behind a proxy, please make sure that the</code><br><code>npm ERR! network &#39;proxy&#39; config is set properly.  See: &#39;npm help config&#39;</code></p>
 <p><code>npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log</code></p>
 <h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p><code>$ npm config set registry http://registry.npmjs.org/</code></p>
