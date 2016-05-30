@@ -13,14 +13,8 @@
 <a id="more"></a>
 <ol>
 <li>在word 2007 中手工添加endnote加载项：<ul>
-<li><ol>
 <li>word 左上角的word选项 → 信任中心 → 信任中心设置</li>
-</ol>
-</li>
-<li><ol>
 <li>受信任位置 → 找到 <code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 选项，在exploer中打开这个地址，用于复制Endnote的模板.</li>
-</ol>
-</li>
 </ul>
 </li>
 <li>关闭所有的OFFICE系列软件;</li>
@@ -32,6 +26,7 @@
 </ol>
 <h5 id="参考目录"><a href="#参考目录" class="headerlink" title="参考目录"></a>参考目录</h5><ul>
 <li><a href="http://jingyan.baidu.com/article/77b8dc7fe913036174eab6cd.html" target="_blank" rel="external">Endote文件夹中找不到EndNote Cwyw.dll</a> </li>
+<li><a href="http://jingyan.baidu.com/article/a378c960bf582db328283093.html" target="_blank" rel="external">word 2013如何添加破解EndNote X7</a></li>
 </ul>
 <hr>
 <h3 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h3>]]></content>
