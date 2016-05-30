@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-27T06:20:39.656Z</updated>
+  <updated>2016-05-30T02:58:08.707Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Endnote使用记录</title>
+    <link href="http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2016/05/30/Endnote使用记录/</id>
+    <published>2016-05-30T02:23:28.000Z</published>
+    <updated>2016-05-30T02:58:08.707Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h2&gt;&lt;h3 id=&quot;安装和破解&quot;&gt;&lt;a href=&quot;#安装和破解&quot; class=&quot;headerlink&quot; title=&quot;安装和破解&quot;&gt;&lt;/a&gt;安装和破解&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;下载最新版的EndNote： &lt;code&gt;ENX7Inst_V17.4.0.8818_setup.1441785781&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;拷贝破解文件: &lt;code&gt;EndNote.exe&lt;/code&gt;、&lt;code&gt;License.dat&lt;/code&gt;到Endnote安装目录    &lt;code&gt;C:\Program Files (x86)\EndNote X7&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;在word 2007 中手工添加endnote加载项：&lt;ul&gt;
+&lt;li&gt;&lt;ol&gt;
+&lt;li&gt;word 左上角的word选项 → 信任中心 → 信任中心设置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ol&gt;
+&lt;li&gt;受信任位置 → 找到 &lt;code&gt;C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\&lt;/code&gt; 选项，在exploer中打开这个地址，用于复制Endnote的模板.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;关闭所有的OFFICE系列软件;&lt;/li&gt;
+&lt;li&gt;找到 &lt;code&gt;C:\Program Files (x86)\Common Files\ResearchSoft\Cwyw\17&lt;/code&gt;下面的四个文件:&lt;code&gt;EndNote Cwyw.dot&lt;/code&gt;、&lt;code&gt;EndNote Cwyw.dotm&lt;/code&gt;、&lt;code&gt;EndNote Online Cwyw.dot&lt;/code&gt;、&lt;code&gt;EndNote Online Cwyw.dotm&lt;/code&gt;拷贝到&lt;code&gt;C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\&lt;/code&gt; 下。&lt;/li&gt;
+&lt;li&gt;重启Office 2007.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;常用功能&quot;&gt;&lt;a href=&quot;#常用功能&quot; class=&quot;headerlink&quot; title=&quot;常用功能&quot;&gt;&lt;/a&gt;常用功能&lt;/h3&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h2&gt;&lt;h3 id=&quot;安装和破解&quot;&gt;&lt;a href=&quot;#安装和破解&quot; class=&quot;headerlink&quot; title=&quot;安装和破解&quot;&gt;&lt;/a&gt;安装和破
+    
+    </summary>
+    
+      <category term="软件使用" scheme="http://yoursite.com/categories/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
+    
+    
+      <category term="Endnote" scheme="http://yoursite.com/tags/Endnote/"/>
+    
+  </entry>
   
   <entry>
     <title>Eclipse反编译</title>

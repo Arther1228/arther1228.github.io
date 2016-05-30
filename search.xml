@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title><![CDATA[Endnote使用记录]]></title>
+      <url>http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
+      <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="安装和破解"><a href="#安装和破解" class="headerlink" title="安装和破解"></a>安装和破解</h3><ol>
+<li>下载最新版的EndNote： <code>ENX7Inst_V17.4.0.8818_setup.1441785781</code>;</li>
+<li>拷贝破解文件: <code>EndNote.exe</code>、<code>License.dat</code>到Endnote安装目录    <code>C:\Program Files (x86)\EndNote X7</code>;</li>
+<li>在word 2007 中手工添加endnote加载项：<ul>
+<li><ol>
+<li>word 左上角的word选项 → 信任中心 → 信任中心设置</li>
+</ol>
+</li>
+<li><ol>
+<li>受信任位置 → 找到 <code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 选项，在exploer中打开这个地址，用于复制Endnote的模板.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>关闭所有的OFFICE系列软件;</li>
+<li>找到 <code>C:\Program Files (x86)\Common Files\ResearchSoft\Cwyw\17</code>下面的四个文件:<code>EndNote Cwyw.dot</code>、<code>EndNote Cwyw.dotm</code>、<code>EndNote Online Cwyw.dot</code>、<code>EndNote Online Cwyw.dotm</code>拷贝到<code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 下。</li>
+<li>重启Office 2007.</li>
+</ol>
+<hr>
+<h3 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h3>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Eclipse反编译]]></title>
       <url>http://yoursite.com/2016/05/27/Eclipse%E5%8F%8D%E7%BC%96%E8%AF%91/</url>
       <content type="html"><![CDATA[<ul>
