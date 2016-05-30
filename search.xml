@@ -9,6 +9,9 @@
       <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="安装和破解"><a href="#安装和破解" class="headerlink" title="安装和破解"></a>安装和破解</h3><ol>
 <li>下载最新版的EndNote： <code>ENX7Inst_V17.4.0.8818_setup.1441785781</code>;</li>
 <li>拷贝破解文件: <code>EndNote.exe</code>、<code>License.dat</code>到Endnote安装目录    <code>C:\Program Files (x86)\EndNote X7</code>;</li>
+</ol>
+<a id="more"></a>
+<ol>
 <li>在word 2007 中手工添加endnote加载项：<ul>
 <li><ol>
 <li>word 左上角的word选项 → 信任中心 → 信任中心设置</li>
@@ -21,9 +24,15 @@
 </ul>
 </li>
 <li>关闭所有的OFFICE系列软件;</li>
-<li>找到 <code>C:\Program Files (x86)\Common Files\ResearchSoft\Cwyw\17</code>下面的四个文件:<code>EndNote Cwyw.dot</code>、<code>EndNote Cwyw.dotm</code>、<code>EndNote Online Cwyw.dot</code>、<code>EndNote Online Cwyw.dotm</code>拷贝到<code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 下。</li>
-<li>重启Office 2007.</li>
+<li>找到 <code>C:\Program Files (x86)\Common Files\ResearchSoft\Cwyw\17</code>下面的四个文件:<code>EndNote Cwyw.dot</code>、<code>EndNote Cwyw.dotm</code>、<code>EndNote Online Cwyw.dot</code>、<code>EndNote Online Cwyw.dotm</code>拷贝到<code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 下(如果有其他文件也一并拷贝过去)。</li>
+<li><p>找到 <code>C:\Program Files (x86)\EndNote X7\Product-Support\CWYW \Cwyw_x64.dat</code>,将其后缀名改为rar,解压<code>Cwyw_x64.rar</code>,拷贝<code>EndNote Cwyw.dll</code>到 <code>C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\</code> 下，并注册之。</p>
+</li>
+<li><p>重启Office 2007.</p>
+</li>
 </ol>
+<h5 id="参考目录"><a href="#参考目录" class="headerlink" title="参考目录"></a>参考目录</h5><ul>
+<li><a href="http://jingyan.baidu.com/article/77b8dc7fe913036174eab6cd.html" target="_blank" rel="external">Endote文件夹中找不到EndNote Cwyw.dll</a> </li>
+</ul>
 <hr>
 <h3 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h3>]]></content>
     </entry>
