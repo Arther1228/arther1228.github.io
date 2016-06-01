@@ -276,6 +276,139 @@
             
               
                 
+                <a class="post-title-link" href="/2016/06/01/Tomcat基础/" itemprop="url">
+                  tomcat清理
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-01T15:55:23+08:00" content="2016-06-01">
+              2016-06-01
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/01/Tomcat基础/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/01/Tomcat基础/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一、清理"><a href="#一、清理" class="headerlink" title="一、清理"></a>一、清理</h3><ol>
+<li>直接删除work下面的Catalina文件夹;</li>
+<li>也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。</li>
+</ol>
+<h3 id="二、常见设置"><a href="#二、常见设置" class="headerlink" title="二、常见设置"></a>二、常见设置</h3><p>1.将应用发布到指定位置:</p>
+<blockquote>
+<p><code>Server Location</code>  → <code>Use Tomcat installation</code>  →  <code>Server path</code> 设置到具体位置</p>
+</blockquote>
+<h3 id="三、扩展阅读"><a href="#三、扩展阅读" class="headerlink" title="三、扩展阅读"></a>三、扩展阅读</h3><ul>
+<li><a href="http://www.cnblogs.com/xdp-gacl/p/3734395.html" target="_blank" rel="external">JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)</a></li>
+<li><a href="http://www.cnblogs.com/xdp-gacl/p/3744053.html" target="_blank" rel="external">JavaWeb学习总结(三)——Tomcat服务器学习和使用(二)</a></li>
+<li><a href="http://www.cnblogs.com/maypattis/p/5549613.html" target="_blank" rel="external">理解tomcat之搭建简易http服务器</a></li>
+<li><a href="http://item.jd.com/10100538.html" target="_blank" rel="external">Tomcat权威指南（第2版）</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/05/31/javascript之QUnit单元测试/" itemprop="url">
                   javascript之QUnit单元测试
                 </a>
@@ -455,14 +588,13 @@
 <p>当页面上不存在id为”notExistElement”的DOM节点时，这段代码显示为”true”，因为我们尝试获取一个不存在的对象。</p>
 </li>
 <li><p>js 代码</p>
-<p><pre><code>    </code></pre></p>
+<pre><code>    
+alert(typeof undefined); //output "undefined"  
+alert(typeof null); //output "object"  
+</code></pre>
+
 </li>
 </ul>
-<ol>
-<li>alert(typeof undefined); //output “undefined”  </li>
-<li>alert(typeof null); //output “object”  </li>
-</ol>
-<p></p>
 <p>第一行代码很容易理解，undefined的类型为Undefined；第二行代码却让人疑惑，为什么null的类型又是Object了呢？其实这是JavaScript最初实现的一个错误，后来被ECMAScript沿用下来。在今天我们可以解释为，null即是一个不存在的对象的占位符，但是在实际编码时还是要注意这一特性。</p>
 <ul>
 <li><p>js 代码</p>
@@ -472,14 +604,13 @@
 <p>ECMAScript认为undefined是从null派生出来的，所以把它们定义为相等的。但是，如果在一些情况下，我们一定要区分这两个值，那应该怎么办呢？可以使用下面的两种方法。</p>
 <ul>
 <li><p>js 代码</p>
-<p><pre><code>    </code></pre></p>
+<pre><code>    
+alert(null === undefined); //output "false"  
+alert(typeof null == typeof undefined); //output "false"  
+</code></pre>
+
 </li>
 </ul>
-<ol>
-<li>alert(null === undefined); //output “false”  </li>
-<li>alert(typeof null == typeof undefined); //output “false”  </li>
-</ol>
-<p></p>
 <p>使用typeof方法在前面已经讲过，null与undefined的类型是不一样的，所以输出”false”。而===代表绝对等于，在这里null === undefined输出false。</p>
 <h4 id="二、判断"><a href="#二、判断" class="headerlink" title="二、判断"></a>二、判断</h4><p>####1. 判断undefiend</p>
 <ol>
@@ -1443,129 +1574,6 @@ if(isNaN(parm)){
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/26/Git 安装相关/" itemprop="url">
-                  git安装相关
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-26T11:48:05+08:00" content="2016-05-26">
-              2016-05-26
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/工作/" itemprop="url" rel="index">
-                    <span itemprop="name">工作</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/26/Git 安装相关/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/26/Git 安装相关/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
-<li>修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   <br/>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/05/26/Git 安装相关/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1611,7 +1619,7 @@ if(isNaN(parm)){
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">12</span>
+              <span class="site-state-item-count">13</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1628,7 +1636,7 @@ if(isNaN(parm)){
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

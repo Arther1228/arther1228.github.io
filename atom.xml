@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-31T07:45:36.005Z</updated>
+  <updated>2016-06-01T09:16:12.008Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tomcat清理</title>
+    <link href="http://yoursite.com/2016/06/01/Tomcat%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2016/06/01/Tomcat基础/</id>
+    <published>2016-06-01T07:55:23.000Z</published>
+    <updated>2016-06-01T09:16:12.008Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;一、清理&quot;&gt;&lt;a href=&quot;#一、清理&quot; class=&quot;headerlink&quot; title=&quot;一、清理&quot;&gt;&lt;/a&gt;一、清理&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;直接删除work下面的Catalina文件夹;&lt;/li&gt;
+&lt;li&gt;也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;二、常见设置&quot;&gt;&lt;a href=&quot;#二、常见设置&quot; class=&quot;headerlink&quot; title=&quot;二、常见设置&quot;&gt;&lt;/a&gt;二、常见设置&lt;/h3&gt;&lt;p&gt;1.将应用发布到指定位置:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Server Location&lt;/code&gt;  → &lt;code&gt;Use Tomcat installation&lt;/code&gt;  →  &lt;code&gt;Server path&lt;/code&gt; 设置到具体位置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;三、扩展阅读&quot;&gt;&lt;a href=&quot;#三、扩展阅读&quot; class=&quot;headerlink&quot; title=&quot;三、扩展阅读&quot;&gt;&lt;/a&gt;三、扩展阅读&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/xdp-gacl/p/3734395.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/xdp-gacl/p/3744053.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaWeb学习总结(三)——Tomcat服务器学习和使用(二)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/maypattis/p/5549613.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;理解tomcat之搭建简易http服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://item.jd.com/10100538.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tomcat权威指南（第2版）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;一、清理&quot;&gt;&lt;a href=&quot;#一、清理&quot; class=&quot;headerlink&quot; title=&quot;一、清理&quot;&gt;&lt;/a&gt;一、清理&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;直接删除work下面的Catalina文件夹;&lt;/li&gt;
+&lt;li&gt;也可以删除Tomcat根目录下面的webapp
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Tomcat" scheme="http://yoursite.com/tags/Tomcat/"/>
+    
+  </entry>
   
   <entry>
     <title>javascript之QUnit单元测试</title>
@@ -36,7 +74,7 @@
     <link href="http://yoursite.com/2016/05/31/JavaScript%E4%B8%ADundefined-%E5%92%8C-null%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://yoursite.com/2016/05/31/JavaScript中undefined-和-null的区别/</id>
     <published>2016-05-31T03:03:53.000Z</published>
-    <updated>2016-06-01T05:21:36.874Z</updated>
+    <updated>2016-06-01T05:28:08.360Z</updated>
     
     <content type="html">&lt;h4 id=&quot;一、区别&quot;&gt;&lt;a href=&quot;#一、区别&quot; class=&quot;headerlink&quot; title=&quot;一、区别&quot;&gt;&lt;/a&gt;一、区别&lt;/h4&gt;&lt;p&gt;   Undefined类型只有一个值，即undefined。当声明的变量还未被初始化时，变量的默认值为undefined。&lt;br&gt;Null类型也只有一个值，即null。null用来表示尚未存在的对象，常用来表示函数企图返回一个不存在的对象。&lt;/p&gt;
 &lt;ul&gt;
@@ -47,14 +85,13 @@
 &lt;p&gt;当页面上不存在id为”notExistElement”的DOM节点时，这段代码显示为”true”，因为我们尝试获取一个不存在的对象。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;js 代码&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    
+alert(typeof undefined); //output &quot;undefined&quot;  
+alert(typeof null); //output &quot;object&quot;  
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;alert(typeof undefined); //output “undefined”  &lt;/li&gt;
-&lt;li&gt;alert(typeof null); //output “object”  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;第一行代码很容易理解，undefined的类型为Undefined；第二行代码却让人疑惑，为什么null的类型又是Object了呢？其实这是JavaScript最初实现的一个错误，后来被ECMAScript沿用下来。在今天我们可以解释为，null即是一个不存在的对象的占位符，但是在实际编码时还是要注意这一特性。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;js 代码&lt;/p&gt;
@@ -64,14 +101,13 @@
 &lt;p&gt;ECMAScript认为undefined是从null派生出来的，所以把它们定义为相等的。但是，如果在一些情况下，我们一定要区分这两个值，那应该怎么办呢？可以使用下面的两种方法。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;js 代码&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    
+alert(null === undefined); //output &quot;false&quot;  
+alert(typeof null == typeof undefined); //output &quot;false&quot;  
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;alert(null === undefined); //output “false”  &lt;/li&gt;
-&lt;li&gt;alert(typeof null == typeof undefined); //output “false”  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;使用typeof方法在前面已经讲过，null与undefined的类型是不一样的，所以输出”false”。而===代表绝对等于，在这里null === undefined输出false。&lt;/p&gt;
 &lt;h4 id=&quot;二、判断&quot;&gt;&lt;a href=&quot;#二、判断&quot; class=&quot;headerlink&quot; title=&quot;二、判断&quot;&gt;&lt;/a&gt;二、判断&lt;/h4&gt;&lt;p&gt;####1. 判断undefiend&lt;/p&gt;
 &lt;ol&gt;

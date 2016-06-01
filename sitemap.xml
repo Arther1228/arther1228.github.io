@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/01/Tomcat%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2016-06-01T09:16:12.008Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/05/31/JavaScript%E4%B8%ADundefined-%E5%92%8C-null%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
-    <lastmod>2016-06-01T05:21:36.874Z</lastmod>
+    <lastmod>2016-06-01T05:28:08.360Z</lastmod>
     
   </url>
   

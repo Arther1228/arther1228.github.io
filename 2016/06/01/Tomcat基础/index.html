@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo," />
+  <meta name="keywords" content="Tomcat," />
 
 
 
@@ -84,16 +84,46 @@
 
 
 
-<meta name="description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
+<meta name="description" content="一、清理
+直接删除work下面的Catalina文件夹;
+也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。
+
+二、常见设置1.将应用发布到指定位置:
+
+Server Location  → Use Tomcat installation  →  Server path 设置到具体位置
+
+三、扩展阅读
+JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)
+Jav">
 <meta property="og:type" content="article">
-<meta property="og:title" content="安装过程中的问题">
-<meta property="og:url" content="http://yoursite.com/2016/05/25/安装过程中的问题/index.html">
+<meta property="og:title" content="tomcat清理">
+<meta property="og:url" content="http://yoursite.com/2016/06/01/Tomcat基础/index.html">
 <meta property="og:site_name" content="Home">
-<meta property="og:description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
-<meta property="og:updated_time" content="2016-05-27T06:22:34.127Z">
+<meta property="og:description" content="一、清理
+直接删除work下面的Catalina文件夹;
+也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。
+
+二、常见设置1.将应用发布到指定位置:
+
+Server Location  → Use Tomcat installation  →  Server path 设置到具体位置
+
+三、扩展阅读
+JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)
+Jav">
+<meta property="og:updated_time" content="2016-06-01T09:16:12.008Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="安装过程中的问题">
-<meta name="twitter:description" content="代理未设置chuang@### MINGW64 /e/blog$ npm install -g hexonpm ERR! Windows_NT 6.1.7601npm ERR! argv &amp;quot;C:\\Program Files\\nodejs\\node.exe&amp;quot; &amp;quot;C:\\Program Files\\nodejs\\">
+<meta name="twitter:title" content="tomcat清理">
+<meta name="twitter:description" content="一、清理
+直接删除work下面的Catalina文件夹;
+也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。
+
+二、常见设置1.将应用发布到指定位置:
+
+Server Location  → Use Tomcat installation  →  Server path 设置到具体位置
+
+三、扩展阅读
+JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)
+Jav">
 
 
 
@@ -111,7 +141,7 @@
   };
 </script>
 
-  <title> 安装过程中的问题 | Home </title>
+  <title> tomcat清理 | Home </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -274,7 +304,7 @@
             
             
               
-                安装过程中的问题
+                tomcat清理
               
             
           </h1>
@@ -286,8 +316,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-25T19:32:52+08:00" content="2016-05-25">
-              2016-05-25
+            <time itemprop="dateCreated" datetime="2016-06-01T15:55:23+08:00" content="2016-06-01">
+              2016-06-01
             </time>
           </span>
 
@@ -316,8 +346,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/25/安装过程中的问题/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/25/安装过程中的问题/" itemprop="commentsCount"></span>
+                <a href="/2016/06/01/Tomcat基础/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/01/Tomcat基础/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -340,12 +370,20 @@
       
 
       
-        <h2 id="代理未设置"><a href="#代理未设置" class="headerlink" title="代理未设置"></a>代理未设置</h2><p><code>chuang@### MINGW64 /e/blog</code><br><code>$ npm install -g hexo</code><br><code>npm ERR! Windows_NT 6.1.7601</code><br><code>npm ERR! argv &quot;C:\\Program Files\\nodejs\\node.exe&quot; &quot;C:\\Program Files\\nodejs\\</code><br><a id="more"></a>                                                                                                     <code>node_modules\\npm\\bin\\npm-cli.js&quot; &quot;install&quot; &quot;-g&quot; &quot;hexo&quot;</code><br><code>npm ERR! node v4.4.5</code><br><code>npm ERR! npm  v2.15.5</code><br><code>npm ERR! code ENOTFOUND</code><br><code>npm ERR! errno ENOTFOUND</code><br><code>npm ERR! syscall getaddrinfo</code></p>
-<p><code>npm ERR! network getaddrinfo ENOTFOUND registry.npmjs.org</code> <code>registry.npmjs.org:443</code><br><code>npm ERR! network This is most likely not a problem with npm itself</code><br><code>npm ERR! network and is related to network connectivity.</code><br><code>npm ERR! network In most cases you are behind a proxy or have bad network settings.</code><br><code>npm ERR! network</code><br><code>npm ERR! network If you are behind a proxy, please make sure that the</code><br><code>npm ERR! network &#39;proxy&#39; config is set properly.  See: &#39;npm help config&#39;</code></p>
-<p><code>npm ERR! Please include the following file with any support request:E:\blog\npm-debug.log</code></p>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p><code>$ npm config set registry http://registry.npmjs.org/</code></p>
-<h2 id="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错"><a href="#在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错" class="headerlink" title="在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:"></a>在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:</h2><p><code>fatal: unable to access &#39;https://github.com/hexojs/hexo-starter.git&#39;: Protocol https not supported or disabled in libcurl</code></p>
-<h3 id="解决办法-暂时"><a href="#解决办法-暂时" class="headerlink" title="解决办法(暂时)"></a>解决办法(暂时)</h3><p>将libcurl.dll 添加一个后缀名<br><code>C:\Windows\SysWOW64\libcurl.dll.old</code></p>
+        <h3 id="一、清理"><a href="#一、清理" class="headerlink" title="一、清理"></a>一、清理</h3><ol>
+<li>直接删除work下面的Catalina文件夹;</li>
+<li>也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。</li>
+</ol>
+<h3 id="二、常见设置"><a href="#二、常见设置" class="headerlink" title="二、常见设置"></a>二、常见设置</h3><p>1.将应用发布到指定位置:</p>
+<blockquote>
+<p><code>Server Location</code>  → <code>Use Tomcat installation</code>  →  <code>Server path</code> 设置到具体位置</p>
+</blockquote>
+<h3 id="三、扩展阅读"><a href="#三、扩展阅读" class="headerlink" title="三、扩展阅读"></a>三、扩展阅读</h3><ul>
+<li><a href="http://www.cnblogs.com/xdp-gacl/p/3734395.html" target="_blank" rel="external">JavaWeb学习总结(二)——Tomcat服务器学习和使用(一)</a></li>
+<li><a href="http://www.cnblogs.com/xdp-gacl/p/3744053.html" target="_blank" rel="external">JavaWeb学习总结(三)——Tomcat服务器学习和使用(二)</a></li>
+<li><a href="http://www.cnblogs.com/maypattis/p/5549613.html" target="_blank" rel="external">理解tomcat之搭建简易http服务器</a></li>
+<li><a href="http://item.jd.com/10100538.html" target="_blank" rel="external">Tomcat权威指南（第2版）</a></li>
+</ul>
 
       
     </div>
@@ -367,7 +405,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+            <a href="/tags/Tomcat/" rel="tag">#Tomcat</a>
           
         </div>
       
@@ -376,13 +414,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/05/31/javascript之QUnit单元测试/" rel="next" title="javascript之QUnit单元测试">
+                <i class="fa fa-chevron-left"></i> javascript之QUnit单元测试
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/05/26/搭建环境的一些细节/" rel="prev" title="搭建环境的一些细节">
-                搭建环境的一些细节 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -434,8 +472,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/05/25/安装过程中的问题/"
-           data-title="安装过程中的问题" data-url="http://yoursite.com/2016/05/25/安装过程中的问题/">
+      <div class="ds-thread" data-thread-key="2016/06/01/Tomcat基础/"
+           data-title="tomcat清理" data-url="http://yoursite.com/2016/06/01/Tomcat基础/">
       </div>
     
   </div>
@@ -546,7 +584,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#代理未设置"><span class="nav-number">1.</span> <span class="nav-text">代理未设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决办法"><span class="nav-number">1.1.</span> <span class="nav-text">解决办法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错"><span class="nav-number">2.</span> <span class="nav-text">在安装hexo的过程中，需要从github上面拷贝一个项目，结果在克隆的时候git报了个错:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决办法-暂时"><span class="nav-number">2.1.</span> <span class="nav-text">解决办法(暂时)</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、清理"><span class="nav-number">1.</span> <span class="nav-text">一、清理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、常见设置"><span class="nav-number">2.</span> <span class="nav-text">二、常见设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、扩展阅读"><span class="nav-number">3.</span> <span class="nav-text">三、扩展阅读</span></a></li></ol></div>
             
           </div>
         </section>
