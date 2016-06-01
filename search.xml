@@ -4,6 +4,145 @@
   
     
     <entry>
+      <title><![CDATA[javascript之QUnit单元测试]]></title>
+      <url>http://yoursite.com/2016/05/31/javascript%E4%B9%8BQUnit%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript中undefined 、 null 和 NaN的区别]]></title>
+      <url>http://yoursite.com/2016/05/31/JavaScript%E4%B8%ADundefined-%E5%92%8C-null%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+      <content type="html"><![CDATA[<h4 id="一、区别"><a href="#一、区别" class="headerlink" title="一、区别"></a>一、区别</h4><p>   Undefined类型只有一个值，即undefined。当声明的变量还未被初始化时，变量的默认值为undefined。<br>Null类型也只有一个值，即null。null用来表示尚未存在的对象，常用来表示函数企图返回一个不存在的对象。</p>
+<ul>
+<li><p>js 代码<br><pre><code><br>var oValue;<br>alert(oValue == undefined); //output “true”<br></code></pre><br>这段代码显示为true,代表oVlaue的值即为undefined，因为我们没有初始化它。  </p>
+</li>
+<li><p>js 代码</p>
+<p><code>alert(null == document.getElementById(&#39;notExistElement&#39;));</code> </p>
+<p>当页面上不存在id为”notExistElement”的DOM节点时，这段代码显示为”true”，因为我们尝试获取一个不存在的对象。</p>
+</li>
+<li><p>js 代码</p>
+<p><pre><code>    </code></pre></p>
+</li>
+</ul>
+<ol>
+<li>alert(typeof undefined); //output “undefined”  </li>
+<li>alert(typeof null); //output “object”  </li>
+</ol>
+<p></p>
+<p>第一行代码很容易理解，undefined的类型为Undefined；第二行代码却让人疑惑，为什么null的类型又是Object了呢？其实这是JavaScript最初实现的一个错误，后来被ECMAScript沿用下来。在今天我们可以解释为，null即是一个不存在的对象的占位符，但是在实际编码时还是要注意这一特性。</p>
+<ul>
+<li><p>js 代码</p>
+<p><code>alert(null == undefined); //output &quot;true&quot;</code></p>
+</li>
+</ul>
+<p>ECMAScript认为undefined是从null派生出来的，所以把它们定义为相等的。但是，如果在一些情况下，我们一定要区分这两个值，那应该怎么办呢？可以使用下面的两种方法。</p>
+<ul>
+<li><p>js 代码</p>
+<p><pre><code>    </code></pre></p>
+</li>
+</ul>
+<ol>
+<li>alert(null === undefined); //output “false”  </li>
+<li>alert(typeof null == typeof undefined); //output “false”  </li>
+</ol>
+<p></p>
+<p>使用typeof方法在前面已经讲过，null与undefined的类型是不一样的，所以输出”false”。而===代表绝对等于，在这里null === undefined输出false。</p>
+<h4 id="二、判断"><a href="#二、判断" class="headerlink" title="二、判断"></a>二、判断</h4><p>####1. 判断undefiend</p>
+<ol>
+<li>利用typeof函数</li>
+</ol>
+<pre><code>    
+var exp = undefined; 
+if (typeof(exp) == "undefined"){  
+  alert("undefined"); 
+ } 
+</code>
+</pre>
+
+<ol>
+<li>利用 <code>===</code></li>
+</ol>
+<pre><code>    
+var exp = undefined; 
+if (exp === undefined){  
+  alert("undefined"); 
+ } 
+</code>
+</pre>
+
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><blockquote>
+<p>alert(null == undefined); //output “true”<br>alert(null === undefined); //output “false” </p>
+</blockquote>
+<p>####2. 判断null</p>
+<pre><code>    
+var exp = null; 
+if (exp === null) {
+alert("exp is null");
+}　
+</code>
+</pre>
+
+<p>####3. 判断NaN</p>
+<pre><code>    
+var parm= 0/0;  
+if(isNaN(parm)){  
+    alert("i am NaN");  
+}
+</code></pre>
+
+<p><a href="http://www.cnblogs.com/mountain-mist/articles/1600995.html" target="_blank" rel="external">JS 中如何判断 undefined 和 null</a><br><a href="http://www.cnblogs.com/eastday/archive/2010/03/03/1677324.html" target="_blank" rel="external">JS中Null与Undefined的区别</a><br><a href="http://www.cnblogs.com/rookiebob/p/3888409.html" target="_blank" rel="external">聊一聊js中的null、undefined与NaN</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript常处理操作]]></title>
+      <url>http://yoursite.com/2016/05/31/JavaScript%E5%B8%B8%E5%A4%84%E7%90%86%E6%93%8D%E4%BD%9C/</url>
+      <content type="html"><![CDATA[<h3 id="常见操作"><a href="#常见操作" class="headerlink" title="常见操作"></a>常见操作</h3><h4 id="一、数组去重"><a href="#一、数组去重" class="headerlink" title="一、数组去重"></a>一、数组去重</h4><p><a href="http://tingbuqing.com/javascript-delete-array.html" target="_blank" rel="external">JavaScript删除数组重复元素的5个高效算法</a></p>
+<h4 id="二、合并相邻点"><a href="#二、合并相邻点" class="headerlink" title="二、合并相邻点"></a>二、合并相邻点</h4><h4 id="三、自己实现分页"><a href="#三、自己实现分页" class="headerlink" title="三、自己实现分页"></a>三、自己实现分页</h4><h4 id="四、"><a href="#四、" class="headerlink" title="四、"></a>四、</h4>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript常见函数]]></title>
+      <url>http://yoursite.com/2016/05/31/JavaScript%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</url>
+      <content type="html"><![CDATA[<h3 id="常见函数"><a href="#常见函数" class="headerlink" title="常见函数"></a>常见函数</h3><ol>
+<li>parseInt函数</li>
+</ol>
+<ol>
+<li><p>setTimeout函数</p>
+</li>
+<li><p>try…catch</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[JavaScript数组常见曹组]]></title>
+      <url>http://yoursite.com/2016/05/31/JavaScript%E6%95%B0%E7%BB%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</url>
+      <content type="html"><![CDATA[<h3 id="JavaScript-数组常用函数"><a href="#JavaScript-数组常用函数" class="headerlink" title="JavaScript 数组常用函数"></a>JavaScript 数组常用函数</h3><ol>
+<li><p>数组的创建</p>
+<p> <code>var arrayObj = new Array();　//创建一个数组</code><br> <code>var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度</code><br> <code>var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋值</code> </p>
+<p> <strong>用的比较多的是：var arrayObj = [];</strong>  </p>
+</li>
+<li><p>数组元素的添加</p>
+<p> <code>arrayObj. push([item1);// 将一个或多个新元素添加到数组结尾，并返回数组新长度</code><br> <code>arrayObj.unshift([item1]);// 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度</code><br> <code>arrayObj.splice(insertPos,0,[item1[, item2[, . . . [,itemN]]]]);//将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回&quot;&quot;</code> </p>
+</li>
+<li><p>数组元素的删除<br><code>arrayObj.pop(); //移除最后一个元素并返回该元素值</code><br><code>arrayObj.shift(); //移除最前一个元素并返回该元素值，数组中元素自动前移</code><br><code>arrayObj.splice(deletePos,deleteCount); //删除从指定位置deletePos开始的指定数量deleteCount的元素，数组形式返回所移除的元素</code> </p>
+</li>
+<li><p>数组元素的截取和合并<br> <code>arrayObj.slice(start, [end]); //以数组的形式返回数组的一部分，注意不包括 end 对应的元素，如果省略 end 将复制 start 之后的所有元素</code><br> <code>arrayObj.concat([item1[, item2[, . . . [,itemN]]]]); //将多个数组（也可以是字符串，或者是数组和字符串的混合）连接为一个数组，返回连接好的新的数组</code> </p>
+</li>
+<li><p>数组的拷贝<br> <code>arrayObj.slice(0); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code><br> <code>arrayObj.concat(); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code> </p>
+</li>
+<li><p>数组元素的排序<br> <code>arrayObj.reverse(); //反转元素（最前的排到最后、最后的排到最前），返回数组地址</code><br> <code>arrayObj.sort(); //对数组元素排序，返回数组地址</code> </p>
+</li>
+<li><p>数组元素的字符串化<br> <code>arrayObj.join(separator); //返回字符串，这个字符串将数组的每一个元素值连接在一起，中间用 separator 隔开</code><br> <code>toLocaleString 、toString 、valueOf：可以看作是join的特殊用法，不常用</code></p>
+</li>
+</ol>
+<p><a href="http://www.cnblogs.com/qiantuwuliang/archive/2011/01/08/1930499.html" target="_blank" rel="external">js数组的操作</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Endnote使用记录]]></title>
       <url>http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
       <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="安装和破解"><a href="#安装和破解" class="headerlink" title="安装和破解"></a>安装和破解</h3><ol>
@@ -89,6 +228,7 @@
 <p>| Tables        | Are           | Cool  | <br><br>| ————- |————- | —– | <br><br>| col 3 is      | right-aligned | $1600 | <br><br>| col 2 is      | centered      |   $12 | <br><br>| zebra stripes | are neat      |    $1 | <br></p>
 </blockquote>
 <h2 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h2><p>如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：</p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p><code>&lt;pre&gt;&lt;code&gt;  代码块   &lt;/code&gt;&lt;/pre&gt;</code></p>
 <h4 id="使用-tab-键即可缩进。"><a href="#使用-tab-键即可缩进。" class="headerlink" title="使用 tab 键即可缩进。"></a>使用 tab 键即可缩进。</h4><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>分割线的语法只需要三个 * 号 </p>
 <p>[Markdown——入门指南] (<a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">http://www.jianshu.com/p/1e402922ee32/</a>)</p>
 ]]></content>
@@ -171,6 +311,10 @@
 <h4 id="config-yml修改细节"><a href="#config-yml修改细节" class="headerlink" title="_config.yml修改细节"></a>_config.yml修改细节</h4><ul>
 <li>type: git中间要有一个空格才行 </li>
 <li>repository 可能只支持https(待定)</li>
+</ul>
+<h5 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h5><ul>
+<li><a href="http://kaimingwan.com/post/others/hexo-blog-1" target="_blank" rel="external">hexo博客搭建完整教程2015（一）:环境准备</a></li>
+<li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">开始使用Next主题</a></li>
 </ul>
 ]]></content>
     </entry>

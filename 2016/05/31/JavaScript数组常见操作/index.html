@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="JavaScript," />
 
 
 
@@ -84,15 +84,22 @@
 
 
 
-<meta name="description" content="点滴积累，且行且珍惜！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Home">
-<meta property="og:url" content="http://yoursite.com/categories/软件使用/index.html">
+<meta name="description" content="JavaScript 数组常用函数
+数组的创建
+ var arrayObj = new Array();　//创建一个数组 var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度 var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript数组常见曹组">
+<meta property="og:url" content="http://yoursite.com/2016/05/31/JavaScript数组常见操作/index.html">
 <meta property="og:site_name" content="Home">
-<meta property="og:description" content="点滴积累，且行且珍惜！">
+<meta property="og:description" content="JavaScript 数组常用函数
+数组的创建
+ var arrayObj = new Array();　//创建一个数组 var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度 var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋">
+<meta property="og:updated_time" content="2016-05-31T02:48:30.726Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Home">
-<meta name="twitter:description" content="点滴积累，且行且珍惜！">
+<meta name="twitter:title" content="JavaScript数组常见曹组">
+<meta name="twitter:description" content="JavaScript 数组常用函数
+数组的创建
+ var arrayObj = new Array();　//创建一个数组 var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度 var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋">
 
 
 
@@ -110,7 +117,7 @@
   };
 </script>
 
-  <title> 分类: 软件使用 | Home </title>
+  <title> JavaScript数组常见曹组 | Home </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -141,7 +148,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -252,54 +259,211 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        软件使用
-        <small>分类</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                JavaScript数组常见曹组
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-31T10:16:54+08:00" content="2016-05-31">
+              2016-05-31
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/31/JavaScript数组常见操作/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/31/JavaScript数组常见操作/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <h3 id="JavaScript-数组常用函数"><a href="#JavaScript-数组常用函数" class="headerlink" title="JavaScript 数组常用函数"></a>JavaScript 数组常用函数</h3><ol>
+<li><p>数组的创建</p>
+<p> <code>var arrayObj = new Array();　//创建一个数组</code><br> <code>var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度</code><br> <code>var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋值</code> </p>
+<p> <strong>用的比较多的是：var arrayObj = [];</strong>  </p>
+</li>
+<li><p>数组元素的添加</p>
+<p> <code>arrayObj. push([item1);// 将一个或多个新元素添加到数组结尾，并返回数组新长度</code><br> <code>arrayObj.unshift([item1]);// 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度</code><br> <code>arrayObj.splice(insertPos,0,[item1[, item2[, . . . [,itemN]]]]);//将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回&quot;&quot;</code> </p>
+</li>
+<li><p>数组元素的删除<br><code>arrayObj.pop(); //移除最后一个元素并返回该元素值</code><br><code>arrayObj.shift(); //移除最前一个元素并返回该元素值，数组中元素自动前移</code><br><code>arrayObj.splice(deletePos,deleteCount); //删除从指定位置deletePos开始的指定数量deleteCount的元素，数组形式返回所移除的元素</code> </p>
+</li>
+<li><p>数组元素的截取和合并<br> <code>arrayObj.slice(start, [end]); //以数组的形式返回数组的一部分，注意不包括 end 对应的元素，如果省略 end 将复制 start 之后的所有元素</code><br> <code>arrayObj.concat([item1[, item2[, . . . [,itemN]]]]); //将多个数组（也可以是字符串，或者是数组和字符串的混合）连接为一个数组，返回连接好的新的数组</code> </p>
+</li>
+<li><p>数组的拷贝<br> <code>arrayObj.slice(0); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code><br> <code>arrayObj.concat(); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code> </p>
+</li>
+<li><p>数组元素的排序<br> <code>arrayObj.reverse(); //反转元素（最前的排到最后、最后的排到最前），返回数组地址</code><br> <code>arrayObj.sort(); //对数组元素排序，返回数组地址</code> </p>
+</li>
+<li><p>数组元素的字符串化<br> <code>arrayObj.join(separator); //返回字符串，这个字符串将数组的每一个元素值连接在一起，中间用 separator 隔开</code><br> <code>toLocaleString 、toString 、valueOf：可以看作是join的特殊用法，不常用</code></p>
+</li>
+</ol>
+<p><a href="http://www.cnblogs.com/qiantuwuliang/archive/2011/01/08/1930499.html" target="_blank" rel="external">js数组的操作</a></p>
 
-      <h1 class="post-title">
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2016/05/30/Endnote使用记录/" itemprop="url">
-              
-                <span itemprop="name">Endnote使用记录</span>
-              
-            </a>
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-05-30T10:23:28+08:00"
-              content="2016-05-30" >
-          05-30
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/30/Endnote使用记录/" rel="next" title="Endnote使用记录">
+                <i class="fa fa-chevron-left"></i> Endnote使用记录
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/31/JavaScript常见函数/" rel="prev" title="JavaScript常见函数">
+                JavaScript常见函数 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
+      
+    </div>
+  </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/31/JavaScript数组常见操作/"
+           data-title="JavaScript数组常见曹组" data-url="http://yoursite.com/2016/05/31/JavaScript数组常见操作/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -319,8 +483,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -390,6 +563,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript-数组常用函数"><span class="nav-number">1.</span> <span class="nav-text">JavaScript 数组常用函数</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -493,6 +677,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
