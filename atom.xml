@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-01T09:16:12.008Z</updated>
+  <updated>2016-06-02T08:05:57.678Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,16 +16,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>tomcat清理</title>
+    <title>JavaScript 调试技巧</title>
+    <link href="http://yoursite.com/2016/06/02/JavaScript-%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2016/06/02/JavaScript-调试技巧/</id>
+    <published>2016-06-02T07:48:56.000Z</published>
+    <updated>2016-06-02T08:05:57.678Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;常见操作&quot;&gt;&lt;a href=&quot;#常见操作&quot; class=&quot;headerlink&quot; title=&quot;常见操作&quot;&gt;&lt;/a&gt;常见操作&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;debugger;&lt;/p&gt;
+&lt;p&gt;我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。&lt;br&gt;需要带有条件的断点吗？你只需要用if语句包围它：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if (somethingHappens) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	debugger;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;但要记住在程序发布前删掉它们。&lt;/p&gt;
+&lt;p&gt;2.设置在DOM node发生变化时触发断点&lt;/p&gt;
+&lt;p&gt;有时候你会发现DOM不受你的控制，自己会发生一些奇怪的变化，让你很难找出问题的根源。&lt;/p&gt;
+&lt;p&gt;谷歌浏览器的开发工具里有一个超级好用的功能，专门可以对付这种情况，叫做“Break on…”，你在DOM节点上右键，就能看到这个菜单项。&lt;/p&gt;
+&lt;p&gt;断点的触发条件可以设置成这个节点被删除、节点的属性有任何变化，或它的某个子节点有变化发生。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;pitcures/e59002ebcd7e6b7b803ac9735291a57a.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.jobbole.com/61737/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript程序员必备的5个debug技巧&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;常见操作&quot;&gt;&lt;a href=&quot;#常见操作&quot; class=&quot;headerlink&quot; title=&quot;常见操作&quot;&gt;&lt;/a&gt;常见操作&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;debugger;&lt;/p&gt;
+&lt;p&gt;我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。&lt;br&gt;需要带有条件的断点吗？你只需要用if语句包围它：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat基础</title>
     <link href="http://yoursite.com/2016/06/01/Tomcat%E5%9F%BA%E7%A1%80/"/>
     <id>http://yoursite.com/2016/06/01/Tomcat基础/</id>
     <published>2016-06-01T07:55:23.000Z</published>
-    <updated>2016-06-01T09:16:12.008Z</updated>
+    <updated>2016-06-02T01:50:46.502Z</updated>
     
     <content type="html">&lt;h3 id=&quot;一、清理&quot;&gt;&lt;a href=&quot;#一、清理&quot; class=&quot;headerlink&quot; title=&quot;一、清理&quot;&gt;&lt;/a&gt;一、清理&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;直接删除work下面的Catalina文件夹;&lt;/li&gt;
-&lt;li&gt;也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用。&lt;/li&gt;
+&lt;li&gt;也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用，因为如果不更改tomcat发布位置的话，是默认发布到这个文件下面的。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
 &lt;h3 id=&quot;二、常见设置&quot;&gt;&lt;a href=&quot;#二、常见设置&quot; class=&quot;headerlink&quot; title=&quot;二、常见设置&quot;&gt;&lt;/a&gt;二、常见设置&lt;/h3&gt;&lt;p&gt;1.将应用发布到指定位置:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;Server Location&lt;/code&gt;  → &lt;code&gt;Use Tomcat installation&lt;/code&gt;  →  &lt;code&gt;Server path&lt;/code&gt; 设置到具体位置&lt;/p&gt;
@@ -42,7 +83,8 @@
     
       &lt;h3 id=&quot;一、清理&quot;&gt;&lt;a href=&quot;#一、清理&quot; class=&quot;headerlink&quot; title=&quot;一、清理&quot;&gt;&lt;/a&gt;一、清理&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;直接删除work下面的Catalina文件夹;&lt;/li&gt;
-&lt;li&gt;也可以删除Tomcat根目录下面的webapp
+&lt;li&gt;也可以删除Tomcat根目录下面的webapps文件夹下面的非当前应用，因为如果不更改tomcat发布位置的话，是默认发布到这个文件下面的。&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -74,12 +116,14 @@
     <link href="http://yoursite.com/2016/05/31/JavaScript%E4%B8%ADundefined-%E5%92%8C-null%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://yoursite.com/2016/05/31/JavaScript中undefined-和-null的区别/</id>
     <published>2016-05-31T03:03:53.000Z</published>
-    <updated>2016-06-01T05:28:08.360Z</updated>
+    <updated>2016-06-01T09:29:53.269Z</updated>
     
     <content type="html">&lt;h4 id=&quot;一、区别&quot;&gt;&lt;a href=&quot;#一、区别&quot; class=&quot;headerlink&quot; title=&quot;一、区别&quot;&gt;&lt;/a&gt;一、区别&lt;/h4&gt;&lt;p&gt;   Undefined类型只有一个值，即undefined。当声明的变量还未被初始化时，变量的默认值为undefined。&lt;br&gt;Null类型也只有一个值，即null。null用来表示尚未存在的对象，常用来表示函数企图返回一个不存在的对象。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;js 代码&lt;br&gt;&lt;pre&gt;&lt;code&gt;&lt;br&gt;var oValue;&lt;br&gt;alert(oValue == undefined); //output “true”&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;这段代码显示为true,代表oVlaue的值即为undefined，因为我们没有初始化它。  &lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;js 代码&lt;br&gt;&lt;pre&gt;&lt;code&gt;&lt;br&gt;var oValue;&lt;br&gt;alert(oValue == undefined); //output “true”&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;这段代码显示为true,代表oVlaue的值即为undefined，因为我们没有初始化它。  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;js 代码&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;alert(null == document.getElementById(&amp;#39;notExistElement&amp;#39;));&lt;/code&gt; &lt;/p&gt;
 &lt;p&gt;当页面上不存在id为”notExistElement”的DOM节点时，这段代码显示为”true”，因为我们尝试获取一个不存在的对象。&lt;/p&gt;
@@ -135,8 +179,7 @@ if (exp === undefined){
 &lt;h4 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;注意&lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;alert(null == undefined); //output “true”&lt;br&gt;alert(null === undefined); //output “false” &lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;####2. 判断null&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    
+&lt;h4 id=&quot;2-判断null&quot;&gt;&lt;a href=&quot;#2-判断null&quot; class=&quot;headerlink&quot; title=&quot;2. 判断null&quot;&gt;&lt;/a&gt;2. 判断null&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;    
 var exp = null; 
 if (exp === null) {
 alert(&quot;exp is null&quot;);
@@ -144,8 +187,7 @@ alert(&quot;exp is null&quot;);
 &lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;####3. 判断NaN&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    
+&lt;h4 id=&quot;3-判断NaN&quot;&gt;&lt;a href=&quot;#3-判断NaN&quot; class=&quot;headerlink&quot; title=&quot;3. 判断NaN&quot;&gt;&lt;/a&gt;3. 判断NaN&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;    
 var parm= 0/0;  
 if(isNaN(parm)){  
     alert(&quot;i am NaN&quot;);  
@@ -157,7 +199,10 @@ if(isNaN(parm)){
     
     <summary type="html">
     
-      &lt;h4 id=&quot;一、区别&quot;&gt;&lt;a href=&quot;#一、区别&quot; class=&quot;headerlink&quot; title=&quot;一、区别&quot;&gt;&lt;/a&gt;一、区别&lt;/h4&gt;&lt;p&gt;   Undefined类型只有一个值，即undefined。当声明的变量还未被初始化时，变量的默认值为undefined。
+      &lt;h4 id=&quot;一、区别&quot;&gt;&lt;a href=&quot;#一、区别&quot; class=&quot;headerlink&quot; title=&quot;一、区别&quot;&gt;&lt;/a&gt;一、区别&lt;/h4&gt;&lt;p&gt;   Undefined类型只有一个值，即undefined。当声明的变量还未被初始化时，变量的默认值为undefined。&lt;br&gt;Null类型也只有一个值，即null。null用来表示尚未存在的对象，常用来表示函数企图返回一个不存在的对象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;js 代码&lt;br&gt;&lt;pre&gt;&lt;code&gt;&lt;br&gt;var oValue;&lt;br&gt;alert(oValue == undefined); //output “true”&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;br&gt;这段代码显示为true,代表oVlaue的值即为undefined，因为我们没有初始化它。  &lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -387,7 +432,7 @@ if(isNaN(parm)){
     <link href="http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
     <id>http://yoursite.com/2016/05/26/Markdown 精简版/</id>
     <published>2016-05-26T06:48:22.000Z</published>
-    <updated>2016-06-01T03:10:00.837Z</updated>
+    <updated>2016-06-02T08:07:11.857Z</updated>
     
     <content type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
 &lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
@@ -395,13 +440,20 @@ if(isNaN(parm)){
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
 &lt;h2 id=&quot;图片与链接&quot;&gt;&lt;a href=&quot;#图片与链接&quot; class=&quot;headerlink&quot; title=&quot;图片与链接&quot;&gt;&lt;/a&gt;图片与链接&lt;/h2&gt;&lt;p&gt;插入链接与插入图片的语法很像，区别在一个 !号&lt;/p&gt;
 &lt;p&gt;图片为：&lt;code&gt;![](){ImgCap}{/ImgCap}&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果不想使用图床，可以使用相对路径来显示图片。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;链接为：    &lt;code&gt;[]()&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;粗体与斜体&quot;&gt;&lt;a href=&quot;#粗体与斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体与斜体&quot;&gt;&lt;/a&gt;粗体与斜体&lt;/h2&gt;&lt;p&gt;Markdown 的粗体和斜体也非常简单，用两个 &lt;em&gt; 包含一段文本就是粗体的语法，用一个 &lt;/em&gt; 包含一段文本就是斜体的语法。&lt;/p&gt;
 &lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;| Tables        | Are           | Cool  | &lt;br&gt;&lt;br&gt;| ————- |————- | —– | &lt;br&gt;&lt;br&gt;| col 3 is      | right-aligned | $1600 | &lt;br&gt;&lt;br&gt;| col 2 is      | centered      |   $12 | &lt;br&gt;&lt;br&gt;| zebra stripes | are neat      |    $1 | &lt;br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;代码框&quot;&gt;&lt;a href=&quot;#代码框&quot; class=&quot;headerlink&quot; title=&quot;代码框&quot;&gt;&lt;/a&gt;代码框&lt;/h2&gt;&lt;p&gt;如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：&lt;/p&gt;
-&lt;h2 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h2&gt;&lt;p&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;  代码块   &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;  代码块   &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;行首空4个空格&lt;/li&gt;
+&lt;li&gt;代码块包裹在 ``` 之间&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4 id=&quot;使用-tab-键即可缩进。&quot;&gt;&lt;a href=&quot;#使用-tab-键即可缩进。&quot; class=&quot;headerlink&quot; title=&quot;使用 tab 键即可缩进。&quot;&gt;&lt;/a&gt;使用 tab 键即可缩进。&lt;/h4&gt;&lt;h2 id=&quot;分割线&quot;&gt;&lt;a href=&quot;#分割线&quot; class=&quot;headerlink&quot; title=&quot;分割线&quot;&gt;&lt;/a&gt;分割线&lt;/h2&gt;&lt;p&gt;分割线的语法只需要三个 * 号 &lt;/p&gt;
 &lt;p&gt;[Markdown——入门指南] (&lt;a href=&quot;http://www.jianshu.com/p/1e402922ee32/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/1e402922ee32/&lt;/a&gt;)&lt;/p&gt;
 </content>

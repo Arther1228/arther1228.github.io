@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/</loc>
+    
+    <lastmod>2016-06-02T08:07:11.857Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/02/JavaScript-%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2016-06-02T08:05:57.678Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/06/01/Tomcat%E5%9F%BA%E7%A1%80/</loc>
     
-    <lastmod>2016-06-01T09:16:12.008Z</lastmod>
+    <lastmod>2016-06-02T01:50:46.502Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2016/05/31/JavaScript%E4%B8%ADundefined-%E5%92%8C-null%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
-    <lastmod>2016-06-01T05:28:08.360Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/</loc>
-    
-    <lastmod>2016-06-01T03:10:00.837Z</lastmod>
+    <lastmod>2016-06-01T09:29:53.269Z</lastmod>
     
   </url>
   
