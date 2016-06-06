@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-02T08:05:57.678Z</updated>
+  <updated>2016-06-06T08:04:53.173Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Eclipse快捷键</title>
+    <link href="http://yoursite.com/2016/06/06/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://yoursite.com/2016/06/06/Eclipse快捷键/</id>
+    <published>2016-06-06T07:56:18.000Z</published>
+    <updated>2016-06-06T08:04:53.173Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+1&lt;/td&gt;
+&lt;td&gt;快速修复（最经典的快捷键,就不用多说了，可以解决很多问题，比如import类、try catch包围等）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/eclipse/eclipse-shortcuts.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Eclipse 快捷键&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;快捷键&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+1&lt;/td&gt;
+&lt;td&gt;快速修复（最经典的快捷键,就不用多说了，可以解决很多问题，比如import类、try catch包围等）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Eclipse" scheme="http://yoursite.com/tags/Eclipse/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript 调试技巧</title>
@@ -432,7 +483,7 @@ if(isNaN(parm)){
     <link href="http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
     <id>http://yoursite.com/2016/05/26/Markdown 精简版/</id>
     <published>2016-05-26T06:48:22.000Z</published>
-    <updated>2016-06-02T08:07:11.857Z</updated>
+    <updated>2016-06-06T07:58:26.315Z</updated>
     
     <content type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
 &lt;h2 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h2&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
@@ -444,7 +495,7 @@ if(isNaN(parm)){
 &lt;li&gt;如果不想使用图床，可以使用相对路径来显示图片。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;链接为：    &lt;code&gt;[]()&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&quot;粗体与斜体&quot;&gt;&lt;a href=&quot;#粗体与斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体与斜体&quot;&gt;&lt;/a&gt;粗体与斜体&lt;/h2&gt;&lt;p&gt;Markdown 的粗体和斜体也非常简单，用两个 &lt;em&gt; 包含一段文本就是粗体的语法，用一个 &lt;/em&gt; 包含一段文本就是斜体的语法。&lt;/p&gt;
+&lt;h2 id=&quot;粗体与斜体&quot;&gt;&lt;a href=&quot;#粗体与斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体与斜体&quot;&gt;&lt;/a&gt;粗体与斜体&lt;/h2&gt;&lt;p&gt;Markdown 的粗体和斜体也非常简单，用两个&lt;code&gt;*&lt;/code&gt;包含一段文本就是粗体的语法，用一个 &lt;code&gt;*&lt;/code&gt; 包含一段文本就是斜体的语法。&lt;/p&gt;
 &lt;h2 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;| Tables        | Are           | Cool  | &lt;br&gt;&lt;br&gt;| ————- |————- | —– | &lt;br&gt;&lt;br&gt;| col 3 is      | right-aligned | $1600 | &lt;br&gt;&lt;br&gt;| col 2 is      | centered      |   $12 | &lt;br&gt;&lt;br&gt;| zebra stripes | are neat      |    $1 | &lt;br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

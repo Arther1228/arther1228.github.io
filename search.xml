@@ -4,6 +4,28 @@
   
     
     <entry>
+      <title><![CDATA[Eclipse快捷键]]></title>
+      <url>http://yoursite.com/2016/06/06/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <content type="html"><![CDATA[<h3 id="Eclipse-常用快捷键"><a href="#Eclipse-常用快捷键" class="headerlink" title="Eclipse 常用快捷键"></a>Eclipse 常用快捷键</h3><h4 id="一、编辑"><a href="#一、编辑" class="headerlink" title="一、编辑"></a>一、编辑</h4><table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+1</td>
+<td>快速修复（最经典的快捷键,就不用多说了，可以解决很多问题，比如import类、try catch包围等）</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a> 
+<p><a href="http://www.runoob.com/eclipse/eclipse-shortcuts.html" target="_blank" rel="external">Eclipse 快捷键</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[JavaScript 调试技巧]]></title>
       <url>http://yoursite.com/2016/06/02/JavaScript-%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/</url>
       <content type="html"><![CDATA[<h4 id="常见操作"><a href="#常见操作" class="headerlink" title="常见操作"></a>常见操作</h4><ol>
@@ -265,7 +287,7 @@ if(isNaN(parm)){
 <li>如果不想使用图床，可以使用相对路径来显示图片。</li>
 </ul>
 <p>链接为：    <code>[]()</code></p>
-<h2 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h2><p>Markdown 的粗体和斜体也非常简单，用两个 <em> 包含一段文本就是粗体的语法，用一个 </em> 包含一段文本就是斜体的语法。</p>
+<h2 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h2><p>Markdown 的粗体和斜体也非常简单，用两个<code>*</code>包含一段文本就是粗体的语法，用一个 <code>*</code> 包含一段文本就是斜体的语法。</p>
 <h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><blockquote>
 <p>| Tables        | Are           | Cool  | <br><br>| ————- |————- | —– | <br><br>| col 3 is      | right-aligned | $1600 | <br><br>| col 2 is      | centered      |   $12 | <br><br>| zebra stripes | are neat      |    $1 | <br></p>
 </blockquote>
