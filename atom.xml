@@ -53,9 +53,10 @@
     <link href="http://yoursite.com/2016/06/06/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://yoursite.com/2016/06/06/Eclipse快捷键/</id>
     <published>2016-06-06T07:56:18.000Z</published>
-    <updated>2016-06-08T01:52:55.427Z</updated>
+    <updated>2016-06-08T01:55:30.130Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;&lt;table&gt;
+    <content type="html">&lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;快捷键&lt;/th&gt;
@@ -67,10 +68,56 @@
 &lt;td&gt;Ctrl+1&lt;/td&gt;
 &lt;td&gt;快速修复（最经典的快捷键,就不用多说了，可以解决很多问题，比如import类、try catch包围等）&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Shift+F&lt;/td&gt;
+&lt;td&gt;格式化当前代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Shift+M&lt;/td&gt;
+&lt;td&gt;添加类的import导入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Shift+O&lt;/td&gt;
+&lt;td&gt;组织类的import导入（既有Ctrl+Shift+M的作用，又可以帮你去除没用的导入，很有用）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Y&lt;/td&gt;
+&lt;td&gt;重做（与撤销Ctrl+Z相反）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt+/&lt;/td&gt;
+&lt;td&gt;内容辅助（帮你省了多少次键盘敲打，太常用了）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+D&lt;/td&gt;
+&lt;td&gt;删除当前行或者多行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt+↓&lt;/td&gt;
+&lt;td&gt;当前行和下面一行交互位置（特别实用,可以省去先剪切,再粘贴了）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alt+↑&lt;/td&gt;
+&lt;td&gt;当前行和上面一行交互位置（同上）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Alt+↓&lt;/td&gt;
+&lt;td&gt;复制当前行到下一行（复制增加）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+Alt+↑&lt;/td&gt;
+&lt;td&gt;复制当前行到上一行（复制增加）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shift+Enter&lt;/td&gt;
+&lt;td&gt;在当前行的下一行插入空行（这时鼠标可以在当前行的任一位置,不一定是最后）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+/&lt;/td&gt;
+&lt;td&gt;注释当前行,再按则取消注释&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
-&lt;p&gt;|Ctrl+Shift+F|格式化当前代码|&lt;br&gt;|Ctrl+Shift+M|添加类的import导入|&lt;br&gt;|Ctrl+Shift+O|组织类的import导入（既有Ctrl+Shift+M的作用，又可以帮你去除没用的导入，很有用）|&lt;br&gt;|Ctrl+Y|重做（与撤销Ctrl+Z相反）|&lt;br&gt;|Alt+/|    内容辅助（帮你省了多少次键盘敲打，太常用了）|&lt;br&gt;|Ctrl+D|删除当前行或者多行|&lt;br&gt;|Alt+↓|    当前行和下面一行交互位置（特别实用,可以省去先剪切,再粘贴了）|&lt;br&gt;|Alt+↑| 当前行和上面一行交互位置（同上）|&lt;br&gt;|Ctrl+Alt+↓|复制当前行到下一行（复制增加）|&lt;br&gt;|Ctrl+Alt+↑|复制当前行到上一行（复制增加）|&lt;br&gt;|Shift+Enter|在当前行的下一行插入空行（这时鼠标可以在当前行的任一位置,不一定是最后）|&lt;br&gt;|Ctrl+/|注释当前行,再按则取消注释|&lt;/p&gt;
 &lt;h4 id=&quot;二、导航&quot;&gt;&lt;a href=&quot;#二、导航&quot; class=&quot;headerlink&quot; title=&quot;二、导航&quot;&gt;&lt;/a&gt;二、导航&lt;/h4&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -163,20 +210,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;快捷键&lt;/th&gt;
-&lt;th&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Ctrl+1&lt;/td&gt;
-&lt;td&gt;快速修复（最经典的快捷键,就不用多说了，可以解决很多问题，比如import类、try catch包围等）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+      &lt;h3 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h3&gt;&lt;h4 id=&quot;一、编辑&quot;&gt;&lt;a href=&quot;#一、编辑&quot; class=&quot;headerlink&quot; title=&quot;一、编辑&quot;&gt;&lt;/a&gt;一、编辑&lt;/h4&gt;
     
     </summary>
     
