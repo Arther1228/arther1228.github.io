@@ -479,6 +479,54 @@ if(isNaN(parm)){
   </entry>
   
   <entry>
+    <title>JavaScript数组常见数组</title>
+    <link href="http://yoursite.com/2016/05/31/JavaScript%E6%95%B0%E7%BB%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2016/05/31/JavaScript数组常见操作/</id>
+    <published>2016-05-31T02:16:54.000Z</published>
+    <updated>2016-06-08T06:33:25.148Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;JavaScript-数组常用函数&quot;&gt;&lt;a href=&quot;#JavaScript-数组常用函数&quot; class=&quot;headerlink&quot; title=&quot;JavaScript 数组常用函数&quot;&gt;&lt;/a&gt;JavaScript 数组常用函数&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;数组的创建&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;var arrayObj = new Array();　//创建一个数组&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋值&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt; &lt;strong&gt;用的比较多的是：var arrayObj = [];&lt;/strong&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组元素的添加&lt;/p&gt;
+ &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj. push([item1);// 将一个或多个新元素添加到数组结尾，并返回数组新长度 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.unshift([item1]);// 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.splice(insertPos,0,[item1[, item2[, . . . [,itemN]]]]);//将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回&amp;quot;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组元素的删除&lt;/p&gt;
+ &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.pop(); //移除最后一个元素并返回该元素值 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.shift(); //移除最前一个元素并返回该元素值，数组中元素自动前移 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.splice(deletePos,deleteCount); //删除从指定位置deletePos开始的指定数量deleteCount的元素，数组形式返回所移除的元素&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组元素的截取和合并&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.slice(start, [end]); //以数组的形式返回数组的一部分，注意不包括 end 对应的元素，如果省略 end 将复制 start 之后的所有元素 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.concat([item1[, item2[, . . . [,itemN]]]]); //将多个数组（也可以是字符串，或者是数组和字符串的混合）连接为一个数组，返回连接好的新的数组&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组的拷贝&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.slice(0); //返回数组的拷贝数组，注意是一个新的数组，不是指向 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.concat(); //返回数组的拷贝数组，注意是一个新的数组，不是指向&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组元素的排序&lt;/p&gt;
+  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.reverse(); //反转元素（最前的排到最后、最后的排到最前），返回数组地址&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.sort(); //对数组元素排序，返回数组地址&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数组元素的字符串化&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;arrayObj.join(separator); //返回字符串，这个字符串将数组的每一个元素值连接在一起，中间用 separator 隔开	&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;toLocaleString 、toString 、valueOf：可以看作是join的特殊用法，不常用&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/qiantuwuliang/archive/2011/01/08/1930499.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;js数组的操作&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;JavaScript-数组常用函数&quot;&gt;&lt;a href=&quot;#JavaScript-数组常用函数&quot; class=&quot;headerlink&quot; title=&quot;JavaScript 数组常用函数&quot;&gt;&lt;/a&gt;JavaScript 数组常用函数&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;数
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Endnote使用记录</title>
     <link href="http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
     <id>http://yoursite.com/2016/05/30/Endnote使用记录/</id>
