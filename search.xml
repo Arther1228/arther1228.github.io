@@ -8,7 +8,7 @@
       <url>http://yoursite.com/2016/06/07/%E7%BD%97%E6%B0%B8%E6%B5%A9%E3%80%8A%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97%E3%80%8B/</url>
       <content type="html"><![CDATA[<h4 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h4><ol>
 <li>后来。。。后来我想到生活的一个令人不安的真相：在这个世界上，坏人好像总是更勤奋一点。</li>
-<li>另外，我还做了一个准备就是，我和所有人一样，都是懒惰的、容易放弃的、坚持不下去的、没有毅力的。这个你也不用感到自卑，因为我们从基因上就是被设计成这样的。我们生来就是懒惰的。这本来是一个金花的需要，你不用为此感到难过，我们都是受这个控制的。</li>
+<li>另外，我还做了一个准备就是，我和所有人一样，都是懒惰的、容易放弃的、坚持不下去的、没有毅力的。这个你也不用感到自卑，因为我们从基因上就是被设计成这样的。我们生来就是懒惰的。这本来是一个进化的需要，你不用为此感到难过，我们都是受这个控制的。</li>
 <li>如果我们想获得持续的人生进步，保持这种美好的、亢奋的状态，最好就是每三天听一场热血沸腾的人生励志讲座。</li>
 <li>我平时是不看这些书的，但你要明白一点就是，当你定下一个艰巨的、阶段性的计划的时候，有这么几本书放在床边，绝对是最好的精神鸦片。你不要迷信那些成功学大师，都是江湖骗子。你备着那么几本书的好处就是，你什么时候坚持不下去了，随手拿起来一翻，就像精神鸦片给你打一针，又能坚持三天。</li>
 </ol>
@@ -168,7 +168,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul>
 <li><a href="http://www.runoob.com/eclipse/eclipse-shortcuts.html" target="_blank" rel="external">Eclipse 快捷键</a></li>
 <li><a href="http://blog.csdn.net/abbuggy/article/details/7016185" target="_blank" rel="external">eclipse中格式化代码快捷键Ctrl+Shift+F失效的解决办法</a></li>
 </ul>
@@ -328,32 +328,6 @@ if(isNaN(parm)){
     </entry>
     
     <entry>
-      <title><![CDATA[JavaScript数组常见曹组]]></title>
-      <url>http://yoursite.com/2016/05/31/JavaScript%E6%95%B0%E7%BB%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</url>
-      <content type="html"><![CDATA[<h3 id="JavaScript-数组常用函数"><a href="#JavaScript-数组常用函数" class="headerlink" title="JavaScript 数组常用函数"></a>JavaScript 数组常用函数</h3><ol>
-<li><p>数组的创建</p>
-<p> <code>var arrayObj = new Array();　//创建一个数组</code><br> <code>var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度</code><br> <code>var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋值</code> </p>
-<p> <strong>用的比较多的是：var arrayObj = [];</strong>  </p>
-</li>
-<li><p>数组元素的添加</p>
-<p> <code>arrayObj. push([item1);// 将一个或多个新元素添加到数组结尾，并返回数组新长度</code><br> <code>arrayObj.unshift([item1]);// 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度</code><br> <code>arrayObj.splice(insertPos,0,[item1[, item2[, . . . [,itemN]]]]);//将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回&quot;&quot;</code> </p>
-</li>
-<li><p>数组元素的删除<br><code>arrayObj.pop(); //移除最后一个元素并返回该元素值</code><br><code>arrayObj.shift(); //移除最前一个元素并返回该元素值，数组中元素自动前移</code><br><code>arrayObj.splice(deletePos,deleteCount); //删除从指定位置deletePos开始的指定数量deleteCount的元素，数组形式返回所移除的元素</code> </p>
-</li>
-<li><p>数组元素的截取和合并<br> <code>arrayObj.slice(start, [end]); //以数组的形式返回数组的一部分，注意不包括 end 对应的元素，如果省略 end 将复制 start 之后的所有元素</code><br> <code>arrayObj.concat([item1[, item2[, . . . [,itemN]]]]); //将多个数组（也可以是字符串，或者是数组和字符串的混合）连接为一个数组，返回连接好的新的数组</code> </p>
-</li>
-<li><p>数组的拷贝<br> <code>arrayObj.slice(0); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code><br> <code>arrayObj.concat(); //返回数组的拷贝数组，注意是一个新的数组，不是指向</code> </p>
-</li>
-<li><p>数组元素的排序<br> <code>arrayObj.reverse(); //反转元素（最前的排到最后、最后的排到最前），返回数组地址</code><br> <code>arrayObj.sort(); //对数组元素排序，返回数组地址</code> </p>
-</li>
-<li><p>数组元素的字符串化<br> <code>arrayObj.join(separator); //返回字符串，这个字符串将数组的每一个元素值连接在一起，中间用 separator 隔开</code><br> <code>toLocaleString 、toString 、valueOf：可以看作是join的特殊用法，不常用</code></p>
-</li>
-</ol>
-<p><a href="http://www.cnblogs.com/qiantuwuliang/archive/2011/01/08/1930499.html" target="_blank" rel="external">js数组的操作</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Endnote使用记录]]></title>
       <url>http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
       <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="安装和破解"><a href="#安装和破解" class="headerlink" title="安装和破解"></a>安装和破解</h3><ol>
@@ -441,14 +415,13 @@ if(isNaN(parm)){
 <h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><blockquote>
 <p>| Tables        | Are           | Cool  | <br><br>| ————- |————- | —– | <br><br>| col 3 is      | right-aligned | $1600 | <br><br>| col 2 is      | centered      |   $12 | <br><br>| zebra stripes | are neat      |    $1 | <br></p>
 </blockquote>
-<h2 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h2><p>如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：</p>
+<h2 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h2><p>  如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：</p>
 <h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ol>
-<li><code>&lt;pre&gt;&lt;code&gt;  代码块   &lt;/code&gt;&lt;/pre&gt;</code></li>
 <li>行首空4个空格</li>
-<li>代码块包裹在 ``` 之间</li>
+<li>代码块包裹在 ``` 之间<br><a href="http://m.blog.csdn.net/article/details?id=50685187" target="_blank" rel="external">MarkdownPad 2 安装使用之二三事</a></li>
 </ol>
 <h4 id="使用-tab-键即可缩进。"><a href="#使用-tab-键即可缩进。" class="headerlink" title="使用 tab 键即可缩进。"></a>使用 tab 键即可缩进。</h4><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>分割线的语法只需要三个 * 号 </p>
-<p>[Markdown——入门指南] (<a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">http://www.jianshu.com/p/1e402922ee32/</a>)</p>
+<p><a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">Markdown——入门指南</a><br><a href="http://www.jianshu.com/p/9e5cd946696d" target="_blank" rel="external">MarkdownPad2.5 注册码</a></p>
 ]]></content>
     </entry>
     
