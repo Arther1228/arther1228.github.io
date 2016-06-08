@@ -4,6 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[罗永浩《我的奋斗》]]></title>
+      <url>http://yoursite.com/2016/06/07/%E7%BD%97%E6%B0%B8%E6%B5%A9%E3%80%8A%E6%88%91%E7%9A%84%E5%A5%8B%E6%96%97%E3%80%8B/</url>
+      <content type="html"><![CDATA[<h4 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h4><ol>
+<li>后来。。。后来我想到生活的一个令人不安的真相：在这个世界上，坏人好像总是更勤奋一点。</li>
+<li>另外，我还做了一个准备就是，我和所有人一样，都是懒惰的、容易放弃的、坚持不下去的、没有毅力的。这个你也不用感到自卑，因为我们从基因上就是被设计成这样的。我们生来就是懒惰的。这本来是一个金花的需要，你不用为此感到难过，我们都是受这个控制的。</li>
+<li>如果我们想获得持续的人生进步，保持这种美好的、亢奋的状态，最好就是每三天听一场热血沸腾的人生励志讲座。</li>
+<li>我平时是不看这些书的，但你要明白一点就是，当你定下一个艰巨的、阶段性的计划的时候，有这么几本书放在床边，绝对是最好的精神鸦片。你不要迷信那些成功学大师，都是江湖骗子。你备着那么几本书的好处就是，你什么时候坚持不下去了，随手拿起来一翻，就像精神鸦片给你打一针，又能坚持三天。</li>
+</ol>
+<h4 id="一些书"><a href="#一些书" class="headerlink" title="一些书"></a>一些书</h4><ol>
+<li>《罗马帝国衰亡史》</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Eclipse快捷键]]></title>
       <url>http://yoursite.com/2016/06/06/Eclipse%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
       <content type="html"><![CDATA[<h3 id="Eclipse-常用快捷键"><a href="#Eclipse-常用快捷键" class="headerlink" title="Eclipse 常用快捷键"></a>Eclipse 常用快捷键</h3><h4 id="一、编辑"><a href="#一、编辑" class="headerlink" title="一、编辑"></a>一、编辑</h4><table>
@@ -21,7 +36,95 @@
 </tbody>
 </table>
 <a id="more"></a> 
-<p><a href="http://www.runoob.com/eclipse/eclipse-shortcuts.html" target="_blank" rel="external">Eclipse 快捷键</a></p>
+<p>|Ctrl+Shift+F|格式化当前代码|<br>|Ctrl+Shift+M|添加类的import导入|<br>|Ctrl+Shift+O|组织类的import导入（既有Ctrl+Shift+M的作用，又可以帮你去除没用的导入，很有用）|<br>|Ctrl+Y|重做（与撤销Ctrl+Z相反）|<br>|Alt+/|    内容辅助（帮你省了多少次键盘敲打，太常用了）|<br>|Ctrl+D|删除当前行或者多行|<br>|Alt+↓|    当前行和下面一行交互位置（特别实用,可以省去先剪切,再粘贴了）|<br>|Alt+↑| 当前行和上面一行交互位置（同上）|<br>|Ctrl+Alt+↓|复制当前行到下一行（复制增加）|<br>|Ctrl+Alt+↑|复制当前行到上一行（复制增加）|<br>|Shift+Enter|在当前行的下一行插入空行（这时鼠标可以在当前行的任一位置,不一定是最后）|<br>|Ctrl+/|注释当前行,再按则取消注释|</p>
+<h4 id="二、导航"><a href="#二、导航" class="headerlink" title="二、导航"></a>二、导航</h4><table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl+Shift+T</td>
+<td>搜索类（包括工程和关联的第三jar包）</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+R</td>
+<td>搜索工程中的文件</td>
+</tr>
+<tr>
+<td>Ctrl+E</td>
+<td>快速显示当前Editer的下拉列表（如果当前页面没有显示的用黑体表示）</td>
+</tr>
+<tr>
+<td>F4</td>
+<td>打开类型层次结构</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>跳转到声明处</td>
+</tr>
+<tr>
+<td>Alt+←</td>
+<td>前一个编辑的页面</td>
+</tr>
+<tr>
+<td>Alt+→</td>
+<td>下一个编辑的页面（当然是针对上面那条来说了）</td>
+</tr>
+<tr>
+<td>Ctrl+PageUp/PageDown</td>
+<td>在编辑器中，切换已经打开的文件</td>
+</tr>
+</tbody>
+</table>
+<h4 id="三、其他"><a href="#三、其他" class="headerlink" title="三、其他"></a>三、其他</h4><table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alt+Enter</td>
+<td>显示当前选择资源的属性，windows下的查看文件的属性就是这个快捷键，通常用来查看文件在windows中的实际路径</td>
+</tr>
+<tr>
+<td>Ctrl+↑</td>
+<td>文本编辑器 上滚行</td>
+</tr>
+<tr>
+<td>Ctrl+↓</td>
+<td>文本编辑器 下滚行</td>
+</tr>
+<tr>
+<td>Ctrl+M</td>
+<td>最大化当前的Edit或View （再按则反之）</td>
+</tr>
+<tr>
+<td>Ctrl+O</td>
+<td>快速显示 OutLine（不开Outline窗口的同学，这个快捷键是必不可少的）</td>
+</tr>
+<tr>
+<td>Ctrl+T</td>
+<td>快速显示当前类的继承结构</td>
+</tr>
+<tr>
+<td>Ctrl+W</td>
+<td>关闭当前Editer（windows下关闭打开的对话框也是这个，还有qq、旺旺、浏览器等都是）</td>
+</tr>
+<tr>
+<td>Ctrl+L</td>
+<td>文本编辑器 转至行</td>
+</tr>
+</tbody>
+</table>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
+<li><a href="http://www.runoob.com/eclipse/eclipse-shortcuts.html" target="_blank" rel="external">Eclipse 快捷键</a></li>
+<li><a href="http://blog.csdn.net/abbuggy/article/details/7016185" target="_blank" rel="external">eclipse中格式化代码快捷键Ctrl+Shift+F失效的解决办法</a></li>
+</ul>
 ]]></content>
     </entry>
     
