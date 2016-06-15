@@ -4,9 +4,82 @@
   
     
     <entry>
+      <title><![CDATA[书单]]></title>
+      <url>http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/</url>
+      <content type="html"><![CDATA[<h4 id="书单汇总"><a href="#书单汇总" class="headerlink" title="书单汇总"></a>书单汇总</h4><h5 id="已读"><a href="#已读" class="headerlink" title="============已读============"></a>============已读============</h5><ol>
+<li>《疯狂Ajax讲义》</li>
+<li>《JavaScript 高级程序设计》</li>
+<li>《Ibatis实战》</li>
+</ol>
+<a id="more"></a> 
+<h5 id="正在读"><a href="#正在读" class="headerlink" title="===========正在读==========="></a>===========正在读===========</h5><ol>
+<li>《Java编程思想》</li>
+<li>《Maven实战》 </li>
+</ol>
+<h5 id="未读"><a href="#未读" class="headerlink" title="============未读============"></a>============未读============</h5><ol>
+<li>《程序员的自我修养》</li>
+<li>《从小工到专家》</li>
+<li>《深入分析Java Web》</li>
+<li>《Servlet与JSP核心编程》</li>
+<li>《深入理解计算机系统》</li>
+<li>《计算机组成原理》</li>
+<li>《深入分析Java Web技术内幕》  </li>
+<li>《图解HTTP》</li>
+<li>《图解TCP/IP（第5版）》</li>
+<li>《图解网络硬件》</li>
+<li>《Java Web高级编程》</li>
+<li>《Python网络数据采集》</li>
+<li>《Spring3.x企业应用开发实战》</li>
+<li>《跟我学SpringMVC》</li>
+<li>《Tomcat权威指南》</li>
+<li>《24种设计模式介绍与6大设计原则》 </li>
+<li>《大话设计模式》</li>
+<li>《[编写高质量代码：改善Java程序的151个建议].秦小波.扫描版》</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Tomcat错误合集]]></title>
+      <url>http://yoursite.com/2016/06/15/Tomcat%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/</url>
+      <content type="html"><![CDATA[<h4 id="错误1"><a href="#错误1" class="headerlink" title="错误1"></a>错误1</h4><ol>
+<li>说信息: validateJarFile(D:/xj/workspace/webworktest/webapp/WEB-INF/lib/servlet-api-2.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class</li>
+</ol>
+<a id="more"></a> 
+<ul>
+<li>分析：<br>jsp-api.jar和servlet-api.jar这两个包在common\lib已经有了，必须将\WEB-INF\lib\目录下的去掉，否则会冲突的，会引起jboss启动正常，而页面却总是无内容显示的错误</li>
+<li>解决方案：<blockquote>
+<p>将\WEB-INF\lib\目录下的jsp-api.jar和servlet-api.jar删除<br>保证WEB-INF\lib跟tomcat5的common/lib下的JAR包没有重复的</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="错误2"><a href="#错误2" class="headerlink" title="错误2"></a>错误2</h4><p>1.警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property ‘source’ to ‘org.eclipse.jst.jee.server:aa’ did not find a matching property</p>
+<ul>
+<li><p>分析：<br>这是因为我们在eclipse下，通过tomcat部署web工程时，tomcat的配置文件server.xml中会自动生成一个关于该web工程的配置信息，类似于下面的东西：</p>
+</li>
+<li><p>Xml代码：<br>路径：D:\pahf\Servers\Tomcat v7.0 Server at pahfpt-config\server.xml</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Context docBase=&quot;pahfpt&quot; path=&quot;/pahfpt&quot; reloadable=&quot;true&quot; source=&quot;org.eclipse.jst.jee.server:pahfpt&quot;/&gt;</span><br></pre></td></tr></table></figure>
+<p>而默认情况下，server.xml的 Context元素不支持名称为source的属性，所以会发出警告。</p>
+<ul>
+<li>解决方案：<br>关闭tomcat，双击eclipse下tomcat服务器，在出来的Tomcat server at localhost页面中找到server options选项，选中其中的选项”Publish modual contexts to separat XML files“，ctr+s，启动tomcat。</li>
+</ul>
+<h4 id="错误3"><a href="#错误3" class="headerlink" title="错误3"></a>错误3</h4><ol>
+<li>Server Tomcat v7.0 Server at pahfpt was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.</li>
+</ol>
+<ul>
+<li><p>错误提示就是我们限定了部署的时间导致的错误。<br>*解决办法：</p>
+<p>修改 workspace.metadata.plugins\org.eclipse.wst.server.core\servers.xml文件。<br>把其中的start-timeout=”45” 改为  start-timeout=”100” 或者更长，根据不同同学的工程大小来设置。<br>最后重启eclipse就可以了。 </p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[CAS部署问题合集]]></title>
       <url>http://yoursite.com/2016/06/14/CAS%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</url>
-      <content type="html"><![CDATA[<h4 id="一、客户端导入证书错误"><a href="#一、客户端导入证书错误" class="headerlink" title="一、客户端导入证书错误"></a>一、客户端导入证书错误</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file C:\Program Files (</span><br><span class="line">x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s</span><br><span class="line">sodemo</span><br><span class="line">非法选项:  Files</span><br><span class="line">keytool -importcert [OPTION]...</span><br><span class="line"></span><br><span class="line">导入证书或证书链</span><br><span class="line"></span><br><span class="line">选项:</span><br><span class="line"></span><br><span class="line"> -noprompt                       不提示</span><br><span class="line"> -trustcacerts                   信任来自 cacerts 的证书</span><br><span class="line"> -protected                      通过受保护的机制的口令</span><br><span class="line"> -alias &lt;alias&gt;                  要处理的条目的别名</span><br><span class="line"> -file &lt;filename&gt;                输入文件名</span><br><span class="line"> -keypass &lt;arg&gt;                  密钥口令</span><br><span class="line"> -keystore &lt;keystore&gt;            密钥库名称</span><br><span class="line"> -storepass &lt;arg&gt;                密钥库口令</span><br><span class="line"> -storetype &lt;storetype&gt;          密钥库类型</span><br><span class="line"> -providername &lt;providername&gt;    提供方名称</span><br><span class="line"> -providerclass &lt;providerclass&gt;  提供方类名</span><br><span class="line"> -providerarg &lt;arg&gt;              提供方参数</span><br><span class="line"> -providerpath &lt;pathlist&gt;        提供方类路径</span><br><span class="line"> -v                              详细输出</span><br><span class="line"></span><br><span class="line">使用 &quot;keytool -help&quot; 获取所有可用命令</span><br></pre></td></tr></table></figure>
+      <content type="html"><![CDATA[<h4 id="一、客户端导入证书错误"><a href="#一、客户端导入证书错误" class="headerlink" title="一、客户端导入证书错误"></a>一、客户端导入证书错误</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file C:\Program Files (</span><br><span class="line">x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s</span><br><span class="line">sodemo</span><br><span class="line">非法选项:  Files</span><br><span class="line">keytool -importcert [OPTION]...</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"></span><br><span class="line">导入证书或证书链</span><br><span class="line"></span><br><span class="line">选项:</span><br><span class="line"></span><br><span class="line"> -noprompt                       不提示</span><br><span class="line"> -trustcacerts                   信任来自 cacerts 的证书</span><br><span class="line"> -protected                      通过受保护的机制的口令</span><br><span class="line"> -alias &lt;alias&gt;                  要处理的条目的别名</span><br><span class="line"> -file &lt;filename&gt;                输入文件名</span><br><span class="line"> -keypass &lt;arg&gt;                  密钥口令</span><br><span class="line"> -keystore &lt;keystore&gt;            密钥库名称</span><br><span class="line"> -storepass &lt;arg&gt;                密钥库口令</span><br><span class="line"> -storetype &lt;storetype&gt;          密钥库类型</span><br><span class="line"> -providername &lt;providername&gt;    提供方名称</span><br><span class="line"> -providerclass &lt;providerclass&gt;  提供方类名</span><br><span class="line"> -providerarg &lt;arg&gt;              提供方参数</span><br><span class="line"> -providerpath &lt;pathlist&gt;        提供方类路径</span><br><span class="line"> -v                              详细输出</span><br><span class="line"></span><br><span class="line">使用 &quot;keytool -help&quot; 获取所有可用命令</span><br></pre></td></tr></table></figure>
 <p>这个错误的来源是jre安装在c盘Program Files里面造成的：</p>
 <blockquote>
 <p>C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts</p>
@@ -525,36 +598,12 @@ if(isNaN(parm)){
     <entry>
       <title><![CDATA[git 精简版]]></title>
       <url>http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/</url>
-      <content type="html"><![CDATA[<ol>
-<li>git init    //初始化</li>
-<li>git add     //添加文件到暂存区</li>
-<li>git commit  //提交更改，并备注</li>
-</ol>
+      <content type="html"><![CDATA[<h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git init    //初始化</span><br><span class="line">git add     //添加文件到暂存区</span><br><span class="line">git commit  //提交更改，并备注</span><br></pre></td></tr></table></figure>
 <a id="more"></a> 
-<hr>
+<h4 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git status  //查看工作区状态</span><br><span class="line">git diff    //查看修改  </span><br><span class="line">(1)  git log    // 查看历史记录</span><br><span class="line">(2)  git log --pretty=oneline  //精简版历史记录</span><br><span class="line">(3)  git reset --HEAD^    //返回上一个版本    HEAD指向当前版本   --&gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关</span><br><span class="line">(4)  cat readme.txt     //打印readme.txt 文件</span><br><span class="line">(5)  git reflog     //查看提交的每一次记录</span><br></pre></td></tr></table></figure>
+<h4 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1. (1)  git diff HEAD -- readme.txt   //查看工作区和版本库里面最新版本的区别</span><br><span class="line">2. (2)  git checkout -- readme.txt   //丢弃工作区的修改  &quot;只要add后，用checkout命令，就不会丢弃。&quot;</span><br><span class="line">   </span><br><span class="line">3. (3)  git reset HEAD ( -- )readme.txt    //丢弃暂存区的修改，放回到工作区</span><br><span class="line">4. (4)  git reset  -- HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 </span><br><span class="line">5. (1)  git rm test.txt           //删除提交到版本库中的文件 </span><br><span class="line">6. (1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库</span><br><span class="line">  (2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字</span><br><span class="line">  (3)  git push origin master  //非第一次提交 </span><br><span class="line">7. (1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库</span><br></pre></td></tr></table></figure>
 <ol>
-<li>git status  //查看工作区状态</li>
-<li>git diff    //查看修改  </li>
-<li>(1)  git log    // 查看历史记录</li>
-<li>(2)  git log –pretty=oneline  //精简版历史记录</li>
-<li>(3)  git reset –HEAD^    //返回上一个版本    HEAD指向当前版本   –&gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关</li>
-<li>(4)  cat readme.txt     //打印readme.txt 文件</li>
-<li>(5)  git reflog     //查看提交的每一次记录</li>
-</ol>
-<hr>
-<ol>
-<li>(1)  git diff HEAD – readme.txt   //查看工作区和版本库里面最新版本的区别</li>
-<li><p>(2)  git checkout – readme.txt   //丢弃工作区的修改  “只要add后，用checkout命令，就不会丢弃。”</p>
-</li>
-<li><p>(3)  git reset HEAD ( – )readme.txt    //丢弃暂存区的修改，放回到工作区</p>
-</li>
-<li>(4)  git reset  – HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 </li>
-<li>(1)  git rm test.txt           //删除提交到版本库中的文件 </li>
-<li>(1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库<br>(2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字<br>(3)  git push origin master  //非第一次提交 </li>
-<li><p>(1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库</p>
-</li>
-<li><p>(1)  git checkout -b dev   //相当于 (2)  (3)<br>(2)  git branch dev       //新建一个分支，git branch * 打印所有分支<br>(3)  git checkout dev<br>(4)  git merge dev     //合并分支<br>(5)  git branch -d dev  //删除分支<br>(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图<br>(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”</p>
-</li>
+<li>(1)  git checkout -b dev   //相当于 (2)  (3) 拷贝单个分支 不指定分支，就默认拷贝master<br>(2)  git branch dev       //新建一个分支，git branch * 打印所有分支<br>(3)  git checkout dev<br>(4)  git merge dev     //合并分支<br>(5)  git branch -d dev  //删除分支<br>(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图<br>(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”</li>
 </ol>
 <ol>
 <li>(1)  git stash       //储存工作区修改<br>(2)  git stash list  //打印工作现场列表<br>(3)  git satsh pop   //相当于(4) 和 (5)<br>(4)  git stash apply   //恢复不删除stash内容<br>(5)  git stash drop    //删除stash内容</li>

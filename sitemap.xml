@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/</loc>
+    
+    <lastmod>2016-06-15T08:47:56.563Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/15/Tomcat%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/</loc>
+    
+    <lastmod>2016-06-15T08:28:59.723Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/</loc>
+    
+    <lastmod>2016-06-15T03:50:18.803Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/06/14/CAS%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/</loc>
     
-    <lastmod>2016-06-15T00:11:50.655Z</lastmod>
+    <lastmod>2016-06-15T02:44:26.190Z</lastmod>
     
   </url>
   
@@ -124,13 +145,6 @@
     <loc>http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2016-05-30T06:09:17.234Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/</loc>
-    
-    <lastmod>2016-05-27T06:22:00.816Z</lastmod>
     
   </url>
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-15T00:11:50.655Z</updated>
+  <updated>2016-06-15T08:47:56.563Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,13 +16,124 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>书单</title>
+    <link href="http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/"/>
+    <id>http://yoursite.com/2016/06/15/书单/</id>
+    <published>2016-06-15T08:41:18.000Z</published>
+    <updated>2016-06-15T08:47:56.563Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;书单汇总&quot;&gt;&lt;a href=&quot;#书单汇总&quot; class=&quot;headerlink&quot; title=&quot;书单汇总&quot;&gt;&lt;/a&gt;书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;《疯狂Ajax讲义》&lt;/li&gt;
+&lt;li&gt;《JavaScript 高级程序设计》&lt;/li&gt;
+&lt;li&gt;《Ibatis实战》&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;h5 id=&quot;正在读&quot;&gt;&lt;a href=&quot;#正在读&quot; class=&quot;headerlink&quot; title=&quot;===========正在读===========&quot;&gt;&lt;/a&gt;===========正在读===========&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;《Java编程思想》&lt;/li&gt;
+&lt;li&gt;《Maven实战》 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&quot;未读&quot;&gt;&lt;a href=&quot;#未读&quot; class=&quot;headerlink&quot; title=&quot;============未读============&quot;&gt;&lt;/a&gt;============未读============&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;《程序员的自我修养》&lt;/li&gt;
+&lt;li&gt;《从小工到专家》&lt;/li&gt;
+&lt;li&gt;《深入分析Java Web》&lt;/li&gt;
+&lt;li&gt;《Servlet与JSP核心编程》&lt;/li&gt;
+&lt;li&gt;《深入理解计算机系统》&lt;/li&gt;
+&lt;li&gt;《计算机组成原理》&lt;/li&gt;
+&lt;li&gt;《深入分析Java Web技术内幕》  &lt;/li&gt;
+&lt;li&gt;《图解HTTP》&lt;/li&gt;
+&lt;li&gt;《图解TCP/IP（第5版）》&lt;/li&gt;
+&lt;li&gt;《图解网络硬件》&lt;/li&gt;
+&lt;li&gt;《Java Web高级编程》&lt;/li&gt;
+&lt;li&gt;《Python网络数据采集》&lt;/li&gt;
+&lt;li&gt;《Spring3.x企业应用开发实战》&lt;/li&gt;
+&lt;li&gt;《跟我学SpringMVC》&lt;/li&gt;
+&lt;li&gt;《Tomcat权威指南》&lt;/li&gt;
+&lt;li&gt;《24种设计模式介绍与6大设计原则》 &lt;/li&gt;
+&lt;li&gt;《大话设计模式》&lt;/li&gt;
+&lt;li&gt;《[编写高质量代码：改善Java程序的151个建议].秦小波.扫描版》&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;书单汇总&quot;&gt;&lt;a href=&quot;#书单汇总&quot; class=&quot;headerlink&quot; title=&quot;书单汇总&quot;&gt;&lt;/a&gt;书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;《疯狂Ajax讲义》&lt;/li&gt;
+&lt;li&gt;《JavaScript 高级程序设计》&lt;/li&gt;
+&lt;li&gt;《Ibatis实战》&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="IT" scheme="http://yoursite.com/tags/IT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat错误合集</title>
+    <link href="http://yoursite.com/2016/06/15/Tomcat%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/"/>
+    <id>http://yoursite.com/2016/06/15/Tomcat错误合集/</id>
+    <published>2016-06-15T07:57:50.000Z</published>
+    <updated>2016-06-15T08:28:59.723Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;错误1&quot;&gt;&lt;a href=&quot;#错误1&quot; class=&quot;headerlink&quot; title=&quot;错误1&quot;&gt;&lt;/a&gt;错误1&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;说信息: validateJarFile(D:/xj/workspace/webworktest/webapp/WEB-INF/lib/servlet-api-2.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;ul&gt;
+&lt;li&gt;分析：&lt;br&gt;jsp-api.jar和servlet-api.jar这两个包在common\lib已经有了，必须将\WEB-INF\lib\目录下的去掉，否则会冲突的，会引起jboss启动正常，而页面却总是无内容显示的错误&lt;/li&gt;
+&lt;li&gt;解决方案：&lt;blockquote&gt;
+&lt;p&gt;将\WEB-INF\lib\目录下的jsp-api.jar和servlet-api.jar删除&lt;br&gt;保证WEB-INF\lib跟tomcat5的common/lib下的JAR包没有重复的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;错误2&quot;&gt;&lt;a href=&quot;#错误2&quot; class=&quot;headerlink&quot; title=&quot;错误2&quot;&gt;&lt;/a&gt;错误2&lt;/h4&gt;&lt;p&gt;1.警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property ‘source’ to ‘org.eclipse.jst.jee.server:aa’ did not find a matching property&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;分析：&lt;br&gt;这是因为我们在eclipse下，通过tomcat部署web工程时，tomcat的配置文件server.xml中会自动生成一个关于该web工程的配置信息，类似于下面的东西：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Xml代码：&lt;br&gt;路径：D:\pahf\Servers\Tomcat v7.0 Server at pahfpt-config\server.xml&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;Context docBase=&amp;quot;pahfpt&amp;quot; path=&amp;quot;/pahfpt&amp;quot; reloadable=&amp;quot;true&amp;quot; source=&amp;quot;org.eclipse.jst.jee.server:pahfpt&amp;quot;/&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;而默认情况下，server.xml的 Context元素不支持名称为source的属性，所以会发出警告。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;解决方案：&lt;br&gt;关闭tomcat，双击eclipse下tomcat服务器，在出来的Tomcat server at localhost页面中找到server options选项，选中其中的选项”Publish modual contexts to separat XML files“，ctr+s，启动tomcat。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;错误3&quot;&gt;&lt;a href=&quot;#错误3&quot; class=&quot;headerlink&quot; title=&quot;错误3&quot;&gt;&lt;/a&gt;错误3&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Server Tomcat v7.0 Server at pahfpt was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;错误提示就是我们限定了部署的时间导致的错误。&lt;br&gt;*解决办法：&lt;/p&gt;
+&lt;p&gt;修改 workspace.metadata.plugins\org.eclipse.wst.server.core\servers.xml文件。&lt;br&gt;把其中的start-timeout=”45” 改为  start-timeout=”100” 或者更长，根据不同同学的工程大小来设置。&lt;br&gt;最后重启eclipse就可以了。 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;错误1&quot;&gt;&lt;a href=&quot;#错误1&quot; class=&quot;headerlink&quot; title=&quot;错误1&quot;&gt;&lt;/a&gt;错误1&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;说信息: validateJarFile(D:/xj/workspace/webworktest/webapp/WEB-INF/lib/servlet-api-2.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Tomcat" scheme="http://yoursite.com/tags/Tomcat/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CAS部署问题合集</title>
     <link href="http://yoursite.com/2016/06/14/CAS%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86/"/>
     <id>http://yoursite.com/2016/06/14/CAS部署问题合集/</id>
     <published>2016-06-14T10:56:18.000Z</published>
-    <updated>2016-06-15T00:11:50.655Z</updated>
+    <updated>2016-06-15T02:44:26.190Z</updated>
     
-    <content type="html">&lt;h4 id=&quot;一、客户端导入证书错误&quot;&gt;&lt;a href=&quot;#一、客户端导入证书错误&quot; class=&quot;headerlink&quot; title=&quot;一、客户端导入证书错误&quot;&gt;&lt;/a&gt;一、客户端导入证书错误&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;C:\Documents and Settings\Administrator&amp;gt;keytool -import -file C:\Program Files (&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sodemo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;非法选项:  Files&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool -importcert [OPTION]...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;导入证书或证书链&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;选项:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -noprompt                       不提示&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -trustcacerts                   信任来自 cacerts 的证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -protected                      通过受保护的机制的口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -alias &amp;lt;alias&amp;gt;                  要处理的条目的别名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -file &amp;lt;filename&amp;gt;                输入文件名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -keypass &amp;lt;arg&amp;gt;                  密钥口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -keystore &amp;lt;keystore&amp;gt;            密钥库名称&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -storepass &amp;lt;arg&amp;gt;                密钥库口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -storetype &amp;lt;storetype&amp;gt;          密钥库类型&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providername &amp;lt;providername&amp;gt;    提供方名称&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerclass &amp;lt;providerclass&amp;gt;  提供方类名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerarg &amp;lt;arg&amp;gt;              提供方参数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerpath &amp;lt;pathlist&amp;gt;        提供方类路径&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -v                              详细输出&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;使用 &amp;quot;keytool -help&amp;quot; 获取所有可用命令&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;h4 id=&quot;一、客户端导入证书错误&quot;&gt;&lt;a href=&quot;#一、客户端导入证书错误&quot; class=&quot;headerlink&quot; title=&quot;一、客户端导入证书错误&quot;&gt;&lt;/a&gt;一、客户端导入证书错误&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;C:\Documents and Settings\Administrator&amp;gt;keytool -import -file C:\Program Files (&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sodemo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;非法选项:  Files&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;keytool -importcert [OPTION]...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;导入证书或证书链&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;选项:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -noprompt                       不提示&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -trustcacerts                   信任来自 cacerts 的证书&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -protected                      通过受保护的机制的口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -alias &amp;lt;alias&amp;gt;                  要处理的条目的别名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -file &amp;lt;filename&amp;gt;                输入文件名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -keypass &amp;lt;arg&amp;gt;                  密钥口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -keystore &amp;lt;keystore&amp;gt;            密钥库名称&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -storepass &amp;lt;arg&amp;gt;                密钥库口令&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -storetype &amp;lt;storetype&amp;gt;          密钥库类型&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providername &amp;lt;providername&amp;gt;    提供方名称&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerclass &amp;lt;providerclass&amp;gt;  提供方类名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerarg &amp;lt;arg&amp;gt;              提供方参数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -providerpath &amp;lt;pathlist&amp;gt;        提供方类路径&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; -v                              详细输出&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;使用 &amp;quot;keytool -help&amp;quot; 获取所有可用命令&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;这个错误的来源是jre安装在c盘Program Files里面造成的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts&lt;/p&gt;
@@ -780,38 +891,14 @@ if(isNaN(parm)){
     <link href="http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
     <id>http://yoursite.com/2016/05/26/Git 精简版/</id>
     <published>2016-05-26T06:30:56.000Z</published>
-    <updated>2016-05-27T06:22:00.816Z</updated>
+    <updated>2016-06-15T03:50:18.803Z</updated>
     
-    <content type="html">&lt;ol&gt;
-&lt;li&gt;git init    //初始化&lt;/li&gt;
-&lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
-&lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
-&lt;/ol&gt;
+    <content type="html">&lt;h4 id=&quot;初始化&quot;&gt;&lt;a href=&quot;#初始化&quot; class=&quot;headerlink&quot; title=&quot;初始化&quot;&gt;&lt;/a&gt;初始化&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init    //初始化&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git add     //添加文件到暂存区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit  //提交更改，并备注&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
-&lt;hr&gt;
+&lt;h4 id=&quot;修改&quot;&gt;&lt;a href=&quot;#修改&quot; class=&quot;headerlink&quot; title=&quot;修改&quot;&gt;&lt;/a&gt;修改&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git status  //查看工作区状态&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git diff    //查看修改  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(1)  git log    // 查看历史记录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(2)  git log --pretty=oneline  //精简版历史记录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(3)  git reset --HEAD^    //返回上一个版本    HEAD指向当前版本   --&amp;gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(4)  cat readme.txt     //打印readme.txt 文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(5)  git reflog     //查看提交的每一次记录&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&quot;编辑&quot;&gt;&lt;a href=&quot;#编辑&quot; class=&quot;headerlink&quot; title=&quot;编辑&quot;&gt;&lt;/a&gt;编辑&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1. (1)  git diff HEAD -- readme.txt   //查看工作区和版本库里面最新版本的区别&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2. (2)  git checkout -- readme.txt   //丢弃工作区的修改  &amp;quot;只要add后，用checkout命令，就不会丢弃。&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3. (3)  git reset HEAD ( -- )readme.txt    //丢弃暂存区的修改，放回到工作区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4. (4)  git reset  -- HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5. (1)  git rm test.txt           //删除提交到版本库中的文件 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6. (1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  (2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  (3)  git push origin master  //非第一次提交 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7. (1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;ol&gt;
-&lt;li&gt;git status  //查看工作区状态&lt;/li&gt;
-&lt;li&gt;git diff    //查看修改  &lt;/li&gt;
-&lt;li&gt;(1)  git log    // 查看历史记录&lt;/li&gt;
-&lt;li&gt;(2)  git log –pretty=oneline  //精简版历史记录&lt;/li&gt;
-&lt;li&gt;(3)  git reset –HEAD^    //返回上一个版本    HEAD指向当前版本   –&amp;gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关&lt;/li&gt;
-&lt;li&gt;(4)  cat readme.txt     //打印readme.txt 文件&lt;/li&gt;
-&lt;li&gt;(5)  git reflog     //查看提交的每一次记录&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;(1)  git diff HEAD – readme.txt   //查看工作区和版本库里面最新版本的区别&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;(2)  git checkout – readme.txt   //丢弃工作区的修改  “只要add后，用checkout命令，就不会丢弃。”&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;(3)  git reset HEAD ( – )readme.txt    //丢弃暂存区的修改，放回到工作区&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;(4)  git reset  – HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 &lt;/li&gt;
-&lt;li&gt;(1)  git rm test.txt           //删除提交到版本库中的文件 &lt;/li&gt;
-&lt;li&gt;(1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库&lt;br&gt;(2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字&lt;br&gt;(3)  git push origin master  //非第一次提交 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;(1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;(1)  git checkout -b dev   //相当于 (2)  (3)&lt;br&gt;(2)  git branch dev       //新建一个分支，git branch * 打印所有分支&lt;br&gt;(3)  git checkout dev&lt;br&gt;(4)  git merge dev     //合并分支&lt;br&gt;(5)  git branch -d dev  //删除分支&lt;br&gt;(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图&lt;br&gt;(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;(1)  git checkout -b dev   //相当于 (2)  (3) 拷贝单个分支 不指定分支，就默认拷贝master&lt;br&gt;(2)  git branch dev       //新建一个分支，git branch * 打印所有分支&lt;br&gt;(3)  git checkout dev&lt;br&gt;(4)  git merge dev     //合并分支&lt;br&gt;(5)  git branch -d dev  //删除分支&lt;br&gt;(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图&lt;br&gt;(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ol&gt;
 &lt;li&gt;(1)  git stash       //储存工作区修改&lt;br&gt;(2)  git stash list  //打印工作现场列表&lt;br&gt;(3)  git satsh pop   //相当于(4) 和 (5)&lt;br&gt;(4)  git stash apply   //恢复不删除stash内容&lt;br&gt;(5)  git stash drop    //删除stash内容&lt;/li&gt;
@@ -826,11 +913,7 @@ if(isNaN(parm)){
     
     <summary type="html">
     
-      &lt;ol&gt;
-&lt;li&gt;git init    //初始化&lt;/li&gt;
-&lt;li&gt;git add     //添加文件到暂存区&lt;/li&gt;
-&lt;li&gt;git commit  //提交更改，并备注&lt;/li&gt;
-&lt;/ol&gt;
+      &lt;h4 id=&quot;初始化&quot;&gt;&lt;a href=&quot;#初始化&quot; class=&quot;headerlink&quot; title=&quot;初始化&quot;&gt;&lt;/a&gt;初始化&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init    //初始化&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git add     //添加文件到暂存区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit  //提交更改，并备注&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
