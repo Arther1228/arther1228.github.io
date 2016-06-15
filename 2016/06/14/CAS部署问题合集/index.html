@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="JavaScript," />
+  <meta name="keywords" content="CAS," />
 
 
 
@@ -84,24 +84,16 @@
 
 
 
-<meta name="description" content="常见操作
-debugger;
-我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。需要带有条件的断点吗？你只需要用if语句包围它：">
+<meta name="description" content="一、客户端导入证书错误1234567891011121314151617181920212223242526C:\Documents and Settings\Administrator&amp;gt;keytool -import -file C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\sso">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JavaScript 调试技巧">
-<meta property="og:url" content="http://yoursite.com/2016/06/02/JavaScript-调试技巧/index.html">
+<meta property="og:title" content="CAS部署问题合集">
+<meta property="og:url" content="http://yoursite.com/2016/06/14/CAS部署问题合集/index.html">
 <meta property="og:site_name" content="Home">
-<meta property="og:description" content="常见操作
-debugger;
-我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。需要带有条件的断点吗？你只需要用if语句包围它：">
-<meta property="og:image" content="http://yoursite.com/pitcures/e59002ebcd7e6b7b803ac9735291a57a.jpg">
-<meta property="og:updated_time" content="2016-06-02T08:05:57.678Z">
+<meta property="og:description" content="一、客户端导入证书错误1234567891011121314151617181920212223242526C:\Documents and Settings\Administrator&amp;gt;keytool -import -file C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\sso">
+<meta property="og:updated_time" content="2016-06-15T00:11:50.655Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JavaScript 调试技巧">
-<meta name="twitter:description" content="常见操作
-debugger;
-我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。需要带有条件的断点吗？你只需要用if语句包围它：">
-<meta name="twitter:image" content="http://yoursite.com/pitcures/e59002ebcd7e6b7b803ac9735291a57a.jpg">
+<meta name="twitter:title" content="CAS部署问题合集">
+<meta name="twitter:description" content="一、客户端导入证书错误1234567891011121314151617181920212223242526C:\Documents and Settings\Administrator&amp;gt;keytool -import -file C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\sso">
 
 
 
@@ -119,7 +111,7 @@ debugger;
   };
 </script>
 
-  <title> JavaScript 调试技巧 | Home </title>
+  <title> CAS部署问题合集 | Home </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -282,7 +274,7 @@ debugger;
             
             
               
-                JavaScript 调试技巧
+                CAS部署问题合集
               
             
           </h1>
@@ -294,8 +286,8 @@ debugger;
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-06-02T15:48:56+08:00" content="2016-06-02">
-              2016-06-02
+            <time itemprop="dateCreated" datetime="2016-06-14T18:56:18+08:00" content="2016-06-14">
+              2016-06-14
             </time>
           </span>
 
@@ -324,8 +316,8 @@ debugger;
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/06/02/JavaScript-调试技巧/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/02/JavaScript-调试技巧/" itemprop="commentsCount"></span>
+                <a href="/2016/06/14/CAS部署问题合集/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/14/CAS部署问题合集/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -348,20 +340,29 @@ debugger;
       
 
       
-        <h4 id="常见操作"><a href="#常见操作" class="headerlink" title="常见操作"></a>常见操作</h4><ol>
-<li><p>debugger;</p>
-<p>我以前也说过，你可以在JavaScript代码中加入一句debugger;来手工造成一个断点效果。<br>需要带有条件的断点吗？你只需要用if语句包围它：</p>
-</li>
-</ol>
-<a id="more"></a> 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">if (somethingHappens) &#123;</span><br><span class="line">	debugger;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>但要记住在程序发布前删掉它们。</p>
-<p>2.设置在DOM node发生变化时触发断点</p>
-<p>有时候你会发现DOM不受你的控制，自己会发生一些奇怪的变化，让你很难找出问题的根源。</p>
-<p>谷歌浏览器的开发工具里有一个超级好用的功能，专门可以对付这种情况，叫做“Break on…”，你在DOM节点上右键，就能看到这个菜单项。</p>
-<p>断点的触发条件可以设置成这个节点被删除、节点的属性有任何变化，或它的某个子节点有变化发生。</p>
-<p><img src="pitcures/e59002ebcd7e6b7b803ac9735291a57a.jpg" alt=""></p>
-<p><a href="http://blog.jobbole.com/61737/" target="_blank" rel="external">JavaScript程序员必备的5个debug技巧</a></p>
+        <h4 id="一、客户端导入证书错误"><a href="#一、客户端导入证书错误" class="headerlink" title="一、客户端导入证书错误"></a>一、客户端导入证书错误</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file C:\Program Files (</span><br><span class="line">x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s</span><br><span class="line">sodemo</span><br><span class="line">非法选项:  Files</span><br><span class="line">keytool -importcert [OPTION]...</span><br><span class="line"></span><br><span class="line">导入证书或证书链</span><br><span class="line"></span><br><span class="line">选项:</span><br><span class="line"></span><br><span class="line"> -noprompt                       不提示</span><br><span class="line"> -trustcacerts                   信任来自 cacerts 的证书</span><br><span class="line"> -protected                      通过受保护的机制的口令</span><br><span class="line"> -alias &lt;alias&gt;                  要处理的条目的别名</span><br><span class="line"> -file &lt;filename&gt;                输入文件名</span><br><span class="line"> -keypass &lt;arg&gt;                  密钥口令</span><br><span class="line"> -keystore &lt;keystore&gt;            密钥库名称</span><br><span class="line"> -storepass &lt;arg&gt;                密钥库口令</span><br><span class="line"> -storetype &lt;storetype&gt;          密钥库类型</span><br><span class="line"> -providername &lt;providername&gt;    提供方名称</span><br><span class="line"> -providerclass &lt;providerclass&gt;  提供方类名</span><br><span class="line"> -providerarg &lt;arg&gt;              提供方参数</span><br><span class="line"> -providerpath &lt;pathlist&gt;        提供方类路径</span><br><span class="line"> -v                              详细输出</span><br><span class="line"></span><br><span class="line">使用 &quot;keytool -help&quot; 获取所有可用命令</span><br></pre></td></tr></table></figure>
+<p>这个错误的来源是jre安装在c盘Program Files里面造成的：</p>
+<blockquote>
+<p>C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts</p>
+</blockquote>
+<p>由于只是要用cacerts这个工具，可以把这个工具拷贝到e:\123\cacerts下面来执行客户端导入证书操作：</p>
+<blockquote>
+<p>keytool -import -file E:\12\cacerts -file E:\sso\ssodemo.crt -alias ssodemo</p>
+</blockquote>
+<ul>
+<li>结果：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file E:\12\cacerts -fil</span><br><span class="line">e E:\sso\ssodemo.crt -alias ssodemo</span><br><span class="line">输入密钥库口令:</span><br><span class="line">再次输入新口令:</span><br><span class="line">所有者: CN=demo.micmiu.co, OU=micmiu.com, O=micmiu, L=SH, ST=SH, C=CN</span><br><span class="line">发布者: CN=demo.micmiu.co, OU=micmiu.com, O=micmiu, L=SH, ST=SH, C=CN</span><br><span class="line">序列号: 7cf7329d</span><br><span class="line">有效期开始日期: Tue Jun 14 18:04:07 CST 2016, 截止日期: Wed Jun 14 18:04:07 CST</span><br><span class="line">2017</span><br><span class="line">证书指纹:</span><br><span class="line">         MD5: 36:0B:D4:86:3E:6B:9B:F6:20:A5:F9:B6:6E:5E:88:89</span><br><span class="line">         SHA1: F0:DC:38:9C:D4:7F:7B:15:50:6C:AF:34:BE:42:3B:26:C7:06:A1:58</span><br><span class="line">         SHA256: 76:9A:49:67:1D:DB:43:6F:BE:88:D7:E7:B4:5F:42:6F:A9:89:80:14:EA:</span><br><span class="line">F8:AE:40:96:A0:B3:D7:65:00:19:7F</span><br><span class="line">         签名算法名称: SHA256withRSA</span><br><span class="line">         版本: 3</span><br><span class="line"></span><br><span class="line">扩展:</span><br><span class="line"></span><br><span class="line">#1: ObjectId: 2.5.29.14 Criticality=false</span><br><span class="line">SubjectKeyIdentifier [</span><br><span class="line">KeyIdentifier [</span><br><span class="line">0000: B3 92 49 BB 71 3C 9F E5   28 D7 73 0E 89 7B 8F DB  ..I.q&lt;..(.s.....</span><br><span class="line">0010: E6 A3 5E DC                                        ..^.</span><br><span class="line">]</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">是否信任此证书? [否]:  y</span><br><span class="line">证书已添加到密钥库中</span><br></pre></td></tr></table></figure>
+<h4 id="二、启动tomcat错误"><a href="#二、启动tomcat错误" class="headerlink" title="二、启动tomcat错误"></a>二、启动tomcat错误</h4><p>原始配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Connector port=&quot;8443&quot; protocol=&quot;HTTP/1.1&quot; SSLEnabled=&quot;true&quot;</span><br><span class="line">    maxThreads=&quot;150&quot; scheme=&quot;https&quot; secure=&quot;true&quot;</span><br><span class="line"> keystoreFile=&quot;e:/sso/ssodemo.keystore&quot; keystorePass=&quot;michaelpwd&quot;</span><br><span class="line">    clientAuth=&quot;false&quot; sslProtocol=&quot;TLS&quot; URIEncoding=&quot;UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure></p>
+<p>报错如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">java.lang.Exception: Connector attribute SSLCertificateFile must be defined when</span><br><span class="line"> using SSL with APR</span><br><span class="line">        at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:469)</span><br><span class="line">        at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.jav</span><br><span class="line">a:482)</span><br><span class="line">        at org.apache.coyote.AbstractProtocolHandler.init(AbstractProtocolHandle</span><br><span class="line">r.java:355)</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">10)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardService.initInternal(StandardService</span><br><span class="line">.java:559)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardServer.initInternal(StandardServer.j</span><br><span class="line">ava:781)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:572)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:595)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.</span><br><span class="line">java:57)</span><br><span class="line">        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAcces</span><br><span class="line">sorImpl.java:43)</span><br><span class="line">        at java.lang.reflect.Method.invoke(Method.java:606)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)</span><br><span class="line"></span><br><span class="line">六月 14, 2016 6:43:44 下午 org.apache.catalina.core.StandardService initInternal</span><br><span class="line"></span><br><span class="line">严重: Failed to initialize connector [Connector[HTTP/1.1-8443]]</span><br><span class="line">org.apache.catalina.LifecycleException: Protocol handler initialization failed</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">12)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardService.initInternal(StandardService</span><br><span class="line">.java:559)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardServer.initInternal(StandardServer.j</span><br><span class="line">ava:781)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:572)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:595)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.</span><br><span class="line">java:57)</span><br><span class="line">        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAcces</span><br><span class="line">sorImpl.java:43)</span><br><span class="line">        at java.lang.reflect.Method.invoke(Method.java:606)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)</span><br><span class="line">Caused by: java.lang.Exception: Connector attribute SSLCertificateFile must be d</span><br><span class="line">efined when using SSL with APR</span><br><span class="line">        at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:469)</span><br><span class="line">        at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.jav</span><br><span class="line">a:482)</span><br><span class="line">        at org.apache.coyote.AbstractProtocolHandler.init(AbstractProtocolHandle</span><br><span class="line">r.java:355)</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">10)</span><br><span class="line">        ... 13 more</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>原因：</li>
+</ul>
+<p>Tomcat提供了两个SSL实现，一个是JSSE实现，另一个是APR实现。Tomcat将自动选择使用哪个实现，即如果安装了APR则自动选择APR，否则选择JSSE。如果不希望让Tomcat自动选择，而是我们自己指定一个实现则可通过protocol定义，如下：</p>
+<p>APR文件名为tcnative-1.dll。6.0里没这个dll文件，而7.0里有。换句话说，6.0默认使用JSSE实现，而7.0默认使用APR实现。弄明白缘由就好办了。由于习惯使用6.0的配置方式（即JSEE实现），因此只要把conf\server.xml里的protocol修改一下就行了：    </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Connector port=&quot;8443&quot; protocol=&quot;org.apache.coyote.http11.Http11Protocol&quot; SSLEnabled=&quot;true&quot;</span><br><span class="line">            maxThreads=&quot;150&quot; scheme=&quot;https&quot; secure=&quot;true&quot;</span><br><span class="line">   keystoreFile=&quot;e:/sso/ssodemo.keystore&quot; keystorePass=&quot;michaelpwd&quot;</span><br><span class="line">            clientAuth=&quot;false&quot; sslProtocol=&quot;TLS&quot; URIEncoding=&quot;UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure>
+<p>然后启动就不会报错了。</p>
+<p><a href="http://blog.sina.com.cn/s/blog_5d2054d90102vkxa.html" target="_blank" rel="external">Tomcat报错“connector attribute SSLCertificateFile must be defined…</a></p>
 
       
     </div>
@@ -383,7 +384,7 @@ debugger;
       
         <div class="post-tags">
           
-            <a href="/tags/JavaScript/" rel="tag">#JavaScript</a>
+            <a href="/tags/CAS/" rel="tag">#CAS</a>
           
         </div>
       
@@ -392,17 +393,13 @@ debugger;
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/01/Tomcat基础/" rel="next" title="Tomcat基础">
-                <i class="fa fa-chevron-left"></i> Tomcat基础
+              <a href="/2016/06/08/git-常见错误/" rel="next" title="git 常见错误">
+                <i class="fa fa-chevron-left"></i> git 常见错误
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/06/Eclipse快捷键/" rel="prev" title="Eclipse快捷键">
-                Eclipse快捷键 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -454,8 +451,8 @@ debugger;
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/06/02/JavaScript-调试技巧/"
-           data-title="JavaScript 调试技巧" data-url="http://yoursite.com/2016/06/02/JavaScript-调试技巧/">
+      <div class="ds-thread" data-thread-key="2016/06/14/CAS部署问题合集/"
+           data-title="CAS部署问题合集" data-url="http://yoursite.com/2016/06/14/CAS部署问题合集/">
       </div>
     
   </div>
@@ -566,7 +563,7 @@ debugger;
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#常见操作"><span class="nav-number">1.</span> <span class="nav-text">常见操作</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、客户端导入证书错误"><span class="nav-number">1.</span> <span class="nav-text">一、客户端导入证书错误</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、启动tomcat错误"><span class="nav-number">2.</span> <span class="nav-text">二、启动tomcat错误</span></a></li></ol></div>
             
           </div>
         </section>
