@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title><![CDATA[Eclipse常见报错标识]]></title>
+      <url>http://yoursite.com/2016/06/16/Eclipse%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99%E6%A0%87%E8%AF%86/</url>
+      <content type="html"><![CDATA[<ol>
+<li>项目上有两个红点<ul>
+<li>这个是因为你有引入错误的jar包引起的 或者 是 JRE版本不对造成</li>
+<li>解决步骤：<br>右键项目名称 BuildPath —&gt; Configure Build Paht…中，然后上面有几个选项卡找到 Libraries中出现红色叉号的包为路径错误的包。到classpath中修改相应包的当前路径。然后回到eclipse中F5刷新工程。</li>
+</ul>
+</li>
+</ol>
+<a id="more"></a> ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Windows 快捷键]]></title>
+      <url>http://yoursite.com/2016/06/16/Windows-%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <content type="html"><![CDATA[<ol>
+<li>windows打开我的电脑快捷键<blockquote>
+<p>　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Eclipse优化]]></title>
       <url>http://yoursite.com/2016/06/16/Eclipse%E4%BC%98%E5%8C%96/</url>
       <content type="html"><![CDATA[<h4 id="Eclipse-常用快捷键"><a href="#Eclipse-常用快捷键" class="headerlink" title="Eclipse 常用快捷键"></a>Eclipse 常用快捷键</h4><ol>
@@ -17,6 +42,8 @@
 <p>见<a href="http://arther1228.github.io/2016/05/27/Eclipse%E5%8F%8D%E7%BC%96%E8%AF%91/" target="_blank" rel="external">Eclipse反编译.md</a></p>
 </li>
 <li><p>Java输入提示<br><a href="http://jingyan.baidu.com/article/d5a880eb733d5913f147cc1d.html" target="_blank" rel="external">eclipse中的输入提示怎么设置</a></p>
+</li>
+<li><p>如何设置eclipse默认编码为utf-8<br><a href="http://zhidao.baidu.com/link?url=uspRplDz6kk3XDLuhEVeNPAbEeSAstPm7RvIQXbGt0MBWRz9Jv1GwEQdcck5ItfW4fkswTFvH2EAv96HPvqm0ySXr5AIajl5lI2zAXQT9Jm" target="_blank" rel="external">如何设置eclipse默认编码为utf-8</a></p>
 </li>
 <li></li>
 </ol>
@@ -52,7 +79,6 @@
 <h5 id="未读"><a href="#未读" class="headerlink" title="============未读============"></a>============未读============</h5><ol>
 <li>《程序员的自我修养》</li>
 <li>《从小工到专家》</li>
-<li>《深入分析Java Web》</li>
 <li>《Servlet与JSP核心编程》</li>
 <li>《深入理解计算机系统》</li>
 <li>《计算机组成原理》</li>
@@ -60,7 +86,6 @@
 <li>《图解HTTP》</li>
 <li>《图解TCP/IP（第5版）》</li>
 <li>《图解网络硬件》</li>
-<li>《Java Web高级编程》</li>
 <li>《Python网络数据采集》</li>
 <li>《Spring3.x企业应用开发实战》</li>
 <li>《跟我学SpringMVC》</li>
@@ -106,6 +131,23 @@
 <p>修改 workspace.metadata.plugins\org.eclipse.wst.server.core\servers.xml文件。<br>把其中的start-timeout=”45” 改为  start-timeout=”100” 或者更长，根据不同同学的工程大小来设置。<br>最后重启eclipse就可以了。 </p>
 </li>
 </ul>
+<h4 id="错误4"><a href="#错误4" class="headerlink" title="错误4"></a>错误4</h4><ol>
+<li><p>The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path</p>
+<p><a href="http://www.cnblogs.com/web369/p/4432535.html" target="_blank" rel="external">The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path</a></p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Eclipse基础]]></title>
+      <url>http://yoursite.com/2016/06/15/Eclipse%E5%9F%BA%E7%A1%80/</url>
+      <content type="html"><![CDATA[<ol>
+<li>Java项目依赖的配置过程<br>[Java项目依赖的配置过程] (<a href="http://www.cnblogs.com/wala-wo/p/5119205.html" target="_blank" rel="external">http://www.cnblogs.com/wala-wo/p/5119205.html</a>)</li>
+<li>web deployment assembly  **</li>
+<li>Deploy Path 处需要修改为”webapps” ，默认为”wtpwebapps”<br><a href="http://blog.sina.com.cn/s/blog_7a0d9dca010151il.html" target="_blank" rel="external">Deploy Path 处需要修改为”webapps”</a></li>
+<li>Java Build Path 与 Deployment Assembly的用处<br><a href="http://www.cnblogs.com/chenlulouis/archive/2009/12/17/1626214.html" target="_blank" rel="external">MyEclipse Java Build Path详解</a></li>
+</ol>
 ]]></content>
     </entry>
     

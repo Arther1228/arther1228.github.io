@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-16T10:07:52.801Z</updated>
+  <updated>2016-06-16T10:24:35.138Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,80 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Eclipse常见报错标识</title>
+    <link href="http://yoursite.com/2016/06/16/Eclipse%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99%E6%A0%87%E8%AF%86/"/>
+    <id>http://yoursite.com/2016/06/16/Eclipse常见报错标识/</id>
+    <published>2016-06-16T10:21:56.000Z</published>
+    <updated>2016-06-16T10:24:35.138Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;项目上有两个红点&lt;ul&gt;
+&lt;li&gt;这个是因为你有引入错误的jar包引起的 或者 是 JRE版本不对造成&lt;/li&gt;
+&lt;li&gt;解决步骤：&lt;br&gt;右键项目名称 BuildPath —&amp;gt; Configure Build Paht…中，然后上面有几个选项卡找到 Libraries中出现红色叉号的包为路径错误的包。到classpath中修改相应包的当前路径。然后回到eclipse中F5刷新工程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; </content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;项目上有两个红点&lt;ul&gt;
+&lt;li&gt;这个是因为你有引入错误的jar包引起的 或者 是 JRE版本不对造成&lt;/li&gt;
+&lt;li&gt;解决步骤：&lt;br&gt;右键项目名称 BuildPath —&amp;gt; Configure Build Paht…中，然后上面有几个选项卡找到 Libraries中出现红色叉号的包为路径错误的包。到classpath中修改相应包的当前路径。然后回到eclipse中F5刷新工程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Eclipse" scheme="http://yoursite.com/tags/Eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 快捷键</title>
+    <link href="http://yoursite.com/2016/06/16/Windows-%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://yoursite.com/2016/06/16/Windows-快捷键/</id>
+    <published>2016-06-16T10:16:22.000Z</published>
+    <updated>2016-06-16T10:17:14.389Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;windows打开我的电脑快捷键&lt;blockquote&gt;
+&lt;p&gt;　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;windows打开我的电脑快捷键&lt;blockquote&gt;
+&lt;p&gt;　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Eclipse优化</title>
     <link href="http://yoursite.com/2016/06/16/Eclipse%E4%BC%98%E5%8C%96/"/>
     <id>http://yoursite.com/2016/06/16/Eclipse优化/</id>
     <published>2016-06-16T09:34:15.000Z</published>
-    <updated>2016-06-16T10:07:52.801Z</updated>
+    <updated>2016-06-16T10:49:21.727Z</updated>
     
     <content type="html">&lt;h4 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;eclipse打开文件位置插件&lt;/p&gt;
@@ -33,6 +102,8 @@
 &lt;p&gt;见&lt;a href=&quot;http://arther1228.github.io/2016/05/27/Eclipse%E5%8F%8D%E7%BC%96%E8%AF%91/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Eclipse反编译.md&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Java输入提示&lt;br&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/d5a880eb733d5913f147cc1d.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;eclipse中的输入提示怎么设置&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如何设置eclipse默认编码为utf-8&lt;br&gt;&lt;a href=&quot;http://zhidao.baidu.com/link?url=uspRplDz6kk3XDLuhEVeNPAbEeSAstPm7RvIQXbGt0MBWRz9Jv1GwEQdcck5ItfW4fkswTFvH2EAv96HPvqm0ySXr5AIajl5lI2zAXQT9Jm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何设置eclipse默认编码为utf-8&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -89,7 +160,7 @@
     <link href="http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://yoursite.com/2016/06/15/书单/</id>
     <published>2016-06-15T08:41:18.000Z</published>
-    <updated>2016-06-15T08:47:56.563Z</updated>
+    <updated>2016-06-16T11:27:05.280Z</updated>
     
     <content type="html">&lt;h4 id=&quot;书单汇总&quot;&gt;&lt;a href=&quot;#书单汇总&quot; class=&quot;headerlink&quot; title=&quot;书单汇总&quot;&gt;&lt;/a&gt;书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;《疯狂Ajax讲义》&lt;/li&gt;
@@ -104,7 +175,6 @@
 &lt;h5 id=&quot;未读&quot;&gt;&lt;a href=&quot;#未读&quot; class=&quot;headerlink&quot; title=&quot;============未读============&quot;&gt;&lt;/a&gt;============未读============&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;《程序员的自我修养》&lt;/li&gt;
 &lt;li&gt;《从小工到专家》&lt;/li&gt;
-&lt;li&gt;《深入分析Java Web》&lt;/li&gt;
 &lt;li&gt;《Servlet与JSP核心编程》&lt;/li&gt;
 &lt;li&gt;《深入理解计算机系统》&lt;/li&gt;
 &lt;li&gt;《计算机组成原理》&lt;/li&gt;
@@ -112,7 +182,6 @@
 &lt;li&gt;《图解HTTP》&lt;/li&gt;
 &lt;li&gt;《图解TCP/IP（第5版）》&lt;/li&gt;
 &lt;li&gt;《图解网络硬件》&lt;/li&gt;
-&lt;li&gt;《Java Web高级编程》&lt;/li&gt;
 &lt;li&gt;《Python网络数据采集》&lt;/li&gt;
 &lt;li&gt;《Spring3.x企业应用开发实战》&lt;/li&gt;
 &lt;li&gt;《跟我学SpringMVC》&lt;/li&gt;
@@ -145,7 +214,7 @@
     <link href="http://yoursite.com/2016/06/15/Tomcat%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/"/>
     <id>http://yoursite.com/2016/06/15/Tomcat错误合集/</id>
     <published>2016-06-15T07:57:50.000Z</published>
-    <updated>2016-06-15T08:28:59.723Z</updated>
+    <updated>2016-06-16T11:06:04.424Z</updated>
     
     <content type="html">&lt;h4 id=&quot;错误1&quot;&gt;&lt;a href=&quot;#错误1&quot; class=&quot;headerlink&quot; title=&quot;错误1&quot;&gt;&lt;/a&gt;错误1&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;说信息: validateJarFile(D:/xj/workspace/webworktest/webapp/WEB-INF/lib/servlet-api-2.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class&lt;/li&gt;
@@ -178,6 +247,11 @@
 &lt;p&gt;修改 workspace.metadata.plugins\org.eclipse.wst.server.core\servers.xml文件。&lt;br&gt;把其中的start-timeout=”45” 改为  start-timeout=”100” 或者更长，根据不同同学的工程大小来设置。&lt;br&gt;最后重启eclipse就可以了。 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&quot;错误4&quot;&gt;&lt;a href=&quot;#错误4&quot; class=&quot;headerlink&quot; title=&quot;错误4&quot;&gt;&lt;/a&gt;错误4&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/web369/p/4432535.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
@@ -192,6 +266,35 @@
     
     
       <category term="Tomcat" scheme="http://yoursite.com/tags/Tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eclipse基础</title>
+    <link href="http://yoursite.com/2016/06/15/Eclipse%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2016/06/15/Eclipse基础/</id>
+    <published>2016-06-15T07:56:18.000Z</published>
+    <updated>2016-06-16T11:09:17.535Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;Java项目依赖的配置过程&lt;br&gt;[Java项目依赖的配置过程] (&lt;a href=&quot;http://www.cnblogs.com/wala-wo/p/5119205.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.cnblogs.com/wala-wo/p/5119205.html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;web deployment assembly  **&lt;/li&gt;
+&lt;li&gt;Deploy Path 处需要修改为”webapps” ，默认为”wtpwebapps”&lt;br&gt;&lt;a href=&quot;http://blog.sina.com.cn/s/blog_7a0d9dca010151il.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deploy Path 处需要修改为”webapps”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Java Build Path 与 Deployment Assembly的用处&lt;br&gt;&lt;a href=&quot;http://www.cnblogs.com/chenlulouis/archive/2009/12/17/1626214.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MyEclipse Java Build Path详解&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;Java项目依赖的配置过程&lt;br&gt;[Java项目依赖的配置过程] (&lt;a href=&quot;http://www.cnblogs.com/wala-wo/p/5119205.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www
+    
+    </summary>
+    
+      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Eclipse" scheme="http://yoursite.com/tags/Eclipse/"/>
     
   </entry>
   
@@ -903,131 +1006,6 @@ if(isNaN(parm)){
     
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown 精简版</title>
-    <link href="http://yoursite.com/2016/05/26/Markdown%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
-    <id>http://yoursite.com/2016/05/26/Markdown 精简版/</id>
-    <published>2016-05-26T06:48:22.000Z</published>
-    <updated>2016-06-16T10:11:41.752Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
-&lt;h3 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h3&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
-&lt;h3 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h3&gt;&lt;p&gt;只需要在文本前加入 &amp;gt; 这种尖括号（大于号）即可&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
-&lt;h3 id=&quot;图片与链接&quot;&gt;&lt;a href=&quot;#图片与链接&quot; class=&quot;headerlink&quot; title=&quot;图片与链接&quot;&gt;&lt;/a&gt;图片与链接&lt;/h3&gt;&lt;p&gt;插入链接与插入图片的语法很像，区别在一个 !号&lt;/p&gt;
-&lt;p&gt;图片为：&lt;code&gt;![](){ImgCap}{/ImgCap}&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果不想使用图床，可以使用相对路径来显示图片。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;链接为：    &lt;code&gt;[]()&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;粗体与斜体&quot;&gt;&lt;a href=&quot;#粗体与斜体&quot; class=&quot;headerlink&quot; title=&quot;粗体与斜体&quot;&gt;&lt;/a&gt;粗体与斜体&lt;/h3&gt;&lt;p&gt;Markdown 的粗体和斜体也非常简单，用两个&lt;code&gt;*&lt;/code&gt;包含一段文本就是粗体的语法，用一个 &lt;code&gt;*&lt;/code&gt; 包含一段文本就是斜体的语法。&lt;/p&gt;
-&lt;h3 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;| Tables        | Are           | Cool  | &lt;br&gt;&lt;br&gt;| ————- |————- | —– | &lt;br&gt;&lt;br&gt;| col 3 is      | right-aligned | $1600 | &lt;br&gt;&lt;br&gt;| col 2 is      | centered      |   $12 | &lt;br&gt;&lt;br&gt;| zebra stripes | are neat      |    $1 | &lt;br&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;代码框&quot;&gt;&lt;a href=&quot;#代码框&quot; class=&quot;headerlink&quot; title=&quot;代码框&quot;&gt;&lt;/a&gt;代码框&lt;/h3&gt;&lt;p&gt;  如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：&lt;/p&gt;
-&lt;h3 id=&quot;代码块&quot;&gt;&lt;a href=&quot;#代码块&quot; class=&quot;headerlink&quot; title=&quot;代码块&quot;&gt;&lt;/a&gt;代码块&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;行首空4个空格&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;代码块包裹在 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[MarkdownPad 2 安装使用之二三事](http://m.blog.csdn.net/article/details?id=50685187)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#### 使用 tab 键即可缩进。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 分割线&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;分割线的语法只需要三个 * 号 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 段落首行缩进&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* ` &amp;amp;#160; &amp;amp;#160; &amp;amp;#160; &amp;amp;#160; `&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* 全角空格，切换到全角模式下（一般的中文输入法都是按 shift + space）输入两个空格就行了。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[Markdown——入门指南](http://www.jianshu.com/p/1e402922ee32/)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[MarkdownPad2.5 注册码](http://www.jianshu.com/p/9e5cd946696d)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;## 遇到的问题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1. markdown序号问题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  * 问题描述：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   在有序列表中间输入内容，容易打断有序列表编号。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  * 解决办法：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   可以先把如下的有序列表打出来，然后再输入每列中的内容。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;12&lt;/li&gt;
-&lt;li&gt;12&lt;/li&gt;
-&lt;li&gt;12&lt;/li&gt;
-&lt;li&gt;12&lt;br&gt;```&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;p&gt; 加# 和空格&lt;/p&gt;
-&lt;h3 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h3&gt;&lt;p&gt;在 Markdown 下，列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。&lt;/p&gt;
-&lt;h3 id=&quot;引用&quot;&gt;&lt;a href=&quot;#引用&quot; class=&quot;headerlink&quot; title=&quot;引用&quot;&gt;&lt;/a&gt;引用&lt;/h3&gt;&lt;p&gt;只需要在文本前加入 &amp;gt; 这种尖括号（大于号）即可&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git 精简版</title>
-    <link href="http://yoursite.com/2016/05/26/Git%20%E7%B2%BE%E7%AE%80%E7%89%88/"/>
-    <id>http://yoursite.com/2016/05/26/Git 精简版/</id>
-    <published>2016-05-26T06:30:56.000Z</published>
-    <updated>2016-06-15T03:50:18.803Z</updated>
-    
-    <content type="html">&lt;h4 id=&quot;初始化&quot;&gt;&lt;a href=&quot;#初始化&quot; class=&quot;headerlink&quot; title=&quot;初始化&quot;&gt;&lt;/a&gt;初始化&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init    //初始化&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git add     //添加文件到暂存区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit  //提交更改，并备注&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
-&lt;h4 id=&quot;修改&quot;&gt;&lt;a href=&quot;#修改&quot; class=&quot;headerlink&quot; title=&quot;修改&quot;&gt;&lt;/a&gt;修改&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git status  //查看工作区状态&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git diff    //查看修改  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(1)  git log    // 查看历史记录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(2)  git log --pretty=oneline  //精简版历史记录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(3)  git reset --HEAD^    //返回上一个版本    HEAD指向当前版本   --&amp;gt;reset也是操作本地版本，只有push、pull、fetch才能与远程有关&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(4)  cat readme.txt     //打印readme.txt 文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(5)  git reflog     //查看提交的每一次记录&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h4 id=&quot;编辑&quot;&gt;&lt;a href=&quot;#编辑&quot; class=&quot;headerlink&quot; title=&quot;编辑&quot;&gt;&lt;/a&gt;编辑&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1. (1)  git diff HEAD -- readme.txt   //查看工作区和版本库里面最新版本的区别&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2. (2)  git checkout -- readme.txt   //丢弃工作区的修改  &amp;quot;只要add后，用checkout命令，就不会丢弃。&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3. (3)  git reset HEAD ( -- )readme.txt    //丢弃暂存区的修改，放回到工作区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4. (4)  git reset  -- HEAD^          //版本回退(这也是一种丢弃工作区的修改，不过这个可以回退到多个前面的版本，如HEAD^^) 前提是你没有推送到远程库 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5. (1)  git rm test.txt           //删除提交到版本库中的文件 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6. (1)  git remote add origin git@git.suncreate.com:yangliangchuang/MapTest.git  //关联本地库到远程库&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  (2)  git push -u origin master   //第一次推送本地库到远程库   远程库的名字是origin   master是本地库的名字&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  (3)  git push origin master  //非第一次提交 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7. (1)  git clone git@git.suncreate.com:yangliangchuang/MapTest.git     //克隆一个本地库&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;(1)  git checkout -b dev   //相当于 (2)  (3) 拷贝单个分支 不指定分支，就默认拷贝master&lt;br&gt;(2)  git branch dev       //新建一个分支，git branch * 打印所有分支&lt;br&gt;(3)  git checkout dev&lt;br&gt;(4)  git merge dev     //合并分支&lt;br&gt;(5)  git branch -d dev  //删除分支&lt;br&gt;(6)  git log –graph –pretty=oneline –abbrev-commit    //打印commit历史记录图&lt;br&gt;(7)  git merge –no-ff -m “merge with no-ff” dev     //禁止”Fast forward”&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol&gt;
-&lt;li&gt;(1)  git stash       //储存工作区修改&lt;br&gt;(2)  git stash list  //打印工作现场列表&lt;br&gt;(3)  git satsh pop   //相当于(4) 和 (5)&lt;br&gt;(4)  git stash apply   //恢复不删除stash内容&lt;br&gt;(5)  git stash drop    //删除stash内容&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;10.(1)  git branch -D feature-vulcan  //强制删除特征分支&lt;/p&gt;
-&lt;p&gt;11.(1)  git checkout -b dev origin/dev   //创建远程origin的dev分支到本地&lt;br&gt;   (2)  git push origin dev    //推送本地dev分支&lt;br&gt;   (3)  git branch –set -upstream dev origin/dev   //设置本地分支和远程分支的连接&lt;/p&gt;
-&lt;p&gt;12.(1)  git tag v1.0  //添加标签&lt;br&gt;   (2)  git tag    //打印所有标签&lt;br&gt;   (3)  git show tagname //查看标签信息&lt;br&gt;   (4)  git tag -a v0.1 -m “version 0.1 released” 3628164    //-a 指定标签名 -m 指定说明文字&lt;br&gt;   (5)  git show v0.1   //查看说明文字&lt;br&gt;   (6)  git tag -s v0.2 -m “signed version 0.2 released”  fec145a   //通过-s用私钥签名一个标签&lt;br&gt;   (7)  git tag -d v0.1    //删除标签&lt;br&gt;   (8)  git push origin v1.0  //推送某个标签到远程&lt;br&gt;   (9)  git push origin –tags   //推送多个标签&lt;br&gt;   (10) git tag -d v0.9&lt;br&gt;        git push origin :refs/tags/v0.9   //删除远程推送标签&lt;/p&gt;
-&lt;p&gt;13.(1)git last   //最后一次提交代码&lt;/p&gt;
-&lt;p&gt;“容易混”:&lt;br&gt;(1)  git reset HEAD readme.txt   //已修改，并且add过后 → 把暂存区的修改撤销掉，注意撤销了还会将修改放到工作区&lt;br&gt;(2)  git checkout – readme.txt  //已修改，但是还没有add → 丢弃工作区的修改&lt;br&gt;(3)  git reset –head  HEAD^     //返回之前的版本&lt;/p&gt;
-&lt;p&gt; “冲突有两种”&lt;br&gt; (1)  merge时冲突： 打开文件，直接修改两个分支的冲突，然后merge;&lt;br&gt; (2)  推送分支的时候冲突：先git pull(远程版本较本地新，这是冲突类型之一),pull merge报错(代码有冲突，这是冲突类型之二)，先按照上面的方法来解决merge冲突，然后推送;&lt;br&gt;  “stash” 是解决冲突的方法之一，还有最原始的方法就是查看冲突文件，手动改;&lt;br&gt;   如果修改文件和pull的文件是同一个文件时，要把自己改的代码都提交了,才能pull!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;初始化&quot;&gt;&lt;a href=&quot;#初始化&quot; class=&quot;headerlink&quot; title=&quot;初始化&quot;&gt;&lt;/a&gt;初始化&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init    //初始化&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git add     //添加文件到暂存区&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit  //提交更改，并备注&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git安装相关</title>
-    <link href="http://yoursite.com/2016/05/26/Git%20%E5%AE%89%E8%A3%85%E7%9B%B8%E5%85%B3/"/>
-    <id>http://yoursite.com/2016/05/26/Git 安装相关/</id>
-    <published>2016-05-26T03:48:05.000Z</published>
-    <updated>2016-06-08T08:01:24.591Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;第一次改的时候，可能没权限，具体百度下，就可以改了，修改后的hosts文件如下（这里的比较多，单独的git的域名可以只加最后一句）：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;`192.168.97.35 git.suncreate.com  `
-&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;
-&lt;li&gt;默认安装git,然后点击git Bash，并自报家门：&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.name &amp;quot;Your name&amp;quot;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git config --global user.email &amp;quot;email@example.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;3.生成你的email对应的密钥:&lt;br&gt;    &lt;code&gt;$ ssh-keygen -t rsa -C 396986654@qq.com&lt;/code&gt;&lt;br&gt;     然后一路回车，到c盘对应目录下找到这个文件：&lt;code&gt;id_rsa.pub&lt;/code&gt;（公钥）  +  &lt;code&gt;id_rsa&lt;/code&gt; （私钥）然后打开，并输入到自己的git设置中。这样就可以用邮箱下载和上传项目了。&lt;/p&gt;
-&lt;h4 id=&quot;细节&quot;&gt;&lt;a href=&quot;#细节&quot; class=&quot;headerlink&quot; title=&quot;细节&quot;&gt;&lt;/a&gt;细节&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;通过github的验证之后，还会在.ssh目录中生成一个&lt;code&gt;known_hosts&lt;/code&gt;的文件，用于检测用户。&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;安装步骤&quot;&gt;&lt;a href=&quot;#安装步骤&quot; class=&quot;headerlink&quot; title=&quot;安装步骤&quot;&gt;&lt;/a&gt;安装步骤&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;修改C：/Windows/System32/drivers/etc/hosts，添加DNS的域名解析。   &lt;br/&gt;
-    
-    </summary>
-    
-      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
