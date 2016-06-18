@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-17T00:37:10.549Z</updated>
+  <updated>2016-06-18T03:26:34.479Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>感想</title>
+    <link href="http://yoursite.com/2016/06/18/%E6%84%9F%E6%83%B3/"/>
+    <id>http://yoursite.com/2016/06/18/感想/</id>
+    <published>2016-06-18T03:25:18.000Z</published>
+    <updated>2016-06-18T03:26:34.479Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;有种顿悟的前奏的感觉&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;有种顿悟的前奏的感觉&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    
+    </summary>
+    
+      <category term="杂项" scheme="http://yoursite.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+      <category term="记录" scheme="http://yoursite.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杂项</title>
+    <link href="http://yoursite.com/2016/06/17/%E6%9D%82%E9%A1%B9/"/>
+    <id>http://yoursite.com/2016/06/17/杂项/</id>
+    <published>2016-06-17T03:28:46.000Z</published>
+    <updated>2016-06-17T03:37:02.848Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;Google 不跳转hk&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;google.com/ncr 后面加ncr就不跳转了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;chrome主页被篡改&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;找到chrome.exe&lt;/li&gt;
+&lt;li&gt;附加到开始菜单&lt;/li&gt;
+&lt;li&gt;右击开始菜单中的chrome属性，将目标改成:&lt;br&gt;&lt;code&gt;&amp;quot;&amp;quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&amp;quot; www.baidu.com&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;把开始菜单中的chrome拖到任务栏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/c35dbcb0f4c55b8916fcbc33.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;参考&lt;/a&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;windows打开我的电脑快捷键&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;Google 不跳转hk&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;google.com/ncr 后面加ncr就不跳转了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;chrome主页被篡改&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;找到chrome.exe&lt;/li&gt;
+&lt;li&gt;附加到开始菜单&lt;/li&gt;
+&lt;li&gt;右击开始菜单中的chrome属性，将目标改成:&lt;br&gt;&lt;code&gt;&amp;quot;&amp;quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&amp;quot; www.baidu.com&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;把开始菜单中的chrome拖到任务栏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/c35dbcb0f4c55b8916fcbc33.html&quot;&gt;参考&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="杂项" scheme="http://yoursite.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+      <category term="记录" scheme="http://yoursite.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Java Web 常见错误</title>
@@ -75,45 +162,11 @@
   </entry>
   
   <entry>
-    <title>Windows 快捷键</title>
-    <link href="http://yoursite.com/2016/06/16/Windows-%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>http://yoursite.com/2016/06/16/Windows-快捷键/</id>
-    <published>2016-06-16T10:16:22.000Z</published>
-    <updated>2016-06-16T10:17:14.389Z</updated>
-    
-    <content type="html">&lt;ol&gt;
-&lt;li&gt;windows打开我的电脑快捷键&lt;blockquote&gt;
-&lt;p&gt;　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;windows打开我的电脑快捷键&lt;blockquote&gt;
-&lt;p&gt;　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-    
-    </summary>
-    
-      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
-    
-    
-      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Eclipse优化</title>
     <link href="http://yoursite.com/2016/06/16/Eclipse%E4%BC%98%E5%8C%96/"/>
     <id>http://yoursite.com/2016/06/16/Eclipse优化/</id>
     <published>2016-06-16T09:34:15.000Z</published>
-    <updated>2016-06-16T10:49:21.727Z</updated>
+    <updated>2016-06-17T09:44:14.100Z</updated>
     
     <content type="html">&lt;h4 id=&quot;Eclipse-常用快捷键&quot;&gt;&lt;a href=&quot;#Eclipse-常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Eclipse 常用快捷键&quot;&gt;&lt;/a&gt;Eclipse 常用快捷键&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;eclipse打开文件位置插件&lt;/p&gt;
@@ -129,7 +182,8 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;如何设置eclipse默认编码为utf-8&lt;br&gt;&lt;a href=&quot;http://zhidao.baidu.com/link?url=uspRplDz6kk3XDLuhEVeNPAbEeSAstPm7RvIQXbGt0MBWRz9Jv1GwEQdcck5ItfW4fkswTFvH2EAv96HPvqm0ySXr5AIajl5lI2zAXQT9Jm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何设置eclipse默认编码为utf-8&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;eclipse 去除之前的工作空间&lt;br&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/f7ff0bfc24ea342e26bb1395.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://jingyan.baidu.com/article/f7ff0bfc24ea342e26bb1395.html&lt;/a&gt;&lt;br&gt;6.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -190,9 +244,9 @@
     <link href="http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://yoursite.com/2016/06/15/书单/</id>
     <published>2016-06-15T08:41:18.000Z</published>
-    <updated>2016-06-17T00:49:38.704Z</updated>
+    <updated>2016-06-18T01:17:35.918Z</updated>
     
-    <content type="html">&lt;h4 id=&quot;书单汇总&quot;&gt;&lt;a href=&quot;#书单汇总&quot; class=&quot;headerlink&quot; title=&quot;书单汇总&quot;&gt;&lt;/a&gt;书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
+    <content type="html">&lt;h4 id=&quot;工作书单汇总&quot;&gt;&lt;a href=&quot;#工作书单汇总&quot; class=&quot;headerlink&quot; title=&quot;工作书单汇总&quot;&gt;&lt;/a&gt;工作书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;《疯狂Ajax讲义》&lt;/li&gt;
 &lt;li&gt;《JavaScript 高级程序设计》&lt;/li&gt;
 &lt;li&gt;《Ibatis实战》&lt;/li&gt;
@@ -211,21 +265,36 @@
 &lt;li&gt;《从小工到专家》&lt;/li&gt;
 &lt;li&gt;《深入理解计算机系统》&lt;/li&gt;
 &lt;li&gt;《计算机组成原理》&lt;/li&gt;
-&lt;li&gt;《深入分析Java Web技术内幕》  &lt;/li&gt;
+&lt;li&gt;《深入分析Java Web技术内幕》  (没什么用好像)&lt;/li&gt;
 &lt;li&gt;《图解HTTP》&lt;/li&gt;
+&lt;li&gt;《HTTP权威指南》&lt;/li&gt;
 &lt;li&gt;《图解TCP/IP（第5版）》&lt;/li&gt;
 &lt;li&gt;《图解网络硬件》&lt;/li&gt;
+&lt;li&gt;《Python基础教程（第2版 修订版）》&lt;/li&gt;
 &lt;li&gt;《Python网络数据采集》&lt;/li&gt;
 &lt;li&gt;《跟我学SpringMVC》 &lt;/li&gt;
 &lt;li&gt;《24种设计模式介绍与6大设计原则》 &lt;/li&gt;
 &lt;li&gt;《大话设计模式》&lt;/li&gt;
 &lt;li&gt;《[编写高质量代码：改善Java程序的151个建议].秦小波.扫描版》&lt;/li&gt;
+&lt;li&gt;《编程珠玑》&lt;/li&gt;
+&lt;li&gt;《代码整洁之道》&lt;/li&gt;
+&lt;li&gt;《Java EE轻量级框架应用与开发：S2SH》&lt;/li&gt;
+&lt;li&gt;《Java WebSocket编程》&lt;/li&gt;
+&lt;li&gt;《重构 改善既有代码的设计》&lt;/li&gt;
+&lt;li&gt;《人月神话》&lt;/li&gt;
+&lt;li&gt;《如何读一本书》&lt;/li&gt;
+&lt;li&gt;《大数据存储：MogoDB 实战指南》&lt;/li&gt;
+&lt;li&gt;《《数学之美》第二版》&lt;/li&gt;
+&lt;li&gt;《Wireshark 网络分析就这么简单》&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;其他书单汇总&quot;&gt;&lt;a href=&quot;#其他书单汇总&quot; class=&quot;headerlink&quot; title=&quot;其他书单汇总&quot;&gt;&lt;/a&gt;其他书单汇总&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;《战国纵横：鬼谷子的局》&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;书单汇总&quot;&gt;&lt;a href=&quot;#书单汇总&quot; class=&quot;headerlink&quot; title=&quot;书单汇总&quot;&gt;&lt;/a&gt;书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
+      &lt;h4 id=&quot;工作书单汇总&quot;&gt;&lt;a href=&quot;#工作书单汇总&quot; class=&quot;headerlink&quot; title=&quot;工作书单汇总&quot;&gt;&lt;/a&gt;工作书单汇总&lt;/h4&gt;&lt;h5 id=&quot;已读&quot;&gt;&lt;a href=&quot;#已读&quot; class=&quot;headerlink&quot; title=&quot;============已读============&quot;&gt;&lt;/a&gt;============已读============&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;《疯狂Ajax讲义》&lt;/li&gt;
 &lt;li&gt;《JavaScript 高级程序设计》&lt;/li&gt;
 &lt;li&gt;《Ibatis实战》&lt;/li&gt;
@@ -245,7 +314,7 @@
     <link href="http://yoursite.com/2016/06/15/Tomcat%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/"/>
     <id>http://yoursite.com/2016/06/15/Tomcat错误合集/</id>
     <published>2016-06-15T07:57:50.000Z</published>
-    <updated>2016-06-16T11:06:04.424Z</updated>
+    <updated>2016-06-18T00:26:09.580Z</updated>
     
     <content type="html">&lt;h4 id=&quot;错误1&quot;&gt;&lt;a href=&quot;#错误1&quot; class=&quot;headerlink&quot; title=&quot;错误1&quot;&gt;&lt;/a&gt;错误1&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;说信息: validateJarFile(D:/xj/workspace/webworktest/webapp/WEB-INF/lib/servlet-api-2.4.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class&lt;/li&gt;
@@ -282,6 +351,9 @@
 &lt;li&gt;&lt;p&gt;The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/web369/p/4432535.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;错误5&quot;&gt;&lt;a href=&quot;#错误5&quot; class=&quot;headerlink&quot; title=&quot;错误5&quot;&gt;&lt;/a&gt;错误5&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;在IDE里面运行tomcat的时候，有的时候表面上看运行了，但是输入&lt;a href=&quot;http://localhost:8080却报404错误，就说明没有没有应用没有发布成功，如freemarkerLearning这个项目，看是否发布成功可以在Everything中搜索，看看&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:8080却报404错误，就说明没有没有应用没有发布成功，如freemarkerLearning这个项目，看是否发布成功可以在Everything中搜索，看看&lt;/a&gt; D:\apache-tomcat-7.0.14\webapps\下有没有这个freemarkerLearning应用。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -925,54 +997,6 @@ if(isNaN(parm)){
     
     
       <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Endnote使用记录</title>
-    <link href="http://yoursite.com/2016/05/30/Endnote%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
-    <id>http://yoursite.com/2016/05/30/Endnote使用记录/</id>
-    <published>2016-05-30T02:23:28.000Z</published>
-    <updated>2016-05-30T06:09:17.234Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h2&gt;&lt;h3 id=&quot;安装和破解&quot;&gt;&lt;a href=&quot;#安装和破解&quot; class=&quot;headerlink&quot; title=&quot;安装和破解&quot;&gt;&lt;/a&gt;安装和破解&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;下载最新版的EndNote： &lt;code&gt;ENX7Inst_V17.4.0.8818_setup.1441785781&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;拷贝破解文件: &lt;code&gt;EndNote.exe&lt;/code&gt;、&lt;code&gt;License.dat&lt;/code&gt;到Endnote安装目录    &lt;code&gt;C:\Program Files (x86)\EndNote X7&lt;/code&gt;;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;在word 2007 中手工添加endnote加载项：&lt;ul&gt;
-&lt;li&gt;word 左上角的word选项 → 信任中心 → 信任中心设置&lt;/li&gt;
-&lt;li&gt;受信任位置 → 找到 &lt;code&gt;C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\&lt;/code&gt; 选项，在exploer中打开这个地址，用于复制Endnote的模板.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;关闭所有的OFFICE系列软件;&lt;/li&gt;
-&lt;li&gt;找到 &lt;code&gt;C:\Program Files (x86)\Common Files\ResearchSoft\Cwyw\17&lt;/code&gt;下面的四个文件:&lt;code&gt;EndNote Cwyw.dot&lt;/code&gt;、&lt;code&gt;EndNote Cwyw.dotm&lt;/code&gt;、&lt;code&gt;EndNote Online Cwyw.dot&lt;/code&gt;、&lt;code&gt;EndNote Online Cwyw.dotm&lt;/code&gt;拷贝到&lt;code&gt;C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\&lt;/code&gt; 下(如果有其他文件也一并拷贝过去)。&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;找到 &lt;code&gt;C:\Program Files (x86)\EndNote X7\Product-Support\CWYW \Cwyw_x64.dat&lt;/code&gt;,将其后缀名改为rar,解压&lt;code&gt;Cwyw_x64.rar&lt;/code&gt;,拷贝&lt;code&gt;EndNote Cwyw.dll&lt;/code&gt;到 &lt;code&gt;C:\Users\chuang\AppData\Roaming\Microsoft\Word\Startup\&lt;/code&gt; 下，并注册之。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;重启Office 2007.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h5 id=&quot;参考目录&quot;&gt;&lt;a href=&quot;#参考目录&quot; class=&quot;headerlink&quot; title=&quot;参考目录&quot;&gt;&lt;/a&gt;参考目录&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/77b8dc7fe913036174eab6cd.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Endote文件夹中找不到EndNote Cwyw.dll&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jingyan.baidu.com/article/a378c960bf582db328283093.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;word 2013如何添加破解EndNote X7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&quot;常用功能&quot;&gt;&lt;a href=&quot;#常用功能&quot; class=&quot;headerlink&quot; title=&quot;常用功能&quot;&gt;&lt;/a&gt;常用功能&lt;/h3&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h2&gt;&lt;h3 id=&quot;安装和破解&quot;&gt;&lt;a href=&quot;#安装和破解&quot; class=&quot;headerlink&quot; title=&quot;安装和破解&quot;&gt;&lt;/a&gt;安装和破解&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;下载最新版的EndNote： &lt;code&gt;ENX7Inst_V17.4.0.8818_setup.1441785781&lt;/code&gt;;&lt;/li&gt;
-&lt;li&gt;拷贝破解文件: &lt;code&gt;EndNote.exe&lt;/code&gt;、&lt;code&gt;License.dat&lt;/code&gt;到Endnote安装目录    &lt;code&gt;C:\Program Files (x86)\EndNote X7&lt;/code&gt;;&lt;/li&gt;
-&lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="软件使用" scheme="http://yoursite.com/categories/%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/"/>
-    
-    
-      <category term="Endnote" scheme="http://yoursite.com/tags/Endnote/"/>
     
   </entry>
   

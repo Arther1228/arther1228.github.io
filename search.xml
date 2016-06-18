@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title><![CDATA[感想]]></title>
+      <url>http://yoursite.com/2016/06/18/%E6%84%9F%E6%83%B3/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>有种顿悟的前奏的感觉</p>
+</blockquote>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[杂项]]></title>
+      <url>http://yoursite.com/2016/06/17/%E6%9D%82%E9%A1%B9/</url>
+      <content type="html"><![CDATA[<ol>
+<li>Google 不跳转hk</li>
+</ol>
+<ul>
+<li>google.com/ncr 后面加ncr就不跳转了</li>
+</ul>
+<ol>
+<li><p>chrome主页被篡改</p>
+<ul>
+<li>找到chrome.exe</li>
+<li>附加到开始菜单</li>
+<li>右击开始菜单中的chrome属性，将目标改成:<br><code>&quot;&quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&quot; www.baidu.com&quot;</code></li>
+<li>把开始菜单中的chrome拖到任务栏</li>
+</ul>
+<p><a href="http://jingyan.baidu.com/article/c35dbcb0f4c55b8916fcbc33.html" target="_blank" rel="external">参考</a></p>
+<a id="more"></a> 
+</li>
+<li><p>windows打开我的电脑快捷键</p>
+<blockquote>
+<p>　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Java Web 常见错误]]></title>
       <url>http://yoursite.com/2016/06/17/Java-Web-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</url>
       <content type="html"><![CDATA[<ol>
@@ -27,18 +65,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Windows 快捷键]]></title>
-      <url>http://yoursite.com/2016/06/16/Windows-%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
-      <content type="html"><![CDATA[<ol>
-<li>windows打开我的电脑快捷键<blockquote>
-<p>　打开我的电脑 用window键 +E就是左边ctrl 和alt中间那个(window标志)</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Eclipse优化]]></title>
       <url>http://yoursite.com/2016/06/16/Eclipse%E4%BC%98%E5%8C%96/</url>
       <content type="html"><![CDATA[<h4 id="Eclipse-常用快捷键"><a href="#Eclipse-常用快捷键" class="headerlink" title="Eclipse 常用快捷键"></a>Eclipse 常用快捷键</h4><ol>
@@ -55,7 +81,8 @@
 </li>
 <li><p>如何设置eclipse默认编码为utf-8<br><a href="http://zhidao.baidu.com/link?url=uspRplDz6kk3XDLuhEVeNPAbEeSAstPm7RvIQXbGt0MBWRz9Jv1GwEQdcck5ItfW4fkswTFvH2EAv96HPvqm0ySXr5AIajl5lI2zAXQT9Jm" target="_blank" rel="external">如何设置eclipse默认编码为utf-8</a></p>
 </li>
-<li></li>
+<li><p>eclipse 去除之前的工作空间<br><a href="http://jingyan.baidu.com/article/f7ff0bfc24ea342e26bb1395.html" target="_blank" rel="external">http://jingyan.baidu.com/article/f7ff0bfc24ea342e26bb1395.html</a><br>6.</p>
+</li>
 </ol>
 ]]></content>
     </entry>
@@ -82,7 +109,7 @@
     <entry>
       <title><![CDATA[书单]]></title>
       <url>http://yoursite.com/2016/06/15/%E4%B9%A6%E5%8D%95/</url>
-      <content type="html"><![CDATA[<h4 id="书单汇总"><a href="#书单汇总" class="headerlink" title="书单汇总"></a>书单汇总</h4><h5 id="已读"><a href="#已读" class="headerlink" title="============已读============"></a>============已读============</h5><ol>
+      <content type="html"><![CDATA[<h4 id="工作书单汇总"><a href="#工作书单汇总" class="headerlink" title="工作书单汇总"></a>工作书单汇总</h4><h5 id="已读"><a href="#已读" class="headerlink" title="============已读============"></a>============已读============</h5><ol>
 <li>《疯狂Ajax讲义》</li>
 <li>《JavaScript 高级程序设计》</li>
 <li>《Ibatis实战》</li>
@@ -101,15 +128,30 @@
 <li>《从小工到专家》</li>
 <li>《深入理解计算机系统》</li>
 <li>《计算机组成原理》</li>
-<li>《深入分析Java Web技术内幕》  </li>
+<li>《深入分析Java Web技术内幕》  (没什么用好像)</li>
 <li>《图解HTTP》</li>
+<li>《HTTP权威指南》</li>
 <li>《图解TCP/IP（第5版）》</li>
 <li>《图解网络硬件》</li>
+<li>《Python基础教程（第2版 修订版）》</li>
 <li>《Python网络数据采集》</li>
 <li>《跟我学SpringMVC》 </li>
 <li>《24种设计模式介绍与6大设计原则》 </li>
 <li>《大话设计模式》</li>
 <li>《[编写高质量代码：改善Java程序的151个建议].秦小波.扫描版》</li>
+<li>《编程珠玑》</li>
+<li>《代码整洁之道》</li>
+<li>《Java EE轻量级框架应用与开发：S2SH》</li>
+<li>《Java WebSocket编程》</li>
+<li>《重构 改善既有代码的设计》</li>
+<li>《人月神话》</li>
+<li>《如何读一本书》</li>
+<li>《大数据存储：MogoDB 实战指南》</li>
+<li>《《数学之美》第二版》</li>
+<li>《Wireshark 网络分析就这么简单》</li>
+</ol>
+<h4 id="其他书单汇总"><a href="#其他书单汇总" class="headerlink" title="其他书单汇总"></a>其他书单汇总</h4><ol>
+<li>《战国纵横：鬼谷子的局》</li>
 </ol>
 ]]></content>
     </entry>
@@ -152,6 +194,9 @@
 <li><p>The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path</p>
 <p><a href="http://www.cnblogs.com/web369/p/4432535.html" target="_blank" rel="external">The superclass “javax.servlet.http.HttpServlet” was not found on the Java Build Path</a></p>
 </li>
+</ol>
+<h4 id="错误5"><a href="#错误5" class="headerlink" title="错误5"></a>错误5</h4><ol>
+<li>在IDE里面运行tomcat的时候，有的时候表面上看运行了，但是输入<a href="http://localhost:8080却报404错误，就说明没有没有应用没有发布成功，如freemarkerLearning这个项目，看是否发布成功可以在Everything中搜索，看看" target="_blank" rel="external">http://localhost:8080却报404错误，就说明没有没有应用没有发布成功，如freemarkerLearning这个项目，看是否发布成功可以在Everything中搜索，看看</a> D:\apache-tomcat-7.0.14\webapps\下有没有这个freemarkerLearning应用。</li>
 </ol>
 ]]></content>
     </entry>
