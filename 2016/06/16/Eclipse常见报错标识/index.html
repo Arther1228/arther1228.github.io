@@ -94,7 +94,7 @@
 <meta property="og:description" content="项目上有两个红点
 这个是因为你有引入错误的jar包引起的 或者 是 JRE版本不对造成
 解决步骤：右键项目名称 BuildPath —&amp;gt; Configure Build Paht…中，然后上面有几个选项卡找到 Libraries中出现红色叉号的包为路径错误的包。到classpath中修改相应包的当前路径。然后回到eclipse中F5刷新工程。">
-<meta property="og:updated_time" content="2016-06-16T10:24:35.138Z">
+<meta property="og:updated_time" content="2016-06-24T09:11:06.168Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Eclipse常见报错标识">
 <meta name="twitter:description" content="项目上有两个红点
@@ -354,6 +354,20 @@
 </li>
 </ol>
 <a id="more"></a> 
+<ol>
+<li>eclipse中tomcat自动部署时自动停止问题processWorkerExit(w, completedAbruptly) <ul>
+<li>问题描述：<blockquote>
+<p>在eclipse或者集成eclipse的其他开发工具中，在tomcat中部署了项目debug模式启动项目，项目启动之后修改项目java源代码，eclipse会自动部署项目到tomcat中。但在tomcat自动重启时会自动停止到processWorkerExit(w, completedAbruptly);这一行代码上。</p>
+</blockquote>
+</li>
+<li>解决办法：<blockquote>
+<p>去掉java-&gt;debug-&gt;suspend execution on uncaught exceptions 选项钱的对勾就行了。如下图所示：</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+
       
     </div>
 
