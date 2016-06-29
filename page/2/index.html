@@ -276,6 +276,148 @@
             
               
                 
+                <a class="post-title-link" href="/2016/06/14/CAS部署问题合集/" itemprop="url">
+                  CAS部署问题合集
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-06-14T18:56:18+08:00" content="2016-06-14">
+              2016-06-14
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/工作/" itemprop="url" rel="index">
+                    <span itemprop="name">工作</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/06/14/CAS部署问题合集/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/14/CAS部署问题合集/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="一、客户端导入证书错误"><a href="#一、客户端导入证书错误" class="headerlink" title="一、客户端导入证书错误"></a>一、客户端导入证书错误</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file C:\Program Files (</span><br><span class="line">x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts -file E:\sso\ssodemo.crt -alias s</span><br><span class="line">sodemo</span><br><span class="line">非法选项:  Files</span><br><span class="line">keytool -importcert [OPTION]...</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"></span><br><span class="line">导入证书或证书链</span><br><span class="line"></span><br><span class="line">选项:</span><br><span class="line"></span><br><span class="line"> -noprompt                       不提示</span><br><span class="line"> -trustcacerts                   信任来自 cacerts 的证书</span><br><span class="line"> -protected                      通过受保护的机制的口令</span><br><span class="line"> -alias &lt;alias&gt;                  要处理的条目的别名</span><br><span class="line"> -file &lt;filename&gt;                输入文件名</span><br><span class="line"> -keypass &lt;arg&gt;                  密钥口令</span><br><span class="line"> -keystore &lt;keystore&gt;            密钥库名称</span><br><span class="line"> -storepass &lt;arg&gt;                密钥库口令</span><br><span class="line"> -storetype &lt;storetype&gt;          密钥库类型</span><br><span class="line"> -providername &lt;providername&gt;    提供方名称</span><br><span class="line"> -providerclass &lt;providerclass&gt;  提供方类名</span><br><span class="line"> -providerarg &lt;arg&gt;              提供方参数</span><br><span class="line"> -providerpath &lt;pathlist&gt;        提供方类路径</span><br><span class="line"> -v                              详细输出</span><br><span class="line"></span><br><span class="line">使用 &quot;keytool -help&quot; 获取所有可用命令</span><br></pre></td></tr></table></figure>
+<p>这个错误的来源是jre安装在c盘Program Files里面造成的：</p>
+<blockquote>
+<p>C:\Program Files (x86)\Java\jdk1.7.0_45\jre\lib\security\cacerts</p>
+</blockquote>
+<p>由于只是要用cacerts这个工具，可以把这个工具拷贝到e:\123\cacerts下面来执行客户端导入证书操作：</p>
+<blockquote>
+<p>keytool -import -file E:\12\cacerts -file E:\sso\ssodemo.crt -alias ssodemo</p>
+</blockquote>
+<ul>
+<li>结果：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">C:\Documents and Settings\Administrator&gt;keytool -import -file E:\12\cacerts -fil</span><br><span class="line">e E:\sso\ssodemo.crt -alias ssodemo</span><br><span class="line">输入密钥库口令:</span><br><span class="line">再次输入新口令:</span><br><span class="line">所有者: CN=demo.micmiu.co, OU=micmiu.com, O=micmiu, L=SH, ST=SH, C=CN</span><br><span class="line">发布者: CN=demo.micmiu.co, OU=micmiu.com, O=micmiu, L=SH, ST=SH, C=CN</span><br><span class="line">序列号: 7cf7329d</span><br><span class="line">有效期开始日期: Tue Jun 14 18:04:07 CST 2016, 截止日期: Wed Jun 14 18:04:07 CST</span><br><span class="line">2017</span><br><span class="line">证书指纹:</span><br><span class="line">         MD5: 36:0B:D4:86:3E:6B:9B:F6:20:A5:F9:B6:6E:5E:88:89</span><br><span class="line">         SHA1: F0:DC:38:9C:D4:7F:7B:15:50:6C:AF:34:BE:42:3B:26:C7:06:A1:58</span><br><span class="line">         SHA256: 76:9A:49:67:1D:DB:43:6F:BE:88:D7:E7:B4:5F:42:6F:A9:89:80:14:EA:</span><br><span class="line">F8:AE:40:96:A0:B3:D7:65:00:19:7F</span><br><span class="line">         签名算法名称: SHA256withRSA</span><br><span class="line">         版本: 3</span><br><span class="line"></span><br><span class="line">扩展:</span><br><span class="line"></span><br><span class="line">#1: ObjectId: 2.5.29.14 Criticality=false</span><br><span class="line">SubjectKeyIdentifier [</span><br><span class="line">KeyIdentifier [</span><br><span class="line">0000: B3 92 49 BB 71 3C 9F E5   28 D7 73 0E 89 7B 8F DB  ..I.q&lt;..(.s.....</span><br><span class="line">0010: E6 A3 5E DC                                        ..^.</span><br><span class="line">]</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line">是否信任此证书? [否]:  y</span><br><span class="line">证书已添加到密钥库中</span><br></pre></td></tr></table></figure>
+<h4 id="二、启动tomcat错误"><a href="#二、启动tomcat错误" class="headerlink" title="二、启动tomcat错误"></a>二、启动tomcat错误</h4><p>原始配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Connector port=&quot;8443&quot; protocol=&quot;HTTP/1.1&quot; SSLEnabled=&quot;true&quot;</span><br><span class="line">    maxThreads=&quot;150&quot; scheme=&quot;https&quot; secure=&quot;true&quot;</span><br><span class="line"> keystoreFile=&quot;e:/sso/ssodemo.keystore&quot; keystorePass=&quot;michaelpwd&quot;</span><br><span class="line">    clientAuth=&quot;false&quot; sslProtocol=&quot;TLS&quot; URIEncoding=&quot;UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure></p>
+<p>报错如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">java.lang.Exception: Connector attribute SSLCertificateFile must be defined when</span><br><span class="line"> using SSL with APR</span><br><span class="line">        at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:469)</span><br><span class="line">        at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.jav</span><br><span class="line">a:482)</span><br><span class="line">        at org.apache.coyote.AbstractProtocolHandler.init(AbstractProtocolHandle</span><br><span class="line">r.java:355)</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">10)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardService.initInternal(StandardService</span><br><span class="line">.java:559)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardServer.initInternal(StandardServer.j</span><br><span class="line">ava:781)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:572)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:595)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.</span><br><span class="line">java:57)</span><br><span class="line">        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAcces</span><br><span class="line">sorImpl.java:43)</span><br><span class="line">        at java.lang.reflect.Method.invoke(Method.java:606)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)</span><br><span class="line"></span><br><span class="line">六月 14, 2016 6:43:44 下午 org.apache.catalina.core.StandardService initInternal</span><br><span class="line"></span><br><span class="line">严重: Failed to initialize connector [Connector[HTTP/1.1-8443]]</span><br><span class="line">org.apache.catalina.LifecycleException: Protocol handler initialization failed</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">12)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardService.initInternal(StandardService</span><br><span class="line">.java:559)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.core.StandardServer.initInternal(StandardServer.j</span><br><span class="line">ava:781)</span><br><span class="line">        at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:101)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:572)</span><br><span class="line">        at org.apache.catalina.startup.Catalina.load(Catalina.java:595)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</span><br><span class="line">        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.</span><br><span class="line">java:57)</span><br><span class="line">        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAcces</span><br><span class="line">sorImpl.java:43)</span><br><span class="line">        at java.lang.reflect.Method.invoke(Method.java:606)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:262)</span><br><span class="line">        at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)</span><br><span class="line">Caused by: java.lang.Exception: Connector attribute SSLCertificateFile must be d</span><br><span class="line">efined when using SSL with APR</span><br><span class="line">        at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:469)</span><br><span class="line">        at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.jav</span><br><span class="line">a:482)</span><br><span class="line">        at org.apache.coyote.AbstractProtocolHandler.init(AbstractProtocolHandle</span><br><span class="line">r.java:355)</span><br><span class="line">        at org.apache.catalina.connector.Connector.initInternal(Connector.java:9</span><br><span class="line">10)</span><br><span class="line">        ... 13 more</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>原因：</li>
+</ul>
+<p>Tomcat提供了两个SSL实现，一个是JSSE实现，另一个是APR实现。Tomcat将自动选择使用哪个实现，即如果安装了APR则自动选择APR，否则选择JSSE。如果不希望让Tomcat自动选择，而是我们自己指定一个实现则可通过protocol定义，如下：</p>
+<p>APR文件名为tcnative-1.dll。6.0里没这个dll文件，而7.0里有。换句话说，6.0默认使用JSSE实现，而7.0默认使用APR实现。弄明白缘由就好办了。由于习惯使用6.0的配置方式（即JSEE实现），因此只要把conf\server.xml里的protocol修改一下就行了：    </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Connector port=&quot;8443&quot; protocol=&quot;org.apache.coyote.http11.Http11Protocol&quot; SSLEnabled=&quot;true&quot;</span><br><span class="line">            maxThreads=&quot;150&quot; scheme=&quot;https&quot; secure=&quot;true&quot;</span><br><span class="line">   keystoreFile=&quot;e:/sso/ssodemo.keystore&quot; keystorePass=&quot;michaelpwd&quot;</span><br><span class="line">            clientAuth=&quot;false&quot; sslProtocol=&quot;TLS&quot; URIEncoding=&quot;UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure>
+<p>然后启动就不会报错了。</p>
+<p><a href="http://blog.sina.com.cn/s/blog_5d2054d90102vkxa.html" target="_blank" rel="external">Tomcat报错“connector attribute SSLCertificateFile must be defined…</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/06/08/git-常见错误/" itemprop="url">
                   git 常见错误
                 </a>
@@ -1325,150 +1467,6 @@
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/31/JavaScript数组常见操作/" itemprop="url">
-                  JavaScript数组常见数组
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-31T10:16:54+08:00" content="2016-05-31">
-              2016-05-31
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/工作/" itemprop="url" rel="index">
-                    <span itemprop="name">工作</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/31/JavaScript数组常见操作/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/31/JavaScript数组常见操作/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="JavaScript-数组常用函数"><a href="#JavaScript-数组常用函数" class="headerlink" title="JavaScript 数组常用函数"></a>JavaScript 数组常用函数</h3><ol>
-<li><p>数组的创建</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var arrayObj = new Array();　//创建一个数组</span><br><span class="line">var arrayObj = new Array([size]);　//创建一个数组并指定长度，注意不是上限，是长度 </span><br><span class="line">var arrayObj = new Array([element0[, element1[, ...[, elementN]]]]);　//创建一个数组并赋值</span><br></pre></td></tr></table></figure>
-<p> <strong>用的比较多的是：var arrayObj = [];</strong>  </p>
-</li>
-<li><p>数组元素的添加</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">arrayObj. push([item1);// 将一个或多个新元素添加到数组结尾，并返回数组新长度 </span><br><span class="line">arrayObj.unshift([item1]);// 将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度  </span><br><span class="line">arrayObj.splice(insertPos,0,[item1[, item2[, . . . [,itemN]]]]);//将一个或多个新元素插入到数组的指定位置，插入位置的元素自动后移，返回&quot;&quot;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>数组元素的删除</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">arrayObj.pop(); //移除最后一个元素并返回该元素值 </span><br><span class="line">arrayObj.shift(); //移除最前一个元素并返回该元素值，数组中元素自动前移 </span><br><span class="line">arrayObj.splice(deletePos,deleteCount); //删除从指定位置deletePos开始的指定数量deleteCount的元素，数组形式返回所移除的元素</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>数组元素的截取和合并</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">arrayObj.slice(start, [end]); //以数组的形式返回数组的一部分，注意不包括 end 对应的元素，如果省略 end 将复制 start 之后的所有元素 </span><br><span class="line">arrayObj.concat([item1[, item2[, . . . [,itemN]]]]); //将多个数组（也可以是字符串，或者是数组和字符串的混合）连接为一个数组，返回连接好的新的数组</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>数组的拷贝</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">arrayObj.slice(0); //返回数组的拷贝数组，注意是一个新的数组，不是指向 </span><br><span class="line">arrayObj.concat(); //返回数组的拷贝数组，注意是一个新的数组，不是指向</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>数组元素的排序</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">arrayObj.reverse(); //反转元素（最前的排到最后、最后的排到最前），返回数组地址</span><br><span class="line">arrayObj.sort(); //对数组元素排序，返回数组地址</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>数组元素的字符串化</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">arrayObj.join(separator); //返回字符串，这个字符串将数组的每一个元素值连接在一起，中间用 separator 隔开	</span><br><span class="line">toLocaleString 、toString 、valueOf：可以看作是join的特殊用法，不常用</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><a href="http://www.cnblogs.com/qiantuwuliang/archive/2011/01/08/1930499.html" target="_blank" rel="external">js数组的操作</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1514,7 +1512,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">27</span>
+              <span class="site-state-item-count">28</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1531,7 +1529,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
