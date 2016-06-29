@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/16/Java%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/</loc>
+    
+    <lastmod>2016-06-29T02:06:58.959Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/06/29/Spring-SimpleTrigger-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</loc>
     
     <lastmod>2016-06-29T01:54:47.630Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>http://yoursite.com/2016/06/17/Java-Web-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</loc>
     
     <lastmod>2016-06-17T00:37:10.549Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/16/Java%E9%94%99%E8%AF%AF%E5%90%88%E9%9B%86/</loc>
-    
-    <lastmod>2016-06-17T00:29:31.944Z</lastmod>
     
   </url>
   
